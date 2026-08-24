@@ -50,7 +50,7 @@ def season_start_year(value: str) -> int | None:
 
 
 def season_weeks_through(value: str) -> list[str]:
-    """Return week 40 through *value* when *value* is in the hub season."""
+    """Return the configured season start through an in-season ISO week."""
     start_year = season_start_year(value)
     if start_year is None:
         return []

@@ -19,7 +19,8 @@ update-influenza-target-data --target-week 2026W20 --dry-run
 ```
 
 Without `--target-week`, the pipeline identifies unpublished weeks in the
-current week-40-to-week-20 season. The detailed validation report is written to
+current week-30-to-week-20 data season. Forecast rounds can still begin in week
+40; weeks 30--39 provide calibration data. The detailed validation report is written to
 `validation-report.json`. A short Markdown summary is written to
 `validation-summary.md`.
 
