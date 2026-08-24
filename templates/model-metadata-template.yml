@@ -1,0 +1,19 @@
+model_id: team-model
+team_name: Full team or institution name
+team_abbr: team
+model_name: Full model name
+model_abbr: model
+model_version: 1.0.0
+model_contributors:
+  - name: Contributor name
+    affiliation: Contributor affiliation
+methods: Brief, understandable description of the forecasting method.
+method_category: statistical
+data_sources:
+  - Swedish Influenza Forecast Hub target data
+software:
+  - Python 3.12
+code_repository: null
+code_license: null
+license: CC-BY-4.0
+designated_model: true

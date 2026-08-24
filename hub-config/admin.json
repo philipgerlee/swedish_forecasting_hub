@@ -1,0 +1,20 @@
+{
+  "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v6.0.0/admin-schema.json",
+  "name": "Swedish Influenza Forecast Hub",
+  "maintainer": "Chalmers University of Technology, Department of Mathematical Sciences",
+  "contact": {
+    "name": "Philip Gerlee",
+    "email": "47351074+philipgerlee@users.noreply.github.com"
+  },
+  "repository": {
+    "host": "github",
+    "owner": "philipgerlee",
+    "name": "swedish_forecasting_hub"
+  },
+  "file_format": ["csv"],
+  "timezone": "Europe/Stockholm",
+  "additional_metadata": {
+    "status": "research pilot",
+    "submission_deadline": "Sunday 23:59 Europe/Stockholm"
+  }
+}

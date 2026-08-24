@@ -1,0 +1,62 @@
+{
+  "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v6.0.0/tasks-schema.json",
+  "rounds": [
+    {
+      "round_id_from_variable": true,
+      "round_id": "reference_date",
+      "model_tasks": [
+        {
+          "task_ids": {
+            "reference_date": {
+              "required": null,
+              "optional": null
+            },
+            "target": {
+              "required": ["weekly incident influenza cases"],
+              "optional": null
+            },
+            "horizon": {
+              "required": [0, 1, 2, 3],
+              "optional": null
+            },
+            "location": {
+              "required": null,
+              "optional": ["SE", "SE-M", "SE-O"]
+            }
+          },
+          "output_type": {
+            "mean": {
+              "is_required": true,
+              "output_type_id": {
+                "required": null
+              },
+              "value": {
+                "type": "double",
+                "minimum": 0
+              }
+            }
+          },
+          "target_metadata": [
+            {
+              "target_id": "weekly_influenza_cases",
+              "target_name": "Weekly reported influenza cases",
+              "target_units": "count",
+              "target_keys": {
+                "target": "weekly incident influenza cases"
+              },
+              "description": "Laboratory-confirmed influenza cases reported in Folkhälsodata for an ISO week.",
+              "target_type": "discrete",
+              "is_step_ahead": true,
+              "time_unit": "week"
+            }
+          ]
+        }
+      ],
+      "submissions_due": {
+        "relative_to": "reference_date",
+        "start": -3,
+        "end": 0
+      }
+    }
+  ]
+}

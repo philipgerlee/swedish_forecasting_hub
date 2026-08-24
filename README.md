@@ -3,13 +3,21 @@
 Research pilot for weekly influenza forecasts in Sweden, Region Skåne and
 Västra Götaland.
 
-The repository is being built around the [hubverse](https://hubverse.io/)
-conventions. The first operational component is the target-data pipeline:
+The repository follows [hubverse](https://hubverse.io/) directory and file
+conventions. The operational components currently include:
 
 - `target-data/time-series.csv` contains frozen weekly observations.
 - `target-data-pipeline/` fetches, transforms and validates data from
   Folkhälsodata.
-- `.github/workflows/` contains development tests and the scheduled data
-  update workflow.
+- `hub-config/` defines the modeling task and public model metadata schema.
+- `model-output/` and `model-metadata/` receive participant submissions.
+- `submission-validator/` validates forecasts, metadata and deadlines.
+- `.github/workflows/` runs development tests, the scheduled data update and
+  pull-request validation.
 
-Forecast-submission and ensemble components will be added separately.
+Participant instructions are available in
+[`docs/model-submissions.md`](docs/model-submissions.md), with a Swedish quick
+guide in [`docs/model-submissions-sv.md`](docs/model-submissions-sv.md).
+
+The QRA ensemble, scoring and public visualization components will be added
+separately.
