@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "influenza-target-data"
+version = "0.1.0"
+description = "Target-data pipeline for the Swedish Forecasting Hub"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.31,<3"]
+
+[project.scripts]
+update-influenza-target-data = "influenza_target_data.update:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
