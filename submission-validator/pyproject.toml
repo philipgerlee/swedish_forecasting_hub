@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swedish-influenza-submission-validator"
+version = "0.1.0"
+description = "Validate model submissions to the Swedish Influenza Forecast Hub"
+requires-python = ">=3.11"
+dependencies = [
+  "jsonschema>=4.21",
+  "PyYAML>=6.0"
+]
+
+[project.scripts]
+validate-forecast-submission = "forecast_submission_validation.cli:main"
+validate-hub-config = "forecast_submission_validation.hub_config_cli:main"
+validate-model-metadata = "forecast_submission_validation.metadata_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

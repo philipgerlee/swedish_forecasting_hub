@@ -1,0 +1,76 @@
+name: Validate model submissions
+
+on:
+  pull_request:
+    paths:
+      - "model-output/**"
+      - "model-metadata/**"
+      - "hub-config/**"
+      - "submission-validator/**"
+      - ".github/workflows/validate-model-submissions.yml"
+  push:
+    branches: [main]
+    paths:
+      - "hub-config/**"
+      - "submission-validator/**"
+      - ".github/workflows/validate-model-submissions.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: submission-validator/pyproject.toml
+      - name: Install validator
+        run: python -m pip install -e submission-validator
+      - name: Run validator tests
+        run: python -m unittest discover -s submission-validator/tests -v
+      - name: Validate HubVerse configuration
+        run: |
+          validate-hub-config hub-config/admin.json hub-config/tasks.json
+          python -m json.tool hub-config/model-metadata-schema.json >/dev/null
+      - name: Validate example submission
+        run: |
+          validate-model-metadata examples/model-metadata/example-example.yml
+          validate-forecast-submission examples/model-output/example-example/2026-10-04-example-example.csv --metadata-root examples/model-metadata
+      - name: Validate changed model files
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          status=0
+          deleted="$(git diff --diff-filter=D --name-only "$BASE_SHA" "$HEAD_SHA" -- model-output model-metadata)"
+          if [ -n "$deleted" ]; then
+            echo "Participant pull requests must not delete forecast or metadata files:"
+            echo "$deleted"
+            status=1
+          fi
+
+          unexpected="$(git diff --diff-filter=ACMR --name-only "$BASE_SHA" "$HEAD_SHA" -- model-output model-metadata | awk '!/^model-output\/README\.md$/ && !/^model-output\/[^/]+\/[^/]+\.csv$/ && !/^model-metadata\/README\.md$/ && !/^model-metadata\/[^/]+\.yml$/')"
+          if [ -n "$unexpected" ]; then
+            echo "Unexpected file type or path:"
+            echo "$unexpected"
+            status=1
+          fi
+
+          while IFS= read -r metadata; do
+            [ -z "$metadata" ] && continue
+            validate-model-metadata "$metadata" || status=1
+          done < <(git diff --diff-filter=ACMR --name-only "$BASE_SHA" "$HEAD_SHA" -- 'model-metadata/*.yml')
+
+          while IFS= read -r forecast; do
+            [ -z "$forecast" ] && continue
+            submitted_at="$(git log -1 --format=%cI -- "$forecast")"
+            validate-forecast-submission "$forecast" --submitted-at "$submitted_at" || status=1
+          done < <(git diff --diff-filter=ACMR --name-only "$BASE_SHA" "$HEAD_SHA" -- 'model-output/*/*.csv')
+          exit "$status"
