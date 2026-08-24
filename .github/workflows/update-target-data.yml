@@ -1,0 +1,119 @@
+name: Update influenza target data
+
+on:
+  schedule:
+    # The Python gate keeps only 08:00-18:00 Europe/Stockholm.
+    - cron: "0 6-18 * * 4-6"
+  workflow_dispatch:
+    inputs:
+      target_week:
+        description: "Optional ISO target week (YYYYWww), including a manual season extension"
+        required: false
+        type: string
+      dry_run:
+        description: "Validate without changing target data or creating a pull request"
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: influenza-target-data-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: target-data-pipeline/pyproject.toml
+      - name: Install pipeline
+        run: python -m pip install -e target-data-pipeline
+      - name: Check the Stockholm polling window
+        id: schedule
+        run: python -m influenza_target_data.schedule
+      - name: Check whether this release is already frozen in a branch
+        id: candidate
+        if: >-
+          (steps.schedule.outputs.should_poll == 'true' || github.event_name == 'workflow_dispatch')
+          && !(github.event_name == 'workflow_dispatch' && inputs.dry_run)
+        env:
+          TARGET_WEEK: ${{ inputs.target_week || steps.schedule.outputs.target_week }}
+        run: |
+          branch="automation/target-data-${TARGET_WEEK}"
+          if git ls-remote --exit-code --heads origin "refs/heads/${branch}" >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Fetch and validate target data
+        id: update
+        if: >-
+          (steps.schedule.outputs.should_poll == 'true' || github.event_name == 'workflow_dispatch')
+          && steps.candidate.outputs.exists != 'true'
+        env:
+          TARGET_WEEK_INPUT: ${{ inputs.target_week }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          args=()
+          if [ -n "$TARGET_WEEK_INPUT" ]; then
+            args+=(--target-week "$TARGET_WEEK_INPUT")
+          fi
+          if [ "$DRY_RUN" = "true" ]; then
+            args+=(--dry-run)
+          fi
+          update-influenza-target-data "${args[@]}"
+      - name: Upload validation report
+        if: always() && steps.update.outcome != 'skipped'
+        uses: actions/upload-artifact@v7
+        with:
+          name: target-data-validation-${{ steps.schedule.outputs.target_week }}
+          path: |
+            validation-report.json
+            validation-summary.md
+          retention-days: 30
+          if-no-files-found: error
+      - name: Create pull request for a complete release
+        if: steps.update.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_WEEK: ${{ steps.update.outputs.latest_target_week }}
+          HAS_WARNINGS: ${{ steps.update.outputs.warnings }}
+        run: |
+          branch="automation/target-data-${TARGET_WEEK}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add target-data/time-series.csv
+          git commit -m "Add influenza target data through ${TARGET_WEEK}"
+          git push origin "$branch"
+          gh label create target-data-update --color 1D76DB --description "Automated target-data candidate" --force
+          if [ "$HAS_WARNINGS" = "true" ]; then
+            title="[VARNING] Influensadata till och med ${TARGET_WEEK}"
+          else
+            title="Influensadata till och med ${TARGET_WEEK}"
+          fi
+          gh pr create --base main --head "$branch" --title "$title" --body-file validation-summary.md --label target-data-update
+      - name: Open cancellation issue after Saturday deadline
+        if: >-
+          steps.update.outputs.status == 'incomplete'
+          && steps.schedule.outputs.is_final == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_WEEK: ${{ steps.update.outputs.latest_target_week }}
+        run: |
+          title="Influensadata saknas – omgång ${TARGET_WEEK} inställd"
+          existing="$(gh issue list --state open --search "${title} in:title" --json number --jq 'length')"
+          if [ "$existing" = "0" ]; then
+            gh issue create --title "$title" --body-file validation-summary.md
+          fi

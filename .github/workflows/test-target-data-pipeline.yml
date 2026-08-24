@@ -1,0 +1,30 @@
+name: Test target-data pipeline
+
+on:
+  pull_request:
+    paths:
+      - "target-data-pipeline/**"
+      - ".github/workflows/test-target-data-pipeline.yml"
+  push:
+    branches: [main]
+    paths:
+      - "target-data-pipeline/**"
+      - ".github/workflows/test-target-data-pipeline.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: target-data-pipeline/pyproject.toml
+      - name: Install pipeline
+        run: python -m pip install -e target-data-pipeline
+      - name: Run development tests
+        run: python -m unittest discover -s target-data-pipeline/tests -v
