@@ -12,9 +12,11 @@ the first complete successful release observed by the hub.
 - Sex: total (`Kön = 1+2+0`)
 - Regions: Sweden (`00`), Skåne (`12`) and Västra Götaland (`14`)
 
-The pipeline starts freezing live values with ISO week 40 of the 2026/2027
-season. Historical values, if added later, use the values available from the
-same Folkhälsodata table without additional correction handling.
+The pipeline starts freezing values with ISO week 30 of the 2026/2027 data
+season. Weeks 30--39 provide calibration data; this does not change the planned
+start of forecast rounds in week 40. At the initial collection, already
+published weeks use the values then available from the same Folkhälsodata table
+and are marked `delayed_release`. No additional correction handling is applied.
 
 `target_end_date` is the Sunday of the corresponding ISO week. Later source
 revisions do not overwrite a value already frozen by the hub. Corrections are
