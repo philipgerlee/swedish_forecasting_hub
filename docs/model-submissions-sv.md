@@ -40,6 +40,19 @@ Skalet väljer automatiskt rätt fryst datafil för en retrospektiv omgång och
 modellens resultat och skriver rätt kolumner, katalog och filnamn. Den
 medföljande persistensmodellen är bara ett fungerande exempel och ska ersättas.
 
+När modellfunktionen är på plats kan alla 33 retrospektiva omgångar köras med
+ett enda kommando:
+
+```bash
+python submission-tools/model_template.py --all-historical team-model
+Rscript submission-tools/model_template.R --all-historical team-model
+```
+
+Datumen hämtas från manifestet och körs kronologiskt. Alla omgångar körs och
+kontrolleras innan några filer skrivs, så ett modellfel lämnar inte en
+halvfärdig batch. De färdiga filerna hamnar direkt i
+`model-output/team-model/`.
+
 ## Retrospektiva prognoser 2025/2026
 
 Det finns 33 retrospektiva omgångar. Varje rad i
@@ -47,9 +60,10 @@ Det finns 33 retrospektiva omgångar. Varje rad i
 vilken kapad datafil modellen ska använda. Alla tre platser och horisont 0–3 är
 obligatoriska.
 
-Deltagaren kan först samla samtliga 396 prognosrader i en CSV. R- och
-Pythonverktygen delar sedan automatiskt filen i 33 korrekta prognosfiler. Alla
-filer kan laddas upp tillsammans i en enda pull request.
+En deltagare som inte använder modellskalet kan i stället samla samtliga 396
+prognosrader i en CSV. R- och Pythonverktygen delar sedan automatiskt filen i
+33 korrekta prognosfiler. Alla filer kan laddas upp tillsammans i en enda pull
+request.
 
 Skapa först en tom batchmall med Python eller R:
 

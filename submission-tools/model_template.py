@@ -3,6 +3,7 @@
 Run from the repository root:
 
     python submission-tools/model_template.py YYYY-MM-DD team-model
+    python submission-tools/model_template.py --all-historical team-model
 
 The program selects the correct retrospective input when one exists. For a
 live round it reads target-data/time-series.csv. In both cases, observations
@@ -36,6 +37,7 @@ OUTPUT_COLUMNS = (
 MODEL_PATTERN = re.compile(r"^[A-Za-z0-9_+]+-[A-Za-z0-9_+]+$")
 HISTORICAL_START = date.fromisocalendar(2025, 40, 7)
 HISTORICAL_END = date.fromisocalendar(2026, 20, 7)
+HISTORICAL_MANIFEST = Path("retrospective-data/2025-2026/manifest.csv")
 
 
 # ---------------------------------------------------------------------------
@@ -173,43 +175,103 @@ def write_submission(
             )
 
 
+def historical_reference_dates(path: Path = HISTORICAL_MANIFEST) -> list[date]:
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        if "reference_date" not in (reader.fieldnames or ()):
+            raise ValueError("Historical manifest has no reference_date column")
+        result = [date.fromisoformat(row["reference_date"]) for row in reader]
+    if len(result) != 33 or len(set(result)) != 33:
+        raise ValueError("Historical manifest must contain 33 unique rounds")
+    if result != sorted(result) or any(value.weekday() != 6 for value in result):
+        raise ValueError("Historical manifest dates must be ordered Sundays")
+    return result
+
+
+def prepare_round(
+    reference_date: date,
+    *,
+    input_path: Path,
+) -> list[dict[str, Any]]:
+    data = read_input(input_path, reference_date)
+    forecasts = validate_forecasts(forecast_model(data, reference_date))
+    submitted_locations = {forecast["location"] for forecast in forecasts}
+    if (
+        HISTORICAL_START <= reference_date <= HISTORICAL_END
+        and submitted_locations != set(LOCATIONS)
+    ):
+        raise ValueError("Historical rounds require forecasts for all locations")
+    return forecasts
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("reference_date", help="Sunday in YYYY-MM-DD format")
-    parser.add_argument("model_id", help="Permanent identifier in team-model form")
+    parser.add_argument(
+        "arguments",
+        nargs="+",
+        metavar="ARG",
+        help="YYYY-MM-DD and model_id, or only model_id with --all-historical",
+    )
+    parser.add_argument(
+        "--all-historical",
+        action="store_true",
+        help="Run every round listed in the 2025/2026 manifest",
+    )
     parser.add_argument("--input-data", type=Path)
     parser.add_argument("--output", type=Path)
+    parser.add_argument("--output-root", type=Path, default=Path("model-output"))
     args = parser.parse_args()
 
-    try:
-        reference_date = date.fromisoformat(args.reference_date)
-    except ValueError:
-        parser.error("reference_date must use YYYY-MM-DD format")
-    if reference_date.weekday() != 6:
-        parser.error("reference_date must be a Sunday")
-    if not MODEL_PATTERN.fullmatch(args.model_id):
+    if args.all_historical:
+        if len(args.arguments) != 1:
+            parser.error("--all-historical requires exactly one model_id")
+        if args.input_data or args.output:
+            parser.error("--input-data and --output cannot be used with --all-historical")
+        model_id = args.arguments[0]
+        try:
+            reference_dates = historical_reference_dates()
+        except (OSError, ValueError) as exc:
+            raise SystemExit(f"Could not read historical manifest: {exc}") from exc
+    else:
+        if len(args.arguments) != 2:
+            parser.error("provide reference_date and model_id")
+        reference_date_text, model_id = args.arguments
+        try:
+            reference_date = date.fromisoformat(reference_date_text)
+        except ValueError:
+            parser.error("reference_date must use YYYY-MM-DD format")
+        if reference_date.weekday() != 6:
+            parser.error("reference_date must be a Sunday")
+        reference_dates = [reference_date]
+
+    if not MODEL_PATTERN.fullmatch(model_id):
         parser.error("model_id must have the form team-model")
 
-    input_path = args.input_data or default_input_path(reference_date)
-    output_path = args.output or (
-        Path("model-output")
-        / args.model_id
-        / f"{reference_date.isoformat()}-{args.model_id}.csv"
-    )
     try:
-        data = read_input(input_path, reference_date)
-        forecasts = validate_forecasts(forecast_model(data, reference_date))
-        submitted_locations = {forecast["location"] for forecast in forecasts}
-        if (
-            HISTORICAL_START <= reference_date <= HISTORICAL_END
-            and submitted_locations != set(LOCATIONS)
-        ):
-            raise ValueError("Historical rounds require forecasts for all locations")
-        write_submission(output_path, reference_date, forecasts)
+        prepared = []
+        for reference_date in reference_dates:
+            input_path = args.input_data or default_input_path(reference_date)
+            output_path = args.output or (
+                args.output_root
+                / model_id
+                / f"{reference_date.isoformat()}-{model_id}.csv"
+            )
+            prepared.append(
+                (
+                    reference_date,
+                    input_path,
+                    output_path,
+                    prepare_round(reference_date, input_path=input_path),
+                )
+            )
+        for reference_date, input_path, output_path, forecasts in prepared:
+            write_submission(output_path, reference_date, forecasts)
+            print(f"Read {input_path}")
+            print(f"Wrote {output_path}")
     except (OSError, ValueError) as exc:
         raise SystemExit(f"Could not create forecast: {exc}") from exc
-    print(f"Read {input_path}")
-    print(f"Wrote {output_path}")
+    if args.all_historical:
+        print(f"Wrote {len(prepared)} historical forecast files")
 
 
 if __name__ == "__main__":
