@@ -5,12 +5,20 @@ on:
     paths:
       - "evaluation-pipeline/**"
       - "retrospective-data/**"
+      - "demo-models/**"
+      - "model-output/**"
+      - "model-metadata/**"
+      - "evaluation-output/**"
       - ".github/workflows/test-evaluation-pipeline.yml"
   push:
     branches: [main]
     paths:
       - "evaluation-pipeline/**"
       - "retrospective-data/**"
+      - "demo-models/**"
+      - "model-output/**"
+      - "model-metadata/**"
+      - "evaluation-output/**"
       - ".github/workflows/test-evaluation-pipeline.yml"
 
 permissions:
@@ -30,6 +38,8 @@ jobs:
         run: python -m pip install -e evaluation-pipeline
       - name: Run development tests
         run: python -m unittest discover -s evaluation-pipeline/tests -v
+      - name: Verify demonstration forecasts are reproducible
+        run: python demo-models/generate_demo_forecasts.py --check
       - name: Verify current fixed inputs
         run: |
           match-retrospective-forecasts --allow-empty \
@@ -41,3 +51,16 @@ jobs:
           build-retrospective-qra --allow-empty \
             --input /tmp/matched-forecasts.csv \
             --output-root /tmp/qra
+      - name: Verify committed demonstration results are reproducible
+        run: |
+          diff evaluation-output/2025-2026/matched-forecasts.csv /tmp/matched-forecasts.csv
+          diff evaluation-output/2025-2026/match-report.json /tmp/match-report.json
+          for file in point-errors.csv point-metrics-by-location-horizon.csv point-metrics-by-forecast-kind.csv point-score-report.json; do
+            diff "evaluation-output/2025-2026/$file" "/tmp/point-scores/$file"
+          done
+          for file in qra-forecasts.csv qra-coefficients.csv; do
+            python demo-models/compare_numeric_csv.py "evaluation-output/2025-2026/$file" "/tmp/qra/$file"
+          done
+          for file in qra-skipped-tasks.json qra-report.json; do
+            diff "evaluation-output/2025-2026/$file" "/tmp/qra/$file"
+          done

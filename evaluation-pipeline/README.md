@@ -2,8 +2,8 @@
 
 This package performs the first stages of retrospective evaluation. It reads
 merged historical model submissions, joins every point forecast to the fixed
-2025/2026 outcome and calculates individual-model point scores. It does not yet
-fit or evaluate the QRA ensemble.
+2025/2026 outcome, calculates individual-model point scores and fits the QRA
+ensemble. Probabilistic QRA scoring is added separately.
 
 The matching rule is:
 

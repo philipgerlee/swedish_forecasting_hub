@@ -1,0 +1,19 @@
+model_id: hubdemo-linear4
+team_name: Swedish Influenza Forecast Hub demonstration models
+team_abbr: hubdemo
+model_name: Four-week linear trend baseline
+model_abbr: linear4
+model_version: 1.0.0
+model_contributors:
+  - name: Swedish Influenza Forecast Hub
+    affiliation: Chalmers University of Technology, Department of Mathematical Sciences
+methods: Extrapolates an ordinary least-squares linear trend fitted to the latest four available observations. Negative predictions are truncated at zero, and each location is modelled independently. This is a permanent demonstration baseline operated by the hub.
+method_category: baseline
+data_sources:
+  - Swedish Influenza Forecast Hub target data
+software:
+  - Python 3.12 standard library
+code_repository: https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/demo-models
+code_license: GPL-3.0-only
+license: CC-BY-4.0
+designated_model: false

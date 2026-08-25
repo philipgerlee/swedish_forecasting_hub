@@ -1,0 +1,19 @@
+model_id: hubdemo-exptrend4
+team_name: Swedish Influenza Forecast Hub demonstration models
+team_abbr: hubdemo
+model_name: Four-week exponential trend baseline
+model_abbr: exptrend4
+model_version: 1.0.0
+model_contributors:
+  - name: Swedish Influenza Forecast Hub
+    affiliation: Chalmers University of Technology, Department of Mathematical Sciences
+methods: Fits an ordinary linear trend to log(1 + value) for the latest four available observations and transforms the extrapolation back to the count scale. Negative predictions are truncated at zero, and each location is modelled independently. This is a permanent demonstration baseline operated by the hub.
+method_category: baseline
+data_sources:
+  - Swedish Influenza Forecast Hub target data
+software:
+  - Python 3.12 standard library
+code_repository: https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/demo-models
+code_license: GPL-3.0-only
+license: CC-BY-4.0
+designated_model: false
