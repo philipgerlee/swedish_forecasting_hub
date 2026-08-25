@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "metrics": [
+    "mae",
+    "bias",
+    "rmse"
+  ],
+  "bias_definition": "forecast_value - observed_value",
+  "ranking_created": false,
+  "model_count": 6,
+  "models": [
+    "hubdemo-damped4",
+    "hubdemo-exptrend4",
+    "hubdemo-linear4",
+    "hubdemo-mean3",
+    "hubdemo-mean6",
+    "hubdemo-persistence"
+  ],
+  "point_error_row_count": 2376,
+  "location_horizon_group_count": 72,
+  "forecast_kind_group_count": 36
+}

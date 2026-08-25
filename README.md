@@ -17,6 +17,8 @@ conventions. The operational components currently include:
 - `submission-tools/` contains Python and R helpers for preparing all 33
   retrospective forecast files as one batch, plus editable starter programs
   that run a participant model and write standard forecast files.
+- `demo-models/` contains six reproducible hub-operated baselines whose
+  forecasts remain public as a demonstration of evaluation and ensembling.
 - `evaluation-pipeline/` matches retrospective forecasts to the fixed final
   outcomes, calculates stratified point scores and builds regularized QRA.
 - `evaluation-output/` receives reproducible matched, scored and ensemble data.
@@ -30,5 +32,4 @@ guide in [`docs/model-submissions-sv.md`](docs/model-submissions-sv.md).
 The retrospective 2025/2026 exercise and its input files are described in
 [`retrospective-data/2025-2026/README.md`](retrospective-data/2025-2026/README.md).
 
-The QRA ensemble, scoring and public visualization components will be added
-separately.
+The public visualization component will be added separately.

@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "model_count": 6,
+  "models": [
+    "hubdemo-damped4",
+    "hubdemo-exptrend4",
+    "hubdemo-linear4",
+    "hubdemo-mean3",
+    "hubdemo-mean6",
+    "hubdemo-persistence"
+  ],
+  "forecast_file_count": 198,
+  "matched_row_count": 2376,
+  "first_reference_date": "2025-10-05",
+  "last_reference_date": "2026-05-17"
+}
