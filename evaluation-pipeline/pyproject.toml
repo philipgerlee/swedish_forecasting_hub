@@ -11,6 +11,7 @@ dependencies = []
 
 [project.scripts]
 match-retrospective-forecasts = "influenza_evaluation.match:main"
+score-retrospective-point-forecasts = "influenza_evaluation.score:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
