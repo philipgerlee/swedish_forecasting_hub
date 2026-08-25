@@ -18,3 +18,31 @@ utesluter den platsen men behöver inte ogiltigförklara övriga kompletta plats
 
 Inlämning kan göras helt i GitHubs webbläsare genom att forka repositoriet,
 ladda upp filerna och välja **Contribute → Open pull request**.
+
+## Retrospektiva prognoser 2025/2026
+
+Det finns 33 retrospektiva omgångar. Varje rad i
+`retrospective-data/2025-2026/manifest.csv` anger söndagens `reference_date` och
+vilken kapad datafil modellen ska använda. Alla tre platser och horisont 0–3 är
+obligatoriska.
+
+Deltagaren kan först samla samtliga 396 prognosrader i en CSV. R- och
+Pythonverktygen delar sedan automatiskt filen i 33 korrekta prognosfiler. Alla
+filer kan laddas upp tillsammans i en enda pull request.
+
+Skapa först en tom batchmall med Python eller R:
+
+```bash
+python submission-tools/prepare_historical_submission.py template team-model
+Rscript submission-tools/create_historical_submission.R team-model
+```
+
+Fyll i kolumnen `value` och validera och dela sedan batchen:
+
+```bash
+python submission-tools/prepare_historical_submission.py split historical-2025-2026-team-model.csv team-model
+Rscript submission-tools/split_historical_submission.R historical-2025-2026-team-model.csv team-model
+```
+
+De 33 filerna skrivs till `model-output/team-model/`. Lägg även till modellens
+metadatafil och ladda upp allt i samma pull request.

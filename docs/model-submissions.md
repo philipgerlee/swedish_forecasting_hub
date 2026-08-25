@@ -95,3 +95,29 @@ deadline is the official submission.
 GitHub Actions repeats these checks on every pull request that changes model
 output or metadata. Forecast files and metadata must not be deleted through a
 participant pull request.
+
+## Historical forecasts for 2025/2026
+
+The retrospective exercise contains 33 rounds from ISO week 40 of 2025 through
+week 20 of 2026. For each manifest row, run the unchanged model with the named
+input file and its `reference_date`. Every historical round must contain all
+three locations and horizons 0–3.
+
+Participants may collect all 396 rows in one CSV before creating the 33 standard
+HubVerse files. Create a blank batch template with Python or R:
+
+```bash
+python submission-tools/prepare_historical_submission.py template team-model
+Rscript submission-tools/create_historical_submission.R team-model
+```
+
+After filling the `value` column, validate and split the batch:
+
+```bash
+python submission-tools/prepare_historical_submission.py split historical-2025-2026-team-model.csv team-model
+Rscript submission-tools/split_historical_submission.R historical-2025-2026-team-model.csv team-model
+```
+
+The resulting 33 files are written to `model-output/team-model/`. Upload the
+whole directory and the model metadata file in one pull request. GitHub accepts
+up to 100 files in one browser upload, so no round-by-round upload is needed.

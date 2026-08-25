@@ -16,6 +16,7 @@ dependencies = [
 validate-forecast-submission = "forecast_submission_validation.cli:main"
 validate-hub-config = "forecast_submission_validation.hub_config_cli:main"
 validate-model-metadata = "forecast_submission_validation.metadata_cli:main"
+prepare-historical-submission = "forecast_submission_validation.historical_batch:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
