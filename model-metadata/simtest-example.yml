@@ -1,0 +1,19 @@
+model_id: simtest-example
+team_name: Simulated participant
+team_abbr: simtest
+model_name: Workflow smoke-test model
+model_abbr: example
+model_version: 1.0.0
+model_contributors:
+  - name: Simulated participant
+    affiliation: Test only
+methods: Deterministic example values used only to test the submission workflow.
+method_category: example
+data_sources:
+  - Swedish Influenza Forecast Hub target data
+software:
+  - Python 3.12
+code_repository: null
+code_license: null
+license: CC-BY-4.0
+designated_model: false
