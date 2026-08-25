@@ -64,6 +64,33 @@ Rscript submission-tools/create_submission.R YYYY-MM-DD team-model
 Rscript submission-tools/validate_submission.R model-output/<model_id>/<file>.csv
 ```
 
+### Editable model starter programs
+
+Participants who want the program to create a completed forecast file can copy
+and edit either:
+
+- `submission-tools/model_template.py`
+- `submission-tools/model_template.R`
+
+Replace only the clearly marked `forecast_model` function with the model code.
+The function receives the available target data and the requested
+`reference_date`, and returns `location`, `horizon` and `value`. The surrounding
+program checks the result and writes the required columns, path and filename.
+
+Run the Python or R version from the repository root:
+
+```bash
+python submission-tools/model_template.py YYYY-MM-DD team-model
+Rscript submission-tools/model_template.R YYYY-MM-DD team-model
+```
+
+For a 2025/2026 retrospective date, the program automatically reads the
+corresponding fixed round file. For a live date, it reads
+`target-data/time-series.csv`. In both cases, observations after
+`reference_date - 7 days` are removed before the participant model is called.
+The included function is only a working persistence-model example and should
+be replaced with the participant's model.
+
 The validator reports accepted and rejected locations separately. A technically
 valid value above 100,000 is accepted with a manual-review warning.
 

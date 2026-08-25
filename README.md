@@ -15,7 +15,8 @@ conventions. The operational components currently include:
 - `model-output/` and `model-metadata/` receive participant submissions.
 - `submission-validator/` validates forecasts, metadata and deadlines.
 - `submission-tools/` contains Python and R helpers for preparing all 33
-  retrospective forecast files as one batch.
+  retrospective forecast files as one batch, plus editable starter programs
+  that run a participant model and write standard forecast files.
 - `.github/workflows/` runs development tests, the scheduled data update and
   pull-request validation.
 

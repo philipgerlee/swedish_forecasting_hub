@@ -1,0 +1,216 @@
+"""Starter program: paste your model into ``forecast_model`` below.
+
+Run from the repository root:
+
+    python submission-tools/model_template.py YYYY-MM-DD team-model
+
+The program selects the correct retrospective input when one exists. For a
+live round it reads target-data/time-series.csv. In both cases, observations
+after the Sunday preceding reference_date are removed before the model runs.
+Only the Python standard library is required; participants may add their own
+dependencies inside forecast_model.
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import math
+import re
+from datetime import date, timedelta
+from pathlib import Path
+from typing import Any
+
+LOCATIONS = ("SE", "SE-M", "SE-O")
+HORIZONS = (0, 1, 2, 3)
+TARGET = "weekly incident influenza cases"
+OUTPUT_COLUMNS = (
+    "reference_date",
+    "target",
+    "horizon",
+    "location",
+    "output_type",
+    "output_type_id",
+    "value",
+)
+MODEL_PATTERN = re.compile(r"^[A-Za-z0-9_+]+-[A-Za-z0-9_+]+$")
+HISTORICAL_START = date.fromisocalendar(2025, 40, 7)
+HISTORICAL_END = date.fromisocalendar(2026, 20, 7)
+
+
+# ---------------------------------------------------------------------------
+# REPLACE THIS FUNCTION BODY WITH YOUR MODEL
+# ---------------------------------------------------------------------------
+def forecast_model(
+    data: list[dict[str, str]], reference_date: date
+) -> list[dict[str, Any]]:
+    """Return one value for every location and horizon to be submitted.
+
+    ``data`` contains the hub target-data columns and has already been cut at
+    reference_date minus seven days. This example is a persistence model: it
+    repeats the latest available observation for horizons 0--3.
+    """
+    forecasts: list[dict[str, Any]] = []
+    for location in LOCATIONS:
+        observed = [
+            row
+            for row in data
+            if row["location"] == location
+            and row["status"] == "available"
+            and row["value"].strip()
+        ]
+        if not observed:
+            raise ValueError(f"No available observations for {location}")
+        latest = max(observed, key=lambda row: row["target_end_date"])
+        for horizon in HORIZONS:
+            forecasts.append(
+                {
+                    "location": location,
+                    "horizon": horizon,
+                    "value": float(latest["value"]),
+                }
+            )
+    return forecasts
+
+
+# ---------------------------------------------------------------------------
+# HUB FILE HANDLING — NORMALLY NO CHANGES ARE NEEDED BELOW THIS LINE
+# ---------------------------------------------------------------------------
+def default_input_path(reference_date: date) -> Path:
+    retrospective = (
+        Path("retrospective-data")
+        / "2025-2026"
+        / "rounds"
+        / f"{reference_date.isoformat()}.csv"
+    )
+    if retrospective.is_file():
+        return retrospective
+    return Path("target-data/time-series.csv")
+
+
+def read_input(path: Path, reference_date: date) -> list[dict[str, str]]:
+    cutoff = reference_date - timedelta(days=7)
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        required = {"location", "target_end_date", "value", "status"}
+        missing = sorted(required - set(reader.fieldnames or ()))
+        if missing:
+            raise ValueError(f"Input data is missing columns: {missing}")
+        rows = []
+        for row in reader:
+            try:
+                target_end_date = date.fromisoformat(row["target_end_date"])
+            except ValueError as exc:
+                raise ValueError(
+                    f"Invalid target_end_date {row['target_end_date']!r}"
+                ) from exc
+            if target_end_date <= cutoff:
+                rows.append(row)
+    if not rows:
+        raise ValueError(f"No input observations are available through {cutoff}")
+    return rows
+
+
+def validate_forecasts(forecasts: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    if not forecasts:
+        raise ValueError("The model returned no forecasts")
+    normalized: list[dict[str, Any]] = []
+    seen: set[tuple[str, int]] = set()
+    locations: set[str] = set()
+    for number, forecast in enumerate(forecasts, start=1):
+        try:
+            location = str(forecast["location"])
+            horizon = int(forecast["horizon"])
+            value = float(forecast["value"])
+        except (KeyError, TypeError, ValueError) as exc:
+            raise ValueError(
+                f"Forecast {number} must contain location, horizon and numeric value"
+            ) from exc
+        if location not in LOCATIONS:
+            raise ValueError(f"Unsupported location {location!r}")
+        if horizon not in HORIZONS:
+            raise ValueError(f"Unsupported horizon {horizon!r}")
+        if not math.isfinite(value) or value < 0:
+            raise ValueError("Forecast values must be finite and at least zero")
+        key = (location, horizon)
+        if key in seen:
+            raise ValueError(f"Duplicate forecast for {location}, horizon {horizon}")
+        seen.add(key)
+        locations.add(location)
+        normalized.append(
+            {"location": location, "horizon": horizon, "value": value}
+        )
+    expected = {(location, horizon) for location in locations for horizon in HORIZONS}
+    if seen != expected:
+        missing = sorted(expected - seen)
+        raise ValueError(f"Every submitted location needs horizons 0-3; missing {missing}")
+    return sorted(
+        normalized,
+        key=lambda row: (LOCATIONS.index(row["location"]), row["horizon"]),
+    )
+
+
+def write_submission(
+    path: Path,
+    reference_date: date,
+    forecasts: list[dict[str, Any]],
+) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=OUTPUT_COLUMNS)
+        writer.writeheader()
+        for forecast in forecasts:
+            writer.writerow(
+                {
+                    "reference_date": reference_date.isoformat(),
+                    "target": TARGET,
+                    "horizon": forecast["horizon"],
+                    "location": forecast["location"],
+                    "output_type": "mean",
+                    "output_type_id": "",
+                    "value": forecast["value"],
+                }
+            )
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("reference_date", help="Sunday in YYYY-MM-DD format")
+    parser.add_argument("model_id", help="Permanent identifier in team-model form")
+    parser.add_argument("--input-data", type=Path)
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
+
+    try:
+        reference_date = date.fromisoformat(args.reference_date)
+    except ValueError:
+        parser.error("reference_date must use YYYY-MM-DD format")
+    if reference_date.weekday() != 6:
+        parser.error("reference_date must be a Sunday")
+    if not MODEL_PATTERN.fullmatch(args.model_id):
+        parser.error("model_id must have the form team-model")
+
+    input_path = args.input_data or default_input_path(reference_date)
+    output_path = args.output or (
+        Path("model-output")
+        / args.model_id
+        / f"{reference_date.isoformat()}-{args.model_id}.csv"
+    )
+    try:
+        data = read_input(input_path, reference_date)
+        forecasts = validate_forecasts(forecast_model(data, reference_date))
+        submitted_locations = {forecast["location"] for forecast in forecasts}
+        if (
+            HISTORICAL_START <= reference_date <= HISTORICAL_END
+            and submitted_locations != set(LOCATIONS)
+        ):
+            raise ValueError("Historical rounds require forecasts for all locations")
+        write_submission(output_path, reference_date, forecasts)
+    except (OSError, ValueError) as exc:
+        raise SystemExit(f"Could not create forecast: {exc}") from exc
+    print(f"Read {input_path}")
+    print(f"Wrote {output_path}")
+
+
+if __name__ == "__main__":
+    main()
