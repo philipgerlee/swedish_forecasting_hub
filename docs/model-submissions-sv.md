@@ -19,6 +19,27 @@ utesluter den platsen men behöver inte ogiltigförklara övriga kompletta plats
 Inlämning kan göras helt i GitHubs webbläsare genom att forka repositoriet,
 ladda upp filerna och välja **Contribute → Open pull request**.
 
+## Redigerbara modellskal
+
+Filerna `submission-tools/model_template.py` och
+`submission-tools/model_template.R` är kompletta skalprogram. Deltagaren
+ersätter endast den tydligt markerade funktionen `forecast_model` med sin egen
+modellkod. Funktionen får tillgängliga måldata och aktuellt `reference_date`
+och ska returnera `location`, `horizon` och `value`.
+
+Kör önskad version från repositoriets rotkatalog:
+
+```bash
+python submission-tools/model_template.py YYYY-MM-DD team-model
+Rscript submission-tools/model_template.R YYYY-MM-DD team-model
+```
+
+Skalet väljer automatiskt rätt fryst datafil för en retrospektiv omgång och
+`target-data/time-series.csv` för en liveomgång. Data efter söndagen före
+`reference_date` tas bort innan modellen körs. Därefter kontrollerar skalet
+modellens resultat och skriver rätt kolumner, katalog och filnamn. Den
+medföljande persistensmodellen är bara ett fungerande exempel och ska ersättas.
+
 ## Retrospektiva prognoser 2025/2026
 
 Det finns 33 retrospektiva omgångar. Varje rad i
