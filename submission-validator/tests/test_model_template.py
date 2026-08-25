@@ -90,6 +90,42 @@ class ModelTemplateTests(unittest.TestCase):
                 values = {row["value"] for row in csv.DictReader(handle)}
             self.assertEqual(values, {"1.0"})
 
+    def test_python_template_writes_all_historical_rounds_in_batch_mode(self):
+        repository = Path(__file__).resolve().parents[2]
+        with tempfile.TemporaryDirectory() as temporary:
+            result = subprocess.run(
+                [
+                    sys.executable,
+                    "submission-tools/model_template.py",
+                    "--all-historical",
+                    "example-example",
+                    "--output-root",
+                    temporary,
+                ],
+                cwd=repository,
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            self.assertEqual(result.returncode, 0, result.stderr)
+            outputs = sorted((Path(temporary) / "example-example").glob("*.csv"))
+            self.assertEqual(len(outputs), 33)
+            self.assertEqual(
+                outputs[0].name,
+                "2025-10-05-example-example.csv",
+            )
+            self.assertEqual(
+                outputs[-1].name,
+                "2026-05-17-example-example.csv",
+            )
+            for output in outputs:
+                report = validate_submission(
+                    output,
+                    metadata_root=repository / "examples/model-metadata",
+                    schema_path=repository / "hub-config/model-metadata-schema.json",
+                )
+                self.assertEqual(report.status, "PASS", report.as_dict())
+
 
 if __name__ == "__main__":
     unittest.main()

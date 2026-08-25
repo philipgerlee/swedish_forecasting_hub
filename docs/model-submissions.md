@@ -91,6 +91,19 @@ corresponding fixed round file. For a live date, it reads
 The included function is only a working persistence-model example and should
 be replaced with the participant's model.
 
+After replacing the function, generate all 33 retrospective submissions in one
+batch with either command:
+
+```bash
+python submission-tools/model_template.py --all-historical team-model
+Rscript submission-tools/model_template.R --all-historical team-model
+```
+
+The round dates are read from the committed manifest and processed
+chronologically. All rounds are run and checked before any files are written,
+so a failed model run does not leave a partial batch. Successful output is
+written directly to `model-output/team-model/`.
+
 The validator reports accepted and rejected locations separately. A technically
 valid value above 100,000 is accepted with a manual-review warning.
 
@@ -130,8 +143,9 @@ week 20 of 2026. For each manifest row, run the unchanged model with the named
 input file and its `reference_date`. Every historical round must contain all
 three locations and horizons 0–3.
 
-Participants may collect all 396 rows in one CSV before creating the 33 standard
-HubVerse files. Create a blank batch template with Python or R:
+Participants not using the editable model starter may instead collect all 396
+rows in one CSV before creating the 33 standard HubVerse files. Create a blank
+batch template with Python or R:
 
 ```bash
 python submission-tools/prepare_historical_submission.py template team-model
