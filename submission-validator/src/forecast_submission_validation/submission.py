@@ -264,12 +264,13 @@ def validate_submission(
             rejected.add(location)
 
     if require_all_locations:
-        missing_locations = sorted(set(LOCATIONS) - set(by_location))
-        if missing_locations:
+        unavailable_locations = sorted(set(LOCATIONS) - accepted)
+        if unavailable_locations:
             report.add(
                 "error",
                 "missing_location",
-                f"All locations are required; missing {missing_locations}",
+                "All locations must be present and valid; "
+                f"unavailable {unavailable_locations}",
             )
 
     return _finish(report, accepted, rejected)

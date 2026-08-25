@@ -133,14 +133,19 @@ class FolkhalsodataClient:
             raise SourceError(f"{context} returned an unexpected JSON structure")
         return payload
 
-    def fetch(self, requested_weeks: Iterable[str]) -> SourceResponse:
-        weeks = tuple(dict.fromkeys(requested_weeks))
+    def metadata(self) -> dict[str, Any]:
+        """Fetch and validate the current PxWeb metadata document."""
         try:
             metadata_response = self.session.get(self.url, timeout=self.timeout)
         except requests.RequestException as exc:
             raise SourceError(f"Metadata request failed: {exc}") from exc
         metadata = self._json(metadata_response, "Metadata request")
         validate_metadata(metadata)
+        return metadata
+
+    def fetch(self, requested_weeks: Iterable[str]) -> SourceResponse:
+        weeks = tuple(dict.fromkeys(requested_weeks))
+        metadata = self.metadata()
 
         variables = _variables(metadata)
         source_weeks = set(variables[TIME_DIMENSION].get("values", []))

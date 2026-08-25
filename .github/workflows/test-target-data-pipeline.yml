@@ -3,11 +3,13 @@ name: Test target-data pipeline
 on:
   pull_request:
     paths:
+      - "retrospective-data/**"
       - "target-data-pipeline/**"
       - ".github/workflows/test-target-data-pipeline.yml"
   push:
     branches: [main]
     paths:
+      - "retrospective-data/**"
       - "target-data-pipeline/**"
       - ".github/workflows/test-target-data-pipeline.yml"
 
@@ -28,3 +30,5 @@ jobs:
         run: python -m pip install -e target-data-pipeline
       - name: Run development tests
         run: python -m unittest discover -s target-data-pipeline/tests -v
+      - name: Verify retrospective data artifacts
+        run: build-retrospective-influenza-data --verify-only

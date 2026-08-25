@@ -31,3 +31,23 @@ beyond week 20 when needed.
 The automated weekly workflow validates incoming data but does not rerun the
 software development test suite. Development tests run when pipeline code is
 changed.
+
+## Retrospective 2025/2026 data
+
+The fixed retrospective package contains one self-contained input file per
+forecast round, from ISO week 40 of 2025 through week 20 of 2026, plus final
+outcomes through week 23. Build it from Folkhälsodata with a fixed version
+timestamp:
+
+```bash
+build-retrospective-influenza-data --data-version 2026-08-25T00:00:00Z
+```
+
+The committed files can be checked without contacting Folkhälsodata:
+
+```bash
+build-retrospective-influenza-data --verify-only
+```
+
+See [`retrospective-data/2025-2026/README.md`](../retrospective-data/2025-2026/README.md)
+for the manifest and participant-use rules.

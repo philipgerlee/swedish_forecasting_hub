@@ -6,12 +6,14 @@ on:
       - "model-output/**"
       - "model-metadata/**"
       - "hub-config/**"
+      - "submission-tools/**"
       - "submission-validator/**"
       - ".github/workflows/validate-model-submissions.yml"
   push:
     branches: [main]
     paths:
       - "hub-config/**"
+      - "submission-tools/**"
       - "submission-validator/**"
       - ".github/workflows/validate-model-submissions.yml"
 

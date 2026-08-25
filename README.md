@@ -9,15 +9,22 @@ conventions. The operational components currently include:
 - `target-data/time-series.csv` contains frozen weekly observations.
 - `target-data-pipeline/` fetches, transforms and validates data from
   Folkhälsodata.
+- `retrospective-data/2025-2026/` contains 33 fixed historical round inputs
+  and the final outcomes used for evaluation.
 - `hub-config/` defines the modeling task and public model metadata schema.
 - `model-output/` and `model-metadata/` receive participant submissions.
 - `submission-validator/` validates forecasts, metadata and deadlines.
+- `submission-tools/` contains Python and R helpers for preparing all 33
+  retrospective forecast files as one batch.
 - `.github/workflows/` runs development tests, the scheduled data update and
   pull-request validation.
 
 Participant instructions are available in
 [`docs/model-submissions.md`](docs/model-submissions.md), with a Swedish quick
 guide in [`docs/model-submissions-sv.md`](docs/model-submissions-sv.md).
+
+The retrospective 2025/2026 exercise and its input files are described in
+[`retrospective-data/2025-2026/README.md`](retrospective-data/2025-2026/README.md).
 
 The QRA ensemble, scoring and public visualization components will be added
 separately.

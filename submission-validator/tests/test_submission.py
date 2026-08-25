@@ -75,6 +75,22 @@ class SubmissionTests(unittest.TestCase):
         self.assertEqual(report.status, "FAIL")
         self.assertIn("missing_location", {finding.check for finding in report.findings})
 
+    def test_historical_submission_rejects_an_invalid_location(self):
+        records = rows(reference_date="2025-10-05")
+        records[4]["value"] = "invalid"
+        path = write_submission(
+            self.root / "output",
+            records,
+            reference_date="2025-10-05",
+        )
+        report = validate_submission(
+            path,
+            metadata_root=self.metadata_root,
+            schema_path=self.schema,
+        )
+        self.assertEqual(report.status, "FAIL")
+        self.assertEqual(report.accepted_locations, ["SE", "SE-O"])
+
     def test_late_live_submission_fails(self):
         report = self.validate(rows(), submitted_at="2026-10-05T00:00:00+02:00")
         self.assertEqual(report.status, "FAIL")
