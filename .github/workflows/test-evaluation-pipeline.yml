@@ -38,3 +38,6 @@ jobs:
           score-retrospective-point-forecasts --allow-empty \
             --input /tmp/matched-forecasts.csv \
             --output-root /tmp/point-scores
+          build-retrospective-qra --allow-empty \
+            --input /tmp/matched-forecasts.csv \
+            --output-root /tmp/qra

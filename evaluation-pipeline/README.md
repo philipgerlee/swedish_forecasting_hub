@@ -55,6 +55,41 @@ Bias is defined as `forecast_value - observed_value`: positive bias means
 systematic overprediction and negative bias means systematic underprediction.
 The output contains no overall model ranking.
 
+## Build the retrospective QRA
+
+The ensemble is LASSO Quantile Regression Averaging (LQRA): each individual
+model forecast is a separate covariate, with an L1 penalty on model
+coefficients and an unpenalized intercept. Run:
+
+```bash
+build-retrospective-qra
+```
+
+For every location and horizon, each historical QRA forecast is trained only
+on outcomes that would already have been published by that forecast's
+`reference_date`. At least eight such outcomes are required. The regularization
+strength is selected separately for each quantile using expanding-window,
+one-step-ahead pinball loss on the training data.
+
+The seven quantiles 0.025, 0.1, 0.25, 0.5, 0.75, 0.9 and 0.975 define the
+central 50%, 80% and 95% prediction intervals. Negative predictions are
+truncated at zero. Quantiles are rearranged into monotone order when necessary,
+and every adjustment is recorded.
+
+The command writes:
+
+- `qra-forecasts.csv`, with quantiles and training provenance;
+- `qra-coefficients.csv`, with the fitted intercept and model coefficients;
+- `qra-skipped-tasks.json`, listing early tasks with fewer than eight outcomes;
+- `qra-report.json`, documenting the complete method and first usable round.
+
+Method references:
+
+- [Nowotarski and Weron (2015), *Computing electricity spot price prediction
+  intervals using quantile regression and forecast averaging*](https://doi.org/10.1007/s00180-014-0523-0).
+- [Uniejewski and Weron (2021), *Regularized quantile regression averaging for
+  probabilistic electricity price forecasting*](https://doi.org/10.1016/j.eneco.2021.105121).
+
 ## Development tests
 
 ```bash
