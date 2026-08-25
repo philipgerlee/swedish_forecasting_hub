@@ -7,11 +7,12 @@ name = "swedish-influenza-evaluation"
 version = "0.1.0"
 description = "Match Swedish Influenza Forecast Hub forecasts to outcomes"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = ["scikit-learn>=1.2,<2"]
 
 [project.scripts]
 match-retrospective-forecasts = "influenza_evaluation.match:main"
 score-retrospective-point-forecasts = "influenza_evaluation.score:main"
+build-retrospective-qra = "influenza_evaluation.qra:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
