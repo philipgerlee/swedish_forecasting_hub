@@ -35,3 +35,6 @@ jobs:
           match-retrospective-forecasts --allow-empty \
             --output /tmp/matched-forecasts.csv \
             --report /tmp/match-report.json
+          score-retrospective-point-forecasts --allow-empty \
+            --input /tmp/matched-forecasts.csv \
+            --output-root /tmp/point-scores

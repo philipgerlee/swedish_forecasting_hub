@@ -1,8 +1,9 @@
 # Retrospective forecast matching
 
-This package performs the first stage of retrospective evaluation. It reads
-merged historical model submissions and joins every point forecast to the fixed
-2025/2026 outcome. It does not calculate scores or fit the QRA ensemble.
+This package performs the first stages of retrospective evaluation. It reads
+merged historical model submissions, joins every point forecast to the fixed
+2025/2026 outcome and calculates individual-model point scores. It does not yet
+fit or evaluate the QRA ensemble.
 
 The matching rule is:
 
@@ -31,6 +32,28 @@ horizons 0–3, and writes:
 No output is written if a forecast is incomplete, invalid or lacks a final
 outcome. Before participant forecasts have been merged, `--allow-empty` can be
 used to create header-only artifacts.
+
+## Score individual point forecasts
+
+After matching, run:
+
+```bash
+score-retrospective-point-forecasts
+```
+
+The scoring command writes:
+
+- `point-errors.csv`, with signed, absolute and squared error for every row;
+- `point-metrics-by-location-horizon.csv`, with MAE, bias and RMSE separately
+  for every model, location and horizon;
+- `point-metrics-by-forecast-kind.csv`, comparing horizon-0 nowcasts with
+  horizons 1–3 forecasts for every model and location;
+- `point-score-report.json`, an audit summary explicitly recording that no
+  ranking was created.
+
+Bias is defined as `forecast_value - observed_value`: positive bias means
+systematic overprediction and negative bias means systematic underprediction.
+The output contains no overall model ranking.
 
 ## Development tests
 
