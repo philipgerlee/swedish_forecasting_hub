@@ -17,6 +17,9 @@ conventions. The operational components currently include:
 - `submission-tools/` contains Python and R helpers for preparing all 33
   retrospective forecast files as one batch, plus editable starter programs
   that run a participant model and write standard forecast files.
+- `evaluation-pipeline/` matches retrospective forecasts to the fixed final
+  outcomes without calculating scores or fitting an ensemble.
+- `evaluation-output/` receives reproducible matched, scored and ensemble data.
 - `.github/workflows/` runs development tests, the scheduled data update and
   pull-request validation.
 

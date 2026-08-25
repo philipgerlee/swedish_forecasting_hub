@@ -35,7 +35,8 @@ reference_date,target,horizon,location,output_type,output_type_id,value
 ```
 
 - `target`: `weekly incident influenza cases`
-- `horizon`: `0`, `1`, `2`, or `3`
+- `horizon`: `0`, `1`, `2`, or `3`; the target week ends on
+  `reference_date + 7 × horizon days`
 - `location`: `SE`, `SE-M`, or `SE-O`
 - `output_type`: `mean`
 - `output_type_id`: empty or `NA`

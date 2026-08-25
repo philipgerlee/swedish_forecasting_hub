@@ -12,6 +12,9 @@ svensk sammanfattning.
 5. Öppna en pull request senast söndag 23.59 Europe/Stockholm.
 6. Läs den automatiska rapporten och rätta eventuella fel före tidsfristen.
 
+Horisont 0 avser veckan som slutar på `reference_date`. Horisont 1–3 avser
+veckorna som slutar en, två respektive tre söndagar senare.
+
 En liveprognos får omfatta en, två eller tre platser. Historiska prognoser måste
 omfatta Sverige, Region Skåne och Västra Götalandsregionen. Fel på en plats
 utesluter den platsen men behöver inte ogiltigförklara övriga kompletta platser.
