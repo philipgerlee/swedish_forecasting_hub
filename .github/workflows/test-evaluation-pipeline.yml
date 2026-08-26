@@ -1,6 +1,7 @@
 name: Test evaluation pipeline
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - "evaluation-pipeline/**"
@@ -63,6 +64,10 @@ jobs:
             --baseline-input /tmp/probabilistic-baseline/normal-ma3-baseline-forecasts.csv \
             --matched-input /tmp/matched-forecasts.csv \
             --output-root /tmp/probabilistic-comparison
+          build-dashboard-hub-view \
+            --qra-input /tmp/qra/qra-forecasts.csv \
+            --baseline-input /tmp/probabilistic-baseline/normal-ma3-baseline-forecasts.csv \
+            --output-root /tmp/dashboard-hub-view
       - name: Verify committed demonstration results are reproducible
         run: |
           diff evaluation-output/2025-2026/matched-forecasts.csv /tmp/matched-forecasts.csv
@@ -94,3 +99,6 @@ jobs:
           diff evaluation-output/2025-2026/probabilistic-comparison-report.json \
             /tmp/probabilistic-comparison/probabilistic-comparison-report.json
           test "$(find /tmp/hubverse-model-output/hub-normalma3 -name '*.csv' | wc -l)" -eq 33
+          test "$(find /tmp/dashboard-hub-view/model-output/hub-qra -name '*.csv' | wc -l)" -eq 25
+          test "$(find /tmp/dashboard-hub-view/model-output/hub-normalma3 -name '*.csv' | wc -l)" -eq 33
+          test "$(find /tmp/dashboard-hub-view/predtimechart-targets -name '*.json' | wc -l)" -eq 99

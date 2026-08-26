@@ -158,6 +158,24 @@ The generated artifacts are:
   WIS skill and coverage;
 - `probabilistic-comparison-report.json`, documenting the comparison contract.
 
+## Build the Hubverse dashboard view
+
+The participant hub intentionally keeps its submission format small: individual
+models submit means and do not need to calculate `target_end_date`. The Hubverse
+PredTimeChart requires quantile models, explicit target dates and enumerated
+historical rounds. Generate that derived view with:
+
+```bash
+build-dashboard-hub-view --output-root /tmp/dashboard-hub-view
+```
+
+The command creates a temporary, self-contained Hubverse hub containing the QRA
+and normal-MA3 baseline, frozen demonstration outcomes, dashboard-specific task
+configuration, target JSON for every retrospective round and a ready-to-use
+`predtimechart-config.yml`. It does not modify the canonical hub or participant
+submissions. The separate dashboard repository builds this view afresh before
+generating its visualization data.
+
 Method references:
 
 - [Nowotarski and Weron (2015), *Computing electricity spot price prediction
