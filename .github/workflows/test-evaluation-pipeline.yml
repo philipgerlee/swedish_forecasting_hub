@@ -51,6 +51,10 @@ jobs:
           build-retrospective-qra --allow-empty \
             --input /tmp/matched-forecasts.csv \
             --output-root /tmp/qra
+          score-retrospective-qra --allow-empty \
+            --qra-input /tmp/qra/qra-forecasts.csv \
+            --matched-input /tmp/matched-forecasts.csv \
+            --output-root /tmp/qra-scores
       - name: Verify committed demonstration results are reproducible
         run: |
           diff evaluation-output/2025-2026/matched-forecasts.csv /tmp/matched-forecasts.csv
@@ -64,3 +68,7 @@ jobs:
           for file in qra-skipped-tasks.json qra-report.json; do
             diff "evaluation-output/2025-2026/$file" "/tmp/qra/$file"
           done
+          for file in qra-scores.csv qra-metrics-by-location-horizon.csv; do
+            python demo-models/compare_numeric_csv.py "evaluation-output/2025-2026/$file" "/tmp/qra-scores/$file"
+          done
+          diff evaluation-output/2025-2026/qra-score-report.json /tmp/qra-scores/qra-score-report.json

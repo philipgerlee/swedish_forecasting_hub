@@ -83,6 +83,34 @@ The command writes:
 - `qra-skipped-tasks.json`, listing early tasks with fewer than eight outcomes;
 - `qra-report.json`, documenting the complete method and first usable round.
 
+## Score the probabilistic QRA
+
+After building the QRA, run:
+
+```bash
+score-retrospective-qra
+```
+
+The weighted interval score (WIS) uses the median and the central 50%, 80% and
+95% intervals. With interval miscoverage levels $\alpha_k$ and three central
+intervals, it is calculated as:
+
+```text
+WIS = [0.5 * absolute median error
+       + sum(alpha_k / 2 * interval_score_k)] / 3.5
+```
+
+The empirical coverage for each central interval includes observations exactly
+on an interval boundary. WIS is the primary probabilistic score; interval width
+is not reported separately. The command writes:
+
+- `qra-scores.csv`, with WIS and three coverage indicators for every QRA task;
+- `qra-metrics-by-location-horizon.csv`, with mean WIS and empirical coverage;
+- `qra-score-report.json`, documenting the formula and evaluation choices.
+
+The implementation follows [Bracher et al. (2021), *Evaluating epidemic
+forecasts in an interval format*](https://doi.org/10.1371/journal.pcbi.1008618).
+
 Method references:
 
 - [Nowotarski and Weron (2015), *Computing electricity spot price prediction
