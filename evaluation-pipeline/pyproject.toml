@@ -13,6 +13,7 @@ dependencies = ["scikit-learn>=1.2,<2"]
 match-retrospective-forecasts = "influenza_evaluation.match:main"
 score-retrospective-point-forecasts = "influenza_evaluation.score:main"
 build-retrospective-qra = "influenza_evaluation.qra:main"
+score-retrospective-qra = "influenza_evaluation.probabilistic_score:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
