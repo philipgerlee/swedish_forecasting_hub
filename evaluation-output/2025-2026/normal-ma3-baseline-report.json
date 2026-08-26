@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "model_id": "hub-normalma3",
+  "method": "normal predictive distribution around a three-week moving average",
+  "mean": "arithmetic mean of the three latest consecutive available weekly observations",
+  "uncertainty": "horizon- and location-specific historical RMSE around zero",
+  "temporal_training_rule": "historical target_end_date <= reference_date - 7 days",
+  "distribution": "normal with negative quantiles clipped at zero",
+  "quantiles": [
+    0.025,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9,
+    0.975
+  ],
+  "minimum_residual_samples": 8,
+  "forecast_row_count": 2772,
+  "forecast_task_count": 396,
+  "skipped_task_count": 0,
+  "minimum_training_sample_count": 507,
+  "maximum_training_sample_count": 542,
+  "dashboard_compatible_export_available": true
+}

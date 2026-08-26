@@ -1,0 +1,23 @@
+model_id: hub-normalma3
+team_name: Swedish Influenza Forecast Hub
+team_abbr: hub
+model_name: Probabilistic normal three-week moving-average baseline
+model_abbr: normalma3
+model_version: 1.0.0
+model_contributors:
+  - name: Swedish Influenza Forecast Hub
+    affiliation: Chalmers University of Technology, Department of Mathematical Sciences
+methods: >-
+  Uses the arithmetic mean of the latest three consecutive weekly observations
+  for every forecast horizon. Predictive uncertainty is normal with a
+  location- and horizon-specific standard deviation equal to the historical
+  rolling-origin RMSE. Negative quantiles are truncated at zero.
+method_category: baseline
+data_sources:
+  - Swedish Influenza Forecast Hub target data
+software:
+  - Python 3.12 standard library
+code_repository: https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/evaluation-pipeline
+code_license: GPL-3.0-only
+license: CC-BY-4.0
+designated_model: true

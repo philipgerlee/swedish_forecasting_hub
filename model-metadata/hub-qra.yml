@@ -1,0 +1,24 @@
+model_id: hub-qra
+team_name: Swedish Influenza Forecast Hub
+team_abbr: hub
+model_name: Regularized quantile regression averaging ensemble
+model_abbr: qra
+model_version: 1.0.0
+model_contributors:
+  - name: Swedish Influenza Forecast Hub
+    affiliation: Chalmers University of Technology, Department of Mathematical Sciences
+methods: >-
+  L1-regularized quantile regression averaging fitted separately by location,
+  forecast horizon and quantile. Regularization is selected by temporally
+  ordered expanding-window validation.
+method_category: ensemble
+data_sources:
+  - Swedish Influenza Forecast Hub model submissions
+  - Swedish Influenza Forecast Hub target data
+software:
+  - Python 3.12
+  - scikit-learn
+code_repository: https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/evaluation-pipeline
+code_license: GPL-3.0-only
+license: CC-BY-4.0
+designated_model: true
