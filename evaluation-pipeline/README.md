@@ -111,6 +111,53 @@ is not reported separately. The command writes:
 The implementation follows [Bracher et al. (2021), *Evaluating epidemic
 forecasts in an interval format*](https://doi.org/10.1371/journal.pcbi.1008618).
 
+## Build and compare the probabilistic baseline
+
+The dashboard comparison uses `hub-normalma3`, a deliberately simple
+probabilistic reference model. Its centre is the arithmetic mean of the latest
+three consecutive weekly observations available in that retrospective round.
+For each location and horizon, its normal predictive standard deviation is the
+historical rolling-origin RMSE around zero. Only errors whose outcomes were
+available by the current round's data cutoff enter the estimate. Quantiles below
+zero are truncated at zero.
+
+Build the baseline and optionally export one Hubverse-compatible model-output
+file per round:
+
+```bash
+build-retrospective-probabilistic-baseline \
+  --hubverse-output-root /tmp/hubverse-model-output
+```
+
+The Hubverse export has the task columns required by PredTimeChart, including
+the derived `target_end_date`, and the same seven quantiles as the QRA. It is a
+generated dashboard view and does not change the participant submission format.
+
+Compare the QRA and baseline on the exact intersection of available tasks:
+
+```bash
+compare-retrospective-probabilistic-forecasts
+```
+
+The principal relative result is:
+
+```text
+WIS skill = 1 - mean QRA WIS / mean baseline WIS
+```
+
+A positive value means that the QRA has lower mean WIS. The comparison also
+reports empirical 50%, 80% and 95% coverage for both models. Interval width is
+not reported separately.
+
+The generated artifacts are:
+
+- `normal-ma3-baseline-forecasts.csv` and its method report;
+- `normal-ma3-baseline-scores.csv` and location-by-horizon metrics;
+- `probabilistic-comparison.csv`, containing task-level paired results;
+- `probabilistic-comparison-by-location-horizon.csv`, containing relative WIS,
+  WIS skill and coverage;
+- `probabilistic-comparison-report.json`, documenting the comparison contract.
+
 Method references:
 
 - [Nowotarski and Weron (2015), *Computing electricity spot price prediction

@@ -55,6 +55,14 @@ jobs:
             --qra-input /tmp/qra/qra-forecasts.csv \
             --matched-input /tmp/matched-forecasts.csv \
             --output-root /tmp/qra-scores
+          build-retrospective-probabilistic-baseline --allow-empty \
+            --output-root /tmp/probabilistic-baseline \
+            --hubverse-output-root /tmp/hubverse-model-output
+          compare-retrospective-probabilistic-forecasts --allow-empty \
+            --qra-input /tmp/qra/qra-forecasts.csv \
+            --baseline-input /tmp/probabilistic-baseline/normal-ma3-baseline-forecasts.csv \
+            --matched-input /tmp/matched-forecasts.csv \
+            --output-root /tmp/probabilistic-comparison
       - name: Verify committed demonstration results are reproducible
         run: |
           diff evaluation-output/2025-2026/matched-forecasts.csv /tmp/matched-forecasts.csv
@@ -72,3 +80,17 @@ jobs:
             python demo-models/compare_numeric_csv.py "evaluation-output/2025-2026/$file" "/tmp/qra-scores/$file"
           done
           diff evaluation-output/2025-2026/qra-score-report.json /tmp/qra-scores/qra-score-report.json
+          python demo-models/compare_numeric_csv.py \
+            evaluation-output/2025-2026/normal-ma3-baseline-forecasts.csv \
+            /tmp/probabilistic-baseline/normal-ma3-baseline-forecasts.csv
+          for file in normal-ma3-baseline-report.json normal-ma3-baseline-skipped-tasks.json; do
+            diff "evaluation-output/2025-2026/$file" "/tmp/probabilistic-baseline/$file"
+          done
+          for file in normal-ma3-baseline-scores.csv normal-ma3-baseline-metrics-by-location-horizon.csv probabilistic-comparison.csv probabilistic-comparison-by-location-horizon.csv; do
+            python demo-models/compare_numeric_csv.py \
+              "evaluation-output/2025-2026/$file" \
+              "/tmp/probabilistic-comparison/$file"
+          done
+          diff evaluation-output/2025-2026/probabilistic-comparison-report.json \
+            /tmp/probabilistic-comparison/probabilistic-comparison-report.json
+          test "$(find /tmp/hubverse-model-output/hub-normalma3 -name '*.csv' | wc -l)" -eq 33

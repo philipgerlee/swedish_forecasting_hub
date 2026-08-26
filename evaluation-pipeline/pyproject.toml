@@ -14,6 +14,8 @@ match-retrospective-forecasts = "influenza_evaluation.match:main"
 score-retrospective-point-forecasts = "influenza_evaluation.score:main"
 build-retrospective-qra = "influenza_evaluation.qra:main"
 score-retrospective-qra = "influenza_evaluation.probabilistic_score:main"
+build-retrospective-probabilistic-baseline = "influenza_evaluation.baseline:main"
+compare-retrospective-probabilistic-forecasts = "influenza_evaluation.probabilistic_compare:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
