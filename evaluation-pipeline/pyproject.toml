@@ -16,6 +16,7 @@ build-retrospective-qra = "influenza_evaluation.qra:main"
 score-retrospective-qra = "influenza_evaluation.probabilistic_score:main"
 build-retrospective-probabilistic-baseline = "influenza_evaluation.baseline:main"
 compare-retrospective-probabilistic-forecasts = "influenza_evaluation.probabilistic_compare:main"
+build-dashboard-hub-view = "influenza_evaluation.dashboard_adapter:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
