@@ -1,6 +1,7 @@
 name: Test evaluation pipeline
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - "evaluation-pipeline/**"
