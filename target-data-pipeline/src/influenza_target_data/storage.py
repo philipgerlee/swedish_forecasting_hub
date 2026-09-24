@@ -36,6 +36,11 @@ def row_key(row: dict[str, Any]) -> tuple[str, str]:
     return str(row["location"]), str(row["target_end_date"])
 
 
+def row_sort_key(row: dict[str, Any]) -> tuple[str, str]:
+    """Return the canonical public-file order: week first, location second."""
+    return str(row["target_end_date"]), str(row["source_region_code"])
+
+
 def new_rows_only(
     existing: Iterable[dict[str, Any]], candidates: Iterable[dict[str, Any]]
 ) -> list[dict[str, Any]]:
@@ -59,7 +64,7 @@ def write_rows_atomic(path: Path, rows: Iterable[dict[str, Any]]) -> None:
             temporary_name = handle.name
             writer = csv.DictWriter(handle, fieldnames=OUTPUT_COLUMNS, extrasaction="raise")
             writer.writeheader()
-            for row in rows:
+            for row in sorted(rows, key=row_sort_key):
                 writer.writerow({column: row[column] for column in OUTPUT_COLUMNS})
         os.replace(temporary_name, path)
     finally:
