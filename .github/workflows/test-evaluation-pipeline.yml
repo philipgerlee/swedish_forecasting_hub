@@ -44,22 +44,52 @@ jobs:
       - name: Verify current fixed inputs
         run: |
           match-retrospective-forecasts --allow-empty \
+            --output /tmp/current-evaluation/matched-forecasts.csv \
+            --report /tmp/current-evaluation/match-report.json
+          score-retrospective-point-forecasts --allow-empty \
+            --input /tmp/current-evaluation/matched-forecasts.csv \
+            --output-root /tmp/current-evaluation/point-scores
+          build-retrospective-qra --allow-empty \
+            --input /tmp/current-evaluation/matched-forecasts.csv \
+            --output-root /tmp/current-evaluation/qra
+          score-retrospective-qra --allow-empty \
+            --qra-input /tmp/current-evaluation/qra/qra-forecasts.csv \
+            --matched-input /tmp/current-evaluation/matched-forecasts.csv \
+            --output-root /tmp/current-evaluation/qra-scores
+          build-retrospective-probabilistic-baseline --allow-empty \
+            --output-root /tmp/current-evaluation/probabilistic-baseline \
+            --hubverse-output-root /tmp/current-evaluation/hubverse-model-output
+          compare-retrospective-probabilistic-forecasts --allow-empty \
+            --qra-input /tmp/current-evaluation/qra/qra-forecasts.csv \
+            --baseline-input /tmp/current-evaluation/probabilistic-baseline/normal-ma3-baseline-forecasts.csv \
+            --matched-input /tmp/current-evaluation/matched-forecasts.csv \
+            --output-root /tmp/current-evaluation/probabilistic-comparison
+          build-dashboard-hub-view \
+            --qra-input /tmp/current-evaluation/qra/qra-forecasts.csv \
+            --baseline-input /tmp/current-evaluation/probabilistic-baseline/normal-ma3-baseline-forecasts.csv \
+            --output-root /tmp/current-evaluation/dashboard-hub-view
+      - name: Rebuild committed demonstration results
+        run: |
+          mkdir -p /tmp/demo-model-output
+          cp -R model-output/hubdemo-* /tmp/demo-model-output/
+          match-retrospective-forecasts \
+            --model-output-root /tmp/demo-model-output \
             --output /tmp/matched-forecasts.csv \
             --report /tmp/match-report.json
-          score-retrospective-point-forecasts --allow-empty \
+          score-retrospective-point-forecasts \
             --input /tmp/matched-forecasts.csv \
             --output-root /tmp/point-scores
-          build-retrospective-qra --allow-empty \
+          build-retrospective-qra \
             --input /tmp/matched-forecasts.csv \
             --output-root /tmp/qra
-          score-retrospective-qra --allow-empty \
+          score-retrospective-qra \
             --qra-input /tmp/qra/qra-forecasts.csv \
             --matched-input /tmp/matched-forecasts.csv \
             --output-root /tmp/qra-scores
-          build-retrospective-probabilistic-baseline --allow-empty \
+          build-retrospective-probabilistic-baseline \
             --output-root /tmp/probabilistic-baseline \
             --hubverse-output-root /tmp/hubverse-model-output
-          compare-retrospective-probabilistic-forecasts --allow-empty \
+          compare-retrospective-probabilistic-forecasts \
             --qra-input /tmp/qra/qra-forecasts.csv \
             --baseline-input /tmp/probabilistic-baseline/normal-ma3-baseline-forecasts.csv \
             --matched-input /tmp/matched-forecasts.csv \
