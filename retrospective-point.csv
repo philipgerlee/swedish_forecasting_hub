@@ -35,6 +35,18 @@ gerlee-history,1,2025-10-05,2025-10-05,weekly incident influenza cases,0,SE-O,V�
 gerlee-history,1,2025-10-05,2025-10-12,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,1.5116521657284503,6.0,available,2025W41,2026-08-25T00:00:00Z,gerlee-history/2025-10-05-gerlee-history.csv
 gerlee-history,1,2025-10-05,2025-10-19,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,1.5166609034282443,11.0,available,2025W42,2026-08-25T00:00:00Z,gerlee-history/2025-10-05-gerlee-history.csv
 gerlee-history,1,2025-10-05,2025-10-26,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,2.141748543056918,13.0,available,2025W43,2026-08-25T00:00:00Z,gerlee-history/2025-10-05-gerlee-history.csv
+zhang-xgb,1,2025-10-05,2025-10-05,weekly incident influenza cases,0,SE,Sverige,mean,,16.105072021484375,29.0,available,2025W40,2026-08-25T00:00:00Z,zhang-xgb/2025-10-05-zhang-xgb.csv
+zhang-xgb,1,2025-10-05,2025-10-12,weekly incident influenza cases,1,SE,Sverige,mean,,17.906330108642578,33.0,available,2025W41,2026-08-25T00:00:00Z,zhang-xgb/2025-10-05-zhang-xgb.csv
+zhang-xgb,1,2025-10-05,2025-10-19,weekly incident influenza cases,2,SE,Sverige,mean,,21.296667098999023,59.0,available,2025W42,2026-08-25T00:00:00Z,zhang-xgb/2025-10-05-zhang-xgb.csv
+zhang-xgb,1,2025-10-05,2025-10-26,weekly incident influenza cases,3,SE,Sverige,mean,,28.80385971069336,55.0,available,2025W43,2026-08-25T00:00:00Z,zhang-xgb/2025-10-05-zhang-xgb.csv
+zhang-xgb,1,2025-10-05,2025-10-05,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,1.1817706823349,1.0,available,2025W40,2026-08-25T00:00:00Z,zhang-xgb/2025-10-05-zhang-xgb.csv
+zhang-xgb,1,2025-10-05,2025-10-12,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,1.353429913520813,4.0,available,2025W41,2026-08-25T00:00:00Z,zhang-xgb/2025-10-05-zhang-xgb.csv
+zhang-xgb,1,2025-10-05,2025-10-19,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,1.547216773033142,4.0,available,2025W42,2026-08-25T00:00:00Z,zhang-xgb/2025-10-05-zhang-xgb.csv
+zhang-xgb,1,2025-10-05,2025-10-26,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,1.8802663087844849,4.0,available,2025W43,2026-08-25T00:00:00Z,zhang-xgb/2025-10-05-zhang-xgb.csv
+zhang-xgb,1,2025-10-05,2025-10-05,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,3.2264978885650635,3.0,available,2025W40,2026-08-25T00:00:00Z,zhang-xgb/2025-10-05-zhang-xgb.csv
+zhang-xgb,1,2025-10-05,2025-10-12,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,4.0372748374938965,6.0,available,2025W41,2026-08-25T00:00:00Z,zhang-xgb/2025-10-05-zhang-xgb.csv
+zhang-xgb,1,2025-10-05,2025-10-19,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,4.917975902557373,11.0,available,2025W42,2026-08-25T00:00:00Z,zhang-xgb/2025-10-05-zhang-xgb.csv
+zhang-xgb,1,2025-10-05,2025-10-26,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,5.55333137512207,13.0,available,2025W43,2026-08-25T00:00:00Z,zhang-xgb/2025-10-05-zhang-xgb.csv
 brannstrom-seirlovvader,2,2025-10-12,2025-10-12,weekly incident influenza cases,0,SE,Sverige,mean,,31.531385,33.0,available,2025W41,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-10-12-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,2,2025-10-12,2025-10-19,weekly incident influenza cases,1,SE,Sverige,mean,,43.581151,59.0,available,2025W42,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-10-12-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,2,2025-10-12,2025-10-26,weekly incident influenza cases,2,SE,Sverige,mean,,60.972059,55.0,available,2025W43,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-10-12-brannstrom-seirlovvader.csv
@@ -71,6 +83,18 @@ gerlee-history,2,2025-10-12,2025-10-12,weekly incident influenza cases,0,SE-O,V�
 gerlee-history,2,2025-10-12,2025-10-19,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,1.5207270265863322,11.0,available,2025W42,2026-08-25T00:00:00Z,gerlee-history/2025-10-12-gerlee-history.csv
 gerlee-history,2,2025-10-12,2025-10-26,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,2.1448437523435278,13.0,available,2025W43,2026-08-25T00:00:00Z,gerlee-history/2025-10-12-gerlee-history.csv
 gerlee-history,2,2025-10-12,2025-11-02,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,2.39357246439386,12.0,available,2025W44,2026-08-25T00:00:00Z,gerlee-history/2025-10-12-gerlee-history.csv
+zhang-xgb,2,2025-10-12,2025-10-12,weekly incident influenza cases,0,SE,Sverige,mean,,31.82793426513672,33.0,available,2025W41,2026-08-25T00:00:00Z,zhang-xgb/2025-10-12-zhang-xgb.csv
+zhang-xgb,2,2025-10-12,2025-10-19,weekly incident influenza cases,1,SE,Sverige,mean,,36.405059814453125,59.0,available,2025W42,2026-08-25T00:00:00Z,zhang-xgb/2025-10-12-zhang-xgb.csv
+zhang-xgb,2,2025-10-12,2025-10-26,weekly incident influenza cases,2,SE,Sverige,mean,,48.967864990234375,55.0,available,2025W43,2026-08-25T00:00:00Z,zhang-xgb/2025-10-12-zhang-xgb.csv
+zhang-xgb,2,2025-10-12,2025-11-02,weekly incident influenza cases,3,SE,Sverige,mean,,52.85295104980469,65.0,available,2025W44,2026-08-25T00:00:00Z,zhang-xgb/2025-10-12-zhang-xgb.csv
+zhang-xgb,2,2025-10-12,2025-10-12,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,1.0215154886245728,4.0,available,2025W41,2026-08-25T00:00:00Z,zhang-xgb/2025-10-12-zhang-xgb.csv
+zhang-xgb,2,2025-10-12,2025-10-19,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,1.190244436264038,4.0,available,2025W42,2026-08-25T00:00:00Z,zhang-xgb/2025-10-12-zhang-xgb.csv
+zhang-xgb,2,2025-10-12,2025-10-26,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,1.6595134735107422,4.0,available,2025W43,2026-08-25T00:00:00Z,zhang-xgb/2025-10-12-zhang-xgb.csv
+zhang-xgb,2,2025-10-12,2025-11-02,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,2.5693068504333496,9.0,available,2025W44,2026-08-25T00:00:00Z,zhang-xgb/2025-10-12-zhang-xgb.csv
+zhang-xgb,2,2025-10-12,2025-10-12,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,3.298713207244873,6.0,available,2025W41,2026-08-25T00:00:00Z,zhang-xgb/2025-10-12-zhang-xgb.csv
+zhang-xgb,2,2025-10-12,2025-10-19,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,3.9243686199188232,11.0,available,2025W42,2026-08-25T00:00:00Z,zhang-xgb/2025-10-12-zhang-xgb.csv
+zhang-xgb,2,2025-10-12,2025-10-26,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,5.221729755401611,13.0,available,2025W43,2026-08-25T00:00:00Z,zhang-xgb/2025-10-12-zhang-xgb.csv
+zhang-xgb,2,2025-10-12,2025-11-02,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,7.909418106079102,12.0,available,2025W44,2026-08-25T00:00:00Z,zhang-xgb/2025-10-12-zhang-xgb.csv
 brannstrom-seirlovvader,3,2025-10-19,2025-10-19,weekly incident influenza cases,0,SE,Sverige,mean,,43.825094,59.0,available,2025W42,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-10-19-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,3,2025-10-19,2025-10-26,weekly incident influenza cases,1,SE,Sverige,mean,,59.351032,55.0,available,2025W43,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-10-19-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,3,2025-10-19,2025-11-02,weekly incident influenza cases,2,SE,Sverige,mean,,85.331639,65.0,available,2025W44,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-10-19-brannstrom-seirlovvader.csv
@@ -107,6 +131,18 @@ gerlee-history,3,2025-10-19,2025-10-19,weekly incident influenza cases,0,SE-O,V�
 gerlee-history,3,2025-10-19,2025-10-26,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,2.1639697417144026,13.0,available,2025W43,2026-08-25T00:00:00Z,gerlee-history/2025-10-19-gerlee-history.csv
 gerlee-history,3,2025-10-19,2025-11-02,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,2.4200841161186863,12.0,available,2025W44,2026-08-25T00:00:00Z,gerlee-history/2025-10-19-gerlee-history.csv
 gerlee-history,3,2025-10-19,2025-11-09,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,3.8087418508540014,8.0,available,2025W45,2026-08-25T00:00:00Z,gerlee-history/2025-10-19-gerlee-history.csv
+zhang-xgb,3,2025-10-19,2025-10-19,weekly incident influenza cases,0,SE,Sverige,mean,,38.49467086791992,59.0,available,2025W42,2026-08-25T00:00:00Z,zhang-xgb/2025-10-19-zhang-xgb.csv
+zhang-xgb,3,2025-10-19,2025-10-26,weekly incident influenza cases,1,SE,Sverige,mean,,41.762176513671875,55.0,available,2025W43,2026-08-25T00:00:00Z,zhang-xgb/2025-10-19-zhang-xgb.csv
+zhang-xgb,3,2025-10-19,2025-11-02,weekly incident influenza cases,2,SE,Sverige,mean,,54.576690673828125,65.0,available,2025W44,2026-08-25T00:00:00Z,zhang-xgb/2025-10-19-zhang-xgb.csv
+zhang-xgb,3,2025-10-19,2025-11-09,weekly incident influenza cases,3,SE,Sverige,mean,,91.38491821289062,59.0,available,2025W45,2026-08-25T00:00:00Z,zhang-xgb/2025-10-19-zhang-xgb.csv
+zhang-xgb,3,2025-10-19,2025-10-19,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,4.090642929077148,4.0,available,2025W42,2026-08-25T00:00:00Z,zhang-xgb/2025-10-19-zhang-xgb.csv
+zhang-xgb,3,2025-10-19,2025-10-26,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,4.961338043212891,4.0,available,2025W43,2026-08-25T00:00:00Z,zhang-xgb/2025-10-19-zhang-xgb.csv
+zhang-xgb,3,2025-10-19,2025-11-02,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,7.317444801330566,9.0,available,2025W44,2026-08-25T00:00:00Z,zhang-xgb/2025-10-19-zhang-xgb.csv
+zhang-xgb,3,2025-10-19,2025-11-09,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,11.407732009887695,8.0,available,2025W45,2026-08-25T00:00:00Z,zhang-xgb/2025-10-19-zhang-xgb.csv
+zhang-xgb,3,2025-10-19,2025-10-19,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,6.434910774230957,11.0,available,2025W42,2026-08-25T00:00:00Z,zhang-xgb/2025-10-19-zhang-xgb.csv
+zhang-xgb,3,2025-10-19,2025-10-26,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,7.709098815917969,13.0,available,2025W43,2026-08-25T00:00:00Z,zhang-xgb/2025-10-19-zhang-xgb.csv
+zhang-xgb,3,2025-10-19,2025-11-02,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,11.311272621154785,12.0,available,2025W44,2026-08-25T00:00:00Z,zhang-xgb/2025-10-19-zhang-xgb.csv
+zhang-xgb,3,2025-10-19,2025-11-09,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,16.965133666992188,8.0,available,2025W45,2026-08-25T00:00:00Z,zhang-xgb/2025-10-19-zhang-xgb.csv
 brannstrom-seirlovvader,4,2025-10-26,2025-10-26,weekly incident influenza cases,0,SE,Sverige,mean,,91.386547,55.0,available,2025W43,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-10-26-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,4,2025-10-26,2025-11-02,weekly incident influenza cases,1,SE,Sverige,mean,,164.038213,65.0,available,2025W44,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-10-26-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,4,2025-10-26,2025-11-09,weekly incident influenza cases,2,SE,Sverige,mean,,279.003584,59.0,available,2025W45,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-10-26-brannstrom-seirlovvader.csv
@@ -143,6 +179,18 @@ gerlee-history,4,2025-10-26,2025-10-26,weekly incident influenza cases,0,SE-O,V�
 gerlee-history,4,2025-10-26,2025-11-02,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,2.472453402403633,12.0,available,2025W44,2026-08-25T00:00:00Z,gerlee-history/2025-10-26-gerlee-history.csv
 gerlee-history,4,2025-10-26,2025-11-09,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,3.862844269845057,8.0,available,2025W45,2026-08-25T00:00:00Z,gerlee-history/2025-10-26-gerlee-history.csv
 gerlee-history,4,2025-10-26,2025-11-16,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,4.240384445998633,5.0,available,2025W46,2026-08-25T00:00:00Z,gerlee-history/2025-10-26-gerlee-history.csv
+zhang-xgb,4,2025-10-26,2025-10-26,weekly incident influenza cases,0,SE,Sverige,mean,,67.98148345947266,55.0,available,2025W43,2026-08-25T00:00:00Z,zhang-xgb/2025-10-26-zhang-xgb.csv
+zhang-xgb,4,2025-10-26,2025-11-02,weekly incident influenza cases,1,SE,Sverige,mean,,85.61729431152344,65.0,available,2025W44,2026-08-25T00:00:00Z,zhang-xgb/2025-10-26-zhang-xgb.csv
+zhang-xgb,4,2025-10-26,2025-11-09,weekly incident influenza cases,2,SE,Sverige,mean,,112.02166748046875,59.0,available,2025W45,2026-08-25T00:00:00Z,zhang-xgb/2025-10-26-zhang-xgb.csv
+zhang-xgb,4,2025-10-26,2025-11-16,weekly incident influenza cases,3,SE,Sverige,mean,,179.67030334472656,80.0,available,2025W46,2026-08-25T00:00:00Z,zhang-xgb/2025-10-26-zhang-xgb.csv
+zhang-xgb,4,2025-10-26,2025-10-26,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,4.649945259094238,4.0,available,2025W43,2026-08-25T00:00:00Z,zhang-xgb/2025-10-26-zhang-xgb.csv
+zhang-xgb,4,2025-10-26,2025-11-02,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,6.52793025970459,9.0,available,2025W44,2026-08-25T00:00:00Z,zhang-xgb/2025-10-26-zhang-xgb.csv
+zhang-xgb,4,2025-10-26,2025-11-09,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,11.002954483032227,8.0,available,2025W45,2026-08-25T00:00:00Z,zhang-xgb/2025-10-26-zhang-xgb.csv
+zhang-xgb,4,2025-10-26,2025-11-16,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,16.86648178100586,9.0,available,2025W46,2026-08-25T00:00:00Z,zhang-xgb/2025-10-26-zhang-xgb.csv
+zhang-xgb,4,2025-10-26,2025-10-26,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,13.092275619506836,13.0,available,2025W43,2026-08-25T00:00:00Z,zhang-xgb/2025-10-26-zhang-xgb.csv
+zhang-xgb,4,2025-10-26,2025-11-02,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,18.226423263549805,12.0,available,2025W44,2026-08-25T00:00:00Z,zhang-xgb/2025-10-26-zhang-xgb.csv
+zhang-xgb,4,2025-10-26,2025-11-09,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,28.508623123168945,8.0,available,2025W45,2026-08-25T00:00:00Z,zhang-xgb/2025-10-26-zhang-xgb.csv
+zhang-xgb,4,2025-10-26,2025-11-16,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,38.658843994140625,5.0,available,2025W46,2026-08-25T00:00:00Z,zhang-xgb/2025-10-26-zhang-xgb.csv
 brannstrom-seirlovvader,5,2025-11-02,2025-11-02,weekly incident influenza cases,0,SE,Sverige,mean,,81.987456,65.0,available,2025W44,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-02-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,5,2025-11-02,2025-11-09,weekly incident influenza cases,1,SE,Sverige,mean,,101.161964,59.0,available,2025W45,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-02-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,5,2025-11-02,2025-11-16,weekly incident influenza cases,2,SE,Sverige,mean,,134.960676,80.0,available,2025W46,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-02-brannstrom-seirlovvader.csv
@@ -179,6 +227,18 @@ gerlee-history,5,2025-11-02,2025-11-02,weekly incident influenza cases,0,SE-O,V�
 gerlee-history,5,2025-11-02,2025-11-09,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,3.954065501247553,8.0,available,2025W45,2026-08-25T00:00:00Z,gerlee-history/2025-11-02-gerlee-history.csv
 gerlee-history,5,2025-11-02,2025-11-16,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,4.334241512276038,5.0,available,2025W46,2026-08-25T00:00:00Z,gerlee-history/2025-11-02-gerlee-history.csv
 gerlee-history,5,2025-11-02,2025-11-23,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,9.376244603325496,13.0,available,2025W47,2026-08-25T00:00:00Z,gerlee-history/2025-11-02-gerlee-history.csv
+zhang-xgb,5,2025-11-02,2025-11-02,weekly incident influenza cases,0,SE,Sverige,mean,,73.05277252197266,65.0,available,2025W44,2026-08-25T00:00:00Z,zhang-xgb/2025-11-02-zhang-xgb.csv
+zhang-xgb,5,2025-11-02,2025-11-09,weekly incident influenza cases,1,SE,Sverige,mean,,91.4034423828125,59.0,available,2025W45,2026-08-25T00:00:00Z,zhang-xgb/2025-11-02-zhang-xgb.csv
+zhang-xgb,5,2025-11-02,2025-11-16,weekly incident influenza cases,2,SE,Sverige,mean,,151.8897247314453,80.0,available,2025W46,2026-08-25T00:00:00Z,zhang-xgb/2025-11-02-zhang-xgb.csv
+zhang-xgb,5,2025-11-02,2025-11-23,weekly incident influenza cases,3,SE,Sverige,mean,,243.24034118652344,182.0,available,2025W47,2026-08-25T00:00:00Z,zhang-xgb/2025-11-02-zhang-xgb.csv
+zhang-xgb,5,2025-11-02,2025-11-02,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,5.0833563804626465,9.0,available,2025W44,2026-08-25T00:00:00Z,zhang-xgb/2025-11-02-zhang-xgb.csv
+zhang-xgb,5,2025-11-02,2025-11-09,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,7.943297863006592,8.0,available,2025W45,2026-08-25T00:00:00Z,zhang-xgb/2025-11-02-zhang-xgb.csv
+zhang-xgb,5,2025-11-02,2025-11-16,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,13.53040599822998,9.0,available,2025W46,2026-08-25T00:00:00Z,zhang-xgb/2025-11-02-zhang-xgb.csv
+zhang-xgb,5,2025-11-02,2025-11-23,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,22.170799255371094,11.0,available,2025W47,2026-08-25T00:00:00Z,zhang-xgb/2025-11-02-zhang-xgb.csv
+zhang-xgb,5,2025-11-02,2025-11-02,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,17.64249610900879,12.0,available,2025W44,2026-08-25T00:00:00Z,zhang-xgb/2025-11-02-zhang-xgb.csv
+zhang-xgb,5,2025-11-02,2025-11-09,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,26.141855239868164,8.0,available,2025W45,2026-08-25T00:00:00Z,zhang-xgb/2025-11-02-zhang-xgb.csv
+zhang-xgb,5,2025-11-02,2025-11-16,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,42.888607025146484,5.0,available,2025W46,2026-08-25T00:00:00Z,zhang-xgb/2025-11-02-zhang-xgb.csv
+zhang-xgb,5,2025-11-02,2025-11-23,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,67.86981201171875,13.0,available,2025W47,2026-08-25T00:00:00Z,zhang-xgb/2025-11-02-zhang-xgb.csv
 brannstrom-seirlovvader,6,2025-11-09,2025-11-09,weekly incident influenza cases,0,SE,Sverige,mean,,77.251878,59.0,available,2025W45,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-09-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,6,2025-11-09,2025-11-16,weekly incident influenza cases,1,SE,Sverige,mean,,90.110326,80.0,available,2025W46,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-09-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,6,2025-11-09,2025-11-23,weekly incident influenza cases,2,SE,Sverige,mean,,116.768403,182.0,available,2025W47,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-09-brannstrom-seirlovvader.csv
@@ -215,6 +275,18 @@ gerlee-history,6,2025-11-09,2025-11-09,weekly incident influenza cases,0,SE-O,V�
 gerlee-history,6,2025-11-09,2025-11-16,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,4.459353489053311,5.0,available,2025W46,2026-08-25T00:00:00Z,gerlee-history/2025-11-09-gerlee-history.csv
 gerlee-history,6,2025-11-09,2025-11-23,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,9.574611475853379,13.0,available,2025W47,2026-08-25T00:00:00Z,gerlee-history/2025-11-09-gerlee-history.csv
 gerlee-history,6,2025-11-09,2025-11-30,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,15.944784758147872,38.0,available,2025W48,2026-08-25T00:00:00Z,gerlee-history/2025-11-09-gerlee-history.csv
+zhang-xgb,6,2025-11-09,2025-11-09,weekly incident influenza cases,0,SE,Sverige,mean,,84.62873840332031,59.0,available,2025W45,2026-08-25T00:00:00Z,zhang-xgb/2025-11-09-zhang-xgb.csv
+zhang-xgb,6,2025-11-09,2025-11-16,weekly incident influenza cases,1,SE,Sverige,mean,,129.73504638671875,80.0,available,2025W46,2026-08-25T00:00:00Z,zhang-xgb/2025-11-09-zhang-xgb.csv
+zhang-xgb,6,2025-11-09,2025-11-23,weekly incident influenza cases,2,SE,Sverige,mean,,187.82843017578125,182.0,available,2025W47,2026-08-25T00:00:00Z,zhang-xgb/2025-11-09-zhang-xgb.csv
+zhang-xgb,6,2025-11-09,2025-11-30,weekly incident influenza cases,3,SE,Sverige,mean,,372.9832763671875,376.0,available,2025W48,2026-08-25T00:00:00Z,zhang-xgb/2025-11-09-zhang-xgb.csv
+zhang-xgb,6,2025-11-09,2025-11-09,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,11.835564613342285,8.0,available,2025W45,2026-08-25T00:00:00Z,zhang-xgb/2025-11-09-zhang-xgb.csv
+zhang-xgb,6,2025-11-09,2025-11-16,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,19.459625244140625,9.0,available,2025W46,2026-08-25T00:00:00Z,zhang-xgb/2025-11-09-zhang-xgb.csv
+zhang-xgb,6,2025-11-09,2025-11-23,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,31.82636260986328,11.0,available,2025W47,2026-08-25T00:00:00Z,zhang-xgb/2025-11-09-zhang-xgb.csv
+zhang-xgb,6,2025-11-09,2025-11-30,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,47.68305587768555,21.0,available,2025W48,2026-08-25T00:00:00Z,zhang-xgb/2025-11-09-zhang-xgb.csv
+zhang-xgb,6,2025-11-09,2025-11-09,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,17.215898513793945,8.0,available,2025W45,2026-08-25T00:00:00Z,zhang-xgb/2025-11-09-zhang-xgb.csv
+zhang-xgb,6,2025-11-09,2025-11-16,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,26.606830596923828,5.0,available,2025W46,2026-08-25T00:00:00Z,zhang-xgb/2025-11-09-zhang-xgb.csv
+zhang-xgb,6,2025-11-09,2025-11-23,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,45.747222900390625,13.0,available,2025W47,2026-08-25T00:00:00Z,zhang-xgb/2025-11-09-zhang-xgb.csv
+zhang-xgb,6,2025-11-09,2025-11-30,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,77.09606170654297,38.0,available,2025W48,2026-08-25T00:00:00Z,zhang-xgb/2025-11-09-zhang-xgb.csv
 brannstrom-seirlovvader,7,2025-11-16,2025-11-16,weekly incident influenza cases,0,SE,Sverige,mean,,62.032849,80.0,available,2025W46,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-16-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,7,2025-11-16,2025-11-23,weekly incident influenza cases,1,SE,Sverige,mean,,65.843924,182.0,available,2025W47,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-16-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,7,2025-11-16,2025-11-30,weekly incident influenza cases,2,SE,Sverige,mean,,77.813768,376.0,available,2025W48,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-16-brannstrom-seirlovvader.csv
@@ -251,6 +323,18 @@ gerlee-history,7,2025-11-16,2025-11-16,weekly incident influenza cases,0,SE-O,V�
 gerlee-history,7,2025-11-16,2025-11-23,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,9.68545416459554,13.0,available,2025W47,2026-08-25T00:00:00Z,gerlee-history/2025-11-16-gerlee-history.csv
 gerlee-history,7,2025-11-16,2025-11-30,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,16.141503664222082,38.0,available,2025W48,2026-08-25T00:00:00Z,gerlee-history/2025-11-16-gerlee-history.csv
 gerlee-history,7,2025-11-16,2025-12-07,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,34.49202677269616,57.0,available,2025W49,2026-08-25T00:00:00Z,gerlee-history/2025-11-16-gerlee-history.csv
+zhang-xgb,7,2025-11-16,2025-11-16,weekly incident influenza cases,0,SE,Sverige,mean,,80.64009857177734,80.0,available,2025W46,2026-08-25T00:00:00Z,zhang-xgb/2025-11-16-zhang-xgb.csv
+zhang-xgb,7,2025-11-16,2025-11-23,weekly incident influenza cases,1,SE,Sverige,mean,,129.38198852539062,182.0,available,2025W47,2026-08-25T00:00:00Z,zhang-xgb/2025-11-16-zhang-xgb.csv
+zhang-xgb,7,2025-11-16,2025-11-30,weekly incident influenza cases,2,SE,Sverige,mean,,207.95323181152344,376.0,available,2025W48,2026-08-25T00:00:00Z,zhang-xgb/2025-11-16-zhang-xgb.csv
+zhang-xgb,7,2025-11-16,2025-12-07,weekly incident influenza cases,3,SE,Sverige,mean,,397.86077880859375,717.0,available,2025W49,2026-08-25T00:00:00Z,zhang-xgb/2025-11-16-zhang-xgb.csv
+zhang-xgb,7,2025-11-16,2025-11-16,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,12.550566673278809,9.0,available,2025W46,2026-08-25T00:00:00Z,zhang-xgb/2025-11-16-zhang-xgb.csv
+zhang-xgb,7,2025-11-16,2025-11-23,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,20.17267417907715,11.0,available,2025W47,2026-08-25T00:00:00Z,zhang-xgb/2025-11-16-zhang-xgb.csv
+zhang-xgb,7,2025-11-16,2025-11-30,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,33.784332275390625,21.0,available,2025W48,2026-08-25T00:00:00Z,zhang-xgb/2025-11-16-zhang-xgb.csv
+zhang-xgb,7,2025-11-16,2025-12-07,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,68.29743194580078,38.0,available,2025W49,2026-08-25T00:00:00Z,zhang-xgb/2025-11-16-zhang-xgb.csv
+zhang-xgb,7,2025-11-16,2025-11-16,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,12.20521068572998,5.0,available,2025W46,2026-08-25T00:00:00Z,zhang-xgb/2025-11-16-zhang-xgb.csv
+zhang-xgb,7,2025-11-16,2025-11-23,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,20.417306900024414,13.0,available,2025W47,2026-08-25T00:00:00Z,zhang-xgb/2025-11-16-zhang-xgb.csv
+zhang-xgb,7,2025-11-16,2025-11-30,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,34.23925018310547,38.0,available,2025W48,2026-08-25T00:00:00Z,zhang-xgb/2025-11-16-zhang-xgb.csv
+zhang-xgb,7,2025-11-16,2025-12-07,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,71.97614288330078,57.0,available,2025W49,2026-08-25T00:00:00Z,zhang-xgb/2025-11-16-zhang-xgb.csv
 brannstrom-seirlovvader,8,2025-11-23,2025-11-23,weekly incident influenza cases,0,SE,Sverige,mean,,90.728014,182.0,available,2025W47,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-23-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,8,2025-11-23,2025-11-30,weekly incident influenza cases,1,SE,Sverige,mean,,125.031608,376.0,available,2025W48,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-23-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,8,2025-11-23,2025-12-07,weekly incident influenza cases,2,SE,Sverige,mean,,177.292245,717.0,available,2025W49,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-23-brannstrom-seirlovvader.csv
@@ -287,6 +371,18 @@ gerlee-history,8,2025-11-23,2025-11-23,weekly incident influenza cases,0,SE-O,V�
 gerlee-history,8,2025-11-23,2025-11-30,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,16.172053913569844,38.0,available,2025W48,2026-08-25T00:00:00Z,gerlee-history/2025-11-23-gerlee-history.csv
 gerlee-history,8,2025-11-23,2025-12-07,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,34.55347931761233,57.0,available,2025W49,2026-08-25T00:00:00Z,gerlee-history/2025-11-23-gerlee-history.csv
 gerlee-history,8,2025-11-23,2025-12-14,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,69.60806465531567,120.0,available,2025W50,2026-08-25T00:00:00Z,gerlee-history/2025-11-23-gerlee-history.csv
+zhang-xgb,8,2025-11-23,2025-11-23,weekly incident influenza cases,0,SE,Sverige,mean,,111.99063873291016,182.0,available,2025W47,2026-08-25T00:00:00Z,zhang-xgb/2025-11-23-zhang-xgb.csv
+zhang-xgb,8,2025-11-23,2025-11-30,weekly incident influenza cases,1,SE,Sverige,mean,,209.1605224609375,376.0,available,2025W48,2026-08-25T00:00:00Z,zhang-xgb/2025-11-23-zhang-xgb.csv
+zhang-xgb,8,2025-11-23,2025-12-07,weekly incident influenza cases,2,SE,Sverige,mean,,373.6100158691406,717.0,available,2025W49,2026-08-25T00:00:00Z,zhang-xgb/2025-11-23-zhang-xgb.csv
+zhang-xgb,8,2025-11-23,2025-12-14,weekly incident influenza cases,3,SE,Sverige,mean,,837.759033203125,1325.0,available,2025W50,2026-08-25T00:00:00Z,zhang-xgb/2025-11-23-zhang-xgb.csv
+zhang-xgb,8,2025-11-23,2025-11-23,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,13.75472640991211,11.0,available,2025W47,2026-08-25T00:00:00Z,zhang-xgb/2025-11-23-zhang-xgb.csv
+zhang-xgb,8,2025-11-23,2025-11-30,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,25.08588409423828,21.0,available,2025W48,2026-08-25T00:00:00Z,zhang-xgb/2025-11-23-zhang-xgb.csv
+zhang-xgb,8,2025-11-23,2025-12-07,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,55.6265983581543,38.0,available,2025W49,2026-08-25T00:00:00Z,zhang-xgb/2025-11-23-zhang-xgb.csv
+zhang-xgb,8,2025-11-23,2025-12-14,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,106.63945770263672,76.0,available,2025W50,2026-08-25T00:00:00Z,zhang-xgb/2025-11-23-zhang-xgb.csv
+zhang-xgb,8,2025-11-23,2025-11-23,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,8.044503211975098,13.0,available,2025W47,2026-08-25T00:00:00Z,zhang-xgb/2025-11-23-zhang-xgb.csv
+zhang-xgb,8,2025-11-23,2025-11-30,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,14.821701049804688,38.0,available,2025W48,2026-08-25T00:00:00Z,zhang-xgb/2025-11-23-zhang-xgb.csv
+zhang-xgb,8,2025-11-23,2025-12-07,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,31.206409454345703,57.0,available,2025W49,2026-08-25T00:00:00Z,zhang-xgb/2025-11-23-zhang-xgb.csv
+zhang-xgb,8,2025-11-23,2025-12-14,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,57.262779235839844,120.0,available,2025W50,2026-08-25T00:00:00Z,zhang-xgb/2025-11-23-zhang-xgb.csv
 brannstrom-seirlovvader,9,2025-11-30,2025-11-30,weekly incident influenza cases,0,SE,Sverige,mean,,442.460499,376.0,available,2025W48,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-30-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,9,2025-11-30,2025-12-07,weekly incident influenza cases,1,SE,Sverige,mean,,1147.617436,717.0,available,2025W49,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-30-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,9,2025-11-30,2025-12-14,weekly incident influenza cases,2,SE,Sverige,mean,,2610.069743,1325.0,available,2025W50,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-11-30-brannstrom-seirlovvader.csv
@@ -323,6 +419,18 @@ gerlee-history,9,2025-11-30,2025-11-30,weekly incident influenza cases,0,SE-O,V�
 gerlee-history,9,2025-11-30,2025-12-07,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,35.44787845453909,57.0,available,2025W49,2026-08-25T00:00:00Z,gerlee-history/2025-11-30-gerlee-history.csv
 gerlee-history,9,2025-11-30,2025-12-14,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,71.49585996606702,120.0,available,2025W50,2026-08-25T00:00:00Z,gerlee-history/2025-11-30-gerlee-history.csv
 gerlee-history,9,2025-11-30,2025-12-21,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,137.85586795139426,158.0,available,2025W51,2026-08-25T00:00:00Z,gerlee-history/2025-11-30-gerlee-history.csv
+zhang-xgb,9,2025-11-30,2025-11-30,weekly incident influenza cases,0,SE,Sverige,mean,,333.2848815917969,376.0,available,2025W48,2026-08-25T00:00:00Z,zhang-xgb/2025-11-30-zhang-xgb.csv
+zhang-xgb,9,2025-11-30,2025-12-07,weekly incident influenza cases,1,SE,Sverige,mean,,656.7323608398438,717.0,available,2025W49,2026-08-25T00:00:00Z,zhang-xgb/2025-11-30-zhang-xgb.csv
+zhang-xgb,9,2025-11-30,2025-12-14,weekly incident influenza cases,2,SE,Sverige,mean,,1189.922607421875,1325.0,available,2025W50,2026-08-25T00:00:00Z,zhang-xgb/2025-11-30-zhang-xgb.csv
+zhang-xgb,9,2025-11-30,2025-12-21,weekly incident influenza cases,3,SE,Sverige,mean,,1599.0672607421875,1638.0,available,2025W51,2026-08-25T00:00:00Z,zhang-xgb/2025-11-30-zhang-xgb.csv
+zhang-xgb,9,2025-11-30,2025-11-30,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,19.37114715576172,21.0,available,2025W48,2026-08-25T00:00:00Z,zhang-xgb/2025-11-30-zhang-xgb.csv
+zhang-xgb,9,2025-11-30,2025-12-07,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,38.2197265625,38.0,available,2025W49,2026-08-25T00:00:00Z,zhang-xgb/2025-11-30-zhang-xgb.csv
+zhang-xgb,9,2025-11-30,2025-12-14,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,70.0164794921875,76.0,available,2025W50,2026-08-25T00:00:00Z,zhang-xgb/2025-11-30-zhang-xgb.csv
+zhang-xgb,9,2025-11-30,2025-12-21,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,137.5787811279297,107.0,available,2025W51,2026-08-25T00:00:00Z,zhang-xgb/2025-11-30-zhang-xgb.csv
+zhang-xgb,9,2025-11-30,2025-11-30,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,21.85533332824707,38.0,available,2025W48,2026-08-25T00:00:00Z,zhang-xgb/2025-11-30-zhang-xgb.csv
+zhang-xgb,9,2025-11-30,2025-12-07,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,44.68498611450195,57.0,available,2025W49,2026-08-25T00:00:00Z,zhang-xgb/2025-11-30-zhang-xgb.csv
+zhang-xgb,9,2025-11-30,2025-12-14,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,81.52520751953125,120.0,available,2025W50,2026-08-25T00:00:00Z,zhang-xgb/2025-11-30-zhang-xgb.csv
+zhang-xgb,9,2025-11-30,2025-12-21,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,130.0721435546875,158.0,available,2025W51,2026-08-25T00:00:00Z,zhang-xgb/2025-11-30-zhang-xgb.csv
 brannstrom-seirlovvader,10,2025-12-07,2025-12-07,weekly incident influenza cases,0,SE,Sverige,mean,,848.91284,717.0,available,2025W49,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-12-07-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,10,2025-12-07,2025-12-14,weekly incident influenza cases,1,SE,Sverige,mean,,1647.218161,1325.0,available,2025W50,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-12-07-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,10,2025-12-07,2025-12-21,weekly incident influenza cases,2,SE,Sverige,mean,,3064.817868,1638.0,available,2025W51,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-12-07-brannstrom-seirlovvader.csv
@@ -359,6 +467,18 @@ gerlee-history,10,2025-12-07,2025-12-07,weekly incident influenza cases,0,SE-O,V
 gerlee-history,10,2025-12-07,2025-12-14,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,88.73255608860603,120.0,available,2025W50,2026-08-25T00:00:00Z,gerlee-history/2025-12-07-gerlee-history.csv
 gerlee-history,10,2025-12-07,2025-12-21,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,171.8109687908419,158.0,available,2025W51,2026-08-25T00:00:00Z,gerlee-history/2025-12-07-gerlee-history.csv
 gerlee-history,10,2025-12-07,2025-12-28,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,181.63557219318855,118.0,available,2025W52,2026-08-25T00:00:00Z,gerlee-history/2025-12-07-gerlee-history.csv
+zhang-xgb,10,2025-12-07,2025-12-07,weekly incident influenza cases,0,SE,Sverige,mean,,750.2676391601562,717.0,available,2025W49,2026-08-25T00:00:00Z,zhang-xgb/2025-12-07-zhang-xgb.csv
+zhang-xgb,10,2025-12-07,2025-12-14,weekly incident influenza cases,1,SE,Sverige,mean,,1498.4088134765625,1325.0,available,2025W50,2026-08-25T00:00:00Z,zhang-xgb/2025-12-07-zhang-xgb.csv
+zhang-xgb,10,2025-12-07,2025-12-21,weekly incident influenza cases,2,SE,Sverige,mean,,2108.97216796875,1638.0,available,2025W51,2026-08-25T00:00:00Z,zhang-xgb/2025-12-07-zhang-xgb.csv
+zhang-xgb,10,2025-12-07,2025-12-28,weekly incident influenza cases,3,SE,Sverige,mean,,2304.285888671875,1682.0,available,2025W52,2026-08-25T00:00:00Z,zhang-xgb/2025-12-07-zhang-xgb.csv
+zhang-xgb,10,2025-12-07,2025-12-07,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,39.6817741394043,38.0,available,2025W49,2026-08-25T00:00:00Z,zhang-xgb/2025-12-07-zhang-xgb.csv
+zhang-xgb,10,2025-12-07,2025-12-14,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,76.42012023925781,76.0,available,2025W50,2026-08-25T00:00:00Z,zhang-xgb/2025-12-07-zhang-xgb.csv
+zhang-xgb,10,2025-12-07,2025-12-21,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,138.28378295898438,107.0,available,2025W51,2026-08-25T00:00:00Z,zhang-xgb/2025-12-07-zhang-xgb.csv
+zhang-xgb,10,2025-12-07,2025-12-28,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,193.0120391845703,138.0,available,2025W52,2026-08-25T00:00:00Z,zhang-xgb/2025-12-07-zhang-xgb.csv
+zhang-xgb,10,2025-12-07,2025-12-07,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,63.66916275024414,57.0,available,2025W49,2026-08-25T00:00:00Z,zhang-xgb/2025-12-07-zhang-xgb.csv
+zhang-xgb,10,2025-12-07,2025-12-14,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,136.09860229492188,120.0,available,2025W50,2026-08-25T00:00:00Z,zhang-xgb/2025-12-07-zhang-xgb.csv
+zhang-xgb,10,2025-12-07,2025-12-21,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,223.5712127685547,158.0,available,2025W51,2026-08-25T00:00:00Z,zhang-xgb/2025-12-07-zhang-xgb.csv
+zhang-xgb,10,2025-12-07,2025-12-28,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,341.69500732421875,118.0,available,2025W52,2026-08-25T00:00:00Z,zhang-xgb/2025-12-07-zhang-xgb.csv
 brannstrom-seirlovvader,11,2025-12-14,2025-12-14,weekly incident influenza cases,0,SE,Sverige,mean,,1154.089619,1325.0,available,2025W50,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-12-14-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,11,2025-12-14,2025-12-21,weekly incident influenza cases,1,SE,Sverige,mean,,1762.418766,1638.0,available,2025W51,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-12-14-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,11,2025-12-14,2025-12-28,weekly incident influenza cases,2,SE,Sverige,mean,,2230.386697,1682.0,available,2025W52,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-12-14-brannstrom-seirlovvader.csv
@@ -395,6 +515,18 @@ gerlee-history,11,2025-12-14,2025-12-14,weekly incident influenza cases,0,SE-O,V
 gerlee-history,11,2025-12-14,2025-12-21,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,197.77201276037866,158.0,available,2025W51,2026-08-25T00:00:00Z,gerlee-history/2025-12-14-gerlee-history.csv
 gerlee-history,11,2025-12-14,2025-12-28,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,208.5318470254104,118.0,available,2025W52,2026-08-25T00:00:00Z,gerlee-history/2025-12-14-gerlee-history.csv
 gerlee-history,11,2025-12-14,2026-01-04,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,211.97978829756175,281.0,available,2026W01,2026-08-25T00:00:00Z,gerlee-history/2025-12-14-gerlee-history.csv
+zhang-xgb,11,2025-12-14,2025-12-14,weekly incident influenza cases,0,SE,Sverige,mean,,1408.793212890625,1325.0,available,2025W50,2026-08-25T00:00:00Z,zhang-xgb/2025-12-14-zhang-xgb.csv
+zhang-xgb,11,2025-12-14,2025-12-21,weekly incident influenza cases,1,SE,Sverige,mean,,1978.775146484375,1638.0,available,2025W51,2026-08-25T00:00:00Z,zhang-xgb/2025-12-14-zhang-xgb.csv
+zhang-xgb,11,2025-12-14,2025-12-28,weekly incident influenza cases,2,SE,Sverige,mean,,1905.5418701171875,1682.0,available,2025W52,2026-08-25T00:00:00Z,zhang-xgb/2025-12-14-zhang-xgb.csv
+zhang-xgb,11,2025-12-14,2026-01-04,weekly incident influenza cases,3,SE,Sverige,mean,,2094.751220703125,2227.0,available,2026W01,2026-08-25T00:00:00Z,zhang-xgb/2025-12-14-zhang-xgb.csv
+zhang-xgb,11,2025-12-14,2025-12-14,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,75.04923248291016,76.0,available,2025W50,2026-08-25T00:00:00Z,zhang-xgb/2025-12-14-zhang-xgb.csv
+zhang-xgb,11,2025-12-14,2025-12-21,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,130.63558959960938,107.0,available,2025W51,2026-08-25T00:00:00Z,zhang-xgb/2025-12-14-zhang-xgb.csv
+zhang-xgb,11,2025-12-14,2025-12-28,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,177.65576171875,138.0,available,2025W52,2026-08-25T00:00:00Z,zhang-xgb/2025-12-14-zhang-xgb.csv
+zhang-xgb,11,2025-12-14,2026-01-04,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,189.12673950195312,190.0,available,2026W01,2026-08-25T00:00:00Z,zhang-xgb/2025-12-14-zhang-xgb.csv
+zhang-xgb,11,2025-12-14,2025-12-14,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,115.42137145996094,120.0,available,2025W50,2026-08-25T00:00:00Z,zhang-xgb/2025-12-14-zhang-xgb.csv
+zhang-xgb,11,2025-12-14,2025-12-21,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,200.51316833496094,158.0,available,2025W51,2026-08-25T00:00:00Z,zhang-xgb/2025-12-14-zhang-xgb.csv
+zhang-xgb,11,2025-12-14,2025-12-28,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,285.7792053222656,118.0,available,2025W52,2026-08-25T00:00:00Z,zhang-xgb/2025-12-14-zhang-xgb.csv
+zhang-xgb,11,2025-12-14,2026-01-04,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,345.12310791015625,281.0,available,2026W01,2026-08-25T00:00:00Z,zhang-xgb/2025-12-14-zhang-xgb.csv
 brannstrom-seirlovvader,12,2025-12-21,2025-12-21,weekly incident influenza cases,0,SE,Sverige,mean,,2092.283435,1638.0,available,2025W51,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-12-21-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,12,2025-12-21,2025-12-28,weekly incident influenza cases,1,SE,Sverige,mean,,2684.300804,1682.0,available,2025W52,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-12-21-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,12,2025-12-21,2026-01-04,weekly incident influenza cases,2,SE,Sverige,mean,,3735.132886,2227.0,available,2026W01,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-12-21-brannstrom-seirlovvader.csv
@@ -431,6 +563,18 @@ gerlee-history,12,2025-12-21,2025-12-21,weekly incident influenza cases,0,SE-O,V
 gerlee-history,12,2025-12-21,2025-12-28,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,233.32438274714457,118.0,available,2025W52,2026-08-25T00:00:00Z,gerlee-history/2025-12-21-gerlee-history.csv
 gerlee-history,12,2025-12-21,2026-01-04,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,233.64206831608158,281.0,available,2026W01,2026-08-25T00:00:00Z,gerlee-history/2025-12-21-gerlee-history.csv
 gerlee-history,12,2025-12-21,2026-01-11,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,182.86459340792362,260.0,available,2026W02,2026-08-25T00:00:00Z,gerlee-history/2025-12-21-gerlee-history.csv
+zhang-xgb,12,2025-12-21,2025-12-21,weekly incident influenza cases,0,SE,Sverige,mean,,2061.567138671875,1638.0,available,2025W51,2026-08-25T00:00:00Z,zhang-xgb/2025-12-21-zhang-xgb.csv
+zhang-xgb,12,2025-12-21,2025-12-28,weekly incident influenza cases,1,SE,Sverige,mean,,2309.148681640625,1682.0,available,2025W52,2026-08-25T00:00:00Z,zhang-xgb/2025-12-21-zhang-xgb.csv
+zhang-xgb,12,2025-12-21,2026-01-04,weekly incident influenza cases,2,SE,Sverige,mean,,2165.90478515625,2227.0,available,2026W01,2026-08-25T00:00:00Z,zhang-xgb/2025-12-21-zhang-xgb.csv
+zhang-xgb,12,2025-12-21,2026-01-11,weekly incident influenza cases,3,SE,Sverige,mean,,1665.2655029296875,1532.0,available,2026W02,2026-08-25T00:00:00Z,zhang-xgb/2025-12-21-zhang-xgb.csv
+zhang-xgb,12,2025-12-21,2025-12-21,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,148.0464630126953,107.0,available,2025W51,2026-08-25T00:00:00Z,zhang-xgb/2025-12-21-zhang-xgb.csv
+zhang-xgb,12,2025-12-21,2025-12-28,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,197.50308227539062,138.0,available,2025W52,2026-08-25T00:00:00Z,zhang-xgb/2025-12-21-zhang-xgb.csv
+zhang-xgb,12,2025-12-21,2026-01-04,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,225.14877319335938,190.0,available,2026W01,2026-08-25T00:00:00Z,zhang-xgb/2025-12-21-zhang-xgb.csv
+zhang-xgb,12,2025-12-21,2026-01-11,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,193.49684143066406,126.0,available,2026W02,2026-08-25T00:00:00Z,zhang-xgb/2025-12-21-zhang-xgb.csv
+zhang-xgb,12,2025-12-21,2025-12-21,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,229.0522003173828,158.0,available,2025W51,2026-08-25T00:00:00Z,zhang-xgb/2025-12-21-zhang-xgb.csv
+zhang-xgb,12,2025-12-21,2025-12-28,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,300.4067077636719,118.0,available,2025W52,2026-08-25T00:00:00Z,zhang-xgb/2025-12-21-zhang-xgb.csv
+zhang-xgb,12,2025-12-21,2026-01-04,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,335.9874572753906,281.0,available,2026W01,2026-08-25T00:00:00Z,zhang-xgb/2025-12-21-zhang-xgb.csv
+zhang-xgb,12,2025-12-21,2026-01-11,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,225.27023315429688,260.0,available,2026W02,2026-08-25T00:00:00Z,zhang-xgb/2025-12-21-zhang-xgb.csv
 brannstrom-seirlovvader,13,2025-12-28,2025-12-28,weekly incident influenza cases,0,SE,Sverige,mean,,1634.845075,1682.0,available,2025W52,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-12-28-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,13,2025-12-28,2026-01-04,weekly incident influenza cases,1,SE,Sverige,mean,,1806.84568,2227.0,available,2026W01,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-12-28-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,13,2025-12-28,2026-01-11,weekly incident influenza cases,2,SE,Sverige,mean,,1167.28223,1532.0,available,2026W02,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2025-12-28-brannstrom-seirlovvader.csv
@@ -467,6 +611,18 @@ gerlee-history,13,2025-12-28,2025-12-28,weekly incident influenza cases,0,SE-O,V
 gerlee-history,13,2025-12-28,2026-01-04,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,201.49877936600132,281.0,available,2026W01,2026-08-25T00:00:00Z,gerlee-history/2025-12-28-gerlee-history.csv
 gerlee-history,13,2025-12-28,2026-01-11,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,159.47964936834325,260.0,available,2026W02,2026-08-25T00:00:00Z,gerlee-history/2025-12-28-gerlee-history.csv
 gerlee-history,13,2025-12-28,2026-01-18,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,140.65430079663935,151.0,available,2026W03,2026-08-25T00:00:00Z,gerlee-history/2025-12-28-gerlee-history.csv
+zhang-xgb,13,2025-12-28,2025-12-28,weekly incident influenza cases,0,SE,Sverige,mean,,1709.586669921875,1682.0,available,2025W52,2026-08-25T00:00:00Z,zhang-xgb/2025-12-28-zhang-xgb.csv
+zhang-xgb,13,2025-12-28,2026-01-04,weekly incident influenza cases,1,SE,Sverige,mean,,1757.8170166015625,2227.0,available,2026W01,2026-08-25T00:00:00Z,zhang-xgb/2025-12-28-zhang-xgb.csv
+zhang-xgb,13,2025-12-28,2026-01-11,weekly incident influenza cases,2,SE,Sverige,mean,,1457.8062744140625,1532.0,available,2026W02,2026-08-25T00:00:00Z,zhang-xgb/2025-12-28-zhang-xgb.csv
+zhang-xgb,13,2025-12-28,2026-01-18,weekly incident influenza cases,3,SE,Sverige,mean,,996.7100830078125,1082.0,available,2026W03,2026-08-25T00:00:00Z,zhang-xgb/2025-12-28-zhang-xgb.csv
+zhang-xgb,13,2025-12-28,2025-12-28,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,134.8479766845703,138.0,available,2025W52,2026-08-25T00:00:00Z,zhang-xgb/2025-12-28-zhang-xgb.csv
+zhang-xgb,13,2025-12-28,2026-01-04,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,140.97816467285156,190.0,available,2026W01,2026-08-25T00:00:00Z,zhang-xgb/2025-12-28-zhang-xgb.csv
+zhang-xgb,13,2025-12-28,2026-01-11,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,139.89767456054688,126.0,available,2026W02,2026-08-25T00:00:00Z,zhang-xgb/2025-12-28-zhang-xgb.csv
+zhang-xgb,13,2025-12-28,2026-01-18,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,115.65926361083984,130.0,available,2026W03,2026-08-25T00:00:00Z,zhang-xgb/2025-12-28-zhang-xgb.csv
+zhang-xgb,13,2025-12-28,2025-12-28,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,199.64869689941406,118.0,available,2025W52,2026-08-25T00:00:00Z,zhang-xgb/2025-12-28-zhang-xgb.csv
+zhang-xgb,13,2025-12-28,2026-01-04,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,199.941650390625,281.0,available,2026W01,2026-08-25T00:00:00Z,zhang-xgb/2025-12-28-zhang-xgb.csv
+zhang-xgb,13,2025-12-28,2026-01-11,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,176.59149169921875,260.0,available,2026W02,2026-08-25T00:00:00Z,zhang-xgb/2025-12-28-zhang-xgb.csv
+zhang-xgb,13,2025-12-28,2026-01-18,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,169.08509826660156,151.0,available,2026W03,2026-08-25T00:00:00Z,zhang-xgb/2025-12-28-zhang-xgb.csv
 brannstrom-seirlovvader,14,2026-01-04,2026-01-04,weekly incident influenza cases,0,SE,Sverige,mean,,1933.84589,2227.0,available,2026W01,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-01-04-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,14,2026-01-04,2026-01-11,weekly incident influenza cases,1,SE,Sverige,mean,,1305.366356,1532.0,available,2026W02,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-01-04-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,14,2026-01-04,2026-01-18,weekly incident influenza cases,2,SE,Sverige,mean,,1075.351823,1082.0,available,2026W03,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-01-04-brannstrom-seirlovvader.csv
@@ -503,6 +659,18 @@ gerlee-history,14,2026-01-04,2026-01-04,weekly incident influenza cases,0,SE-O,V
 gerlee-history,14,2026-01-04,2026-01-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,125.94147559138705,260.0,available,2026W02,2026-08-25T00:00:00Z,gerlee-history/2026-01-04-gerlee-history.csv
 gerlee-history,14,2026-01-04,2026-01-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,113.99313918501204,151.0,available,2026W03,2026-08-25T00:00:00Z,gerlee-history/2026-01-04-gerlee-history.csv
 gerlee-history,14,2026-01-04,2026-01-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,132.72088888756952,135.0,available,2026W04,2026-08-25T00:00:00Z,gerlee-history/2026-01-04-gerlee-history.csv
+zhang-xgb,14,2026-01-04,2026-01-04,weekly incident influenza cases,0,SE,Sverige,mean,,1634.848388671875,2227.0,available,2026W01,2026-08-25T00:00:00Z,zhang-xgb/2026-01-04-zhang-xgb.csv
+zhang-xgb,14,2026-01-04,2026-01-11,weekly incident influenza cases,1,SE,Sverige,mean,,1393.132080078125,1532.0,available,2026W02,2026-08-25T00:00:00Z,zhang-xgb/2026-01-04-zhang-xgb.csv
+zhang-xgb,14,2026-01-04,2026-01-18,weekly incident influenza cases,2,SE,Sverige,mean,,910.286865234375,1082.0,available,2026W03,2026-08-25T00:00:00Z,zhang-xgb/2026-01-04-zhang-xgb.csv
+zhang-xgb,14,2026-01-04,2026-01-25,weekly incident influenza cases,3,SE,Sverige,mean,,826.2232666015625,968.0,available,2026W04,2026-08-25T00:00:00Z,zhang-xgb/2026-01-04-zhang-xgb.csv
+zhang-xgb,14,2026-01-04,2026-01-04,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,142.83544921875,190.0,available,2026W01,2026-08-25T00:00:00Z,zhang-xgb/2026-01-04-zhang-xgb.csv
+zhang-xgb,14,2026-01-04,2026-01-11,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,124.97986602783203,126.0,available,2026W02,2026-08-25T00:00:00Z,zhang-xgb/2026-01-04-zhang-xgb.csv
+zhang-xgb,14,2026-01-04,2026-01-18,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,137.69265747070312,130.0,available,2026W03,2026-08-25T00:00:00Z,zhang-xgb/2026-01-04-zhang-xgb.csv
+zhang-xgb,14,2026-01-04,2026-01-25,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,154.15838623046875,133.0,available,2026W04,2026-08-25T00:00:00Z,zhang-xgb/2026-01-04-zhang-xgb.csv
+zhang-xgb,14,2026-01-04,2026-01-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,105.51182556152344,281.0,available,2026W01,2026-08-25T00:00:00Z,zhang-xgb/2026-01-04-zhang-xgb.csv
+zhang-xgb,14,2026-01-04,2026-01-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,90.05967712402344,260.0,available,2026W02,2026-08-25T00:00:00Z,zhang-xgb/2026-01-04-zhang-xgb.csv
+zhang-xgb,14,2026-01-04,2026-01-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,97.14106750488281,151.0,available,2026W03,2026-08-25T00:00:00Z,zhang-xgb/2026-01-04-zhang-xgb.csv
+zhang-xgb,14,2026-01-04,2026-01-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,120.31151580810547,135.0,available,2026W04,2026-08-25T00:00:00Z,zhang-xgb/2026-01-04-zhang-xgb.csv
 brannstrom-seirlovvader,15,2026-01-11,2026-01-11,weekly incident influenza cases,0,SE,Sverige,mean,,1705.608601,1532.0,available,2026W02,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-01-11-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,15,2026-01-11,2026-01-18,weekly incident influenza cases,1,SE,Sverige,mean,,1705.430025,1082.0,available,2026W03,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-01-11-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,15,2026-01-11,2026-01-25,weekly incident influenza cases,2,SE,Sverige,mean,,2122.410067,968.0,available,2026W04,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-01-11-brannstrom-seirlovvader.csv
@@ -539,6 +707,18 @@ gerlee-history,15,2026-01-11,2026-01-11,weekly incident influenza cases,0,SE-O,V
 gerlee-history,15,2026-01-11,2026-01-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,179.95654957402624,151.0,available,2026W03,2026-08-25T00:00:00Z,gerlee-history/2026-01-11-gerlee-history.csv
 gerlee-history,15,2026-01-11,2026-01-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,210.39188251334681,135.0,available,2026W04,2026-08-25T00:00:00Z,gerlee-history/2026-01-11-gerlee-history.csv
 gerlee-history,15,2026-01-11,2026-02-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,264.58062458180586,203.0,available,2026W05,2026-08-25T00:00:00Z,gerlee-history/2026-01-11-gerlee-history.csv
+zhang-xgb,15,2026-01-11,2026-01-11,weekly incident influenza cases,0,SE,Sverige,mean,,1992.6162109375,1532.0,available,2026W02,2026-08-25T00:00:00Z,zhang-xgb/2026-01-11-zhang-xgb.csv
+zhang-xgb,15,2026-01-11,2026-01-18,weekly incident influenza cases,1,SE,Sverige,mean,,1323.0223388671875,1082.0,available,2026W03,2026-08-25T00:00:00Z,zhang-xgb/2026-01-11-zhang-xgb.csv
+zhang-xgb,15,2026-01-11,2026-01-25,weekly incident influenza cases,2,SE,Sverige,mean,,1063.04638671875,968.0,available,2026W04,2026-08-25T00:00:00Z,zhang-xgb/2026-01-11-zhang-xgb.csv
+zhang-xgb,15,2026-01-11,2026-02-01,weekly incident influenza cases,3,SE,Sverige,mean,,1051.322021484375,1107.0,available,2026W05,2026-08-25T00:00:00Z,zhang-xgb/2026-01-11-zhang-xgb.csv
+zhang-xgb,15,2026-01-11,2026-01-11,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,188.93365478515625,126.0,available,2026W02,2026-08-25T00:00:00Z,zhang-xgb/2026-01-11-zhang-xgb.csv
+zhang-xgb,15,2026-01-11,2026-01-18,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,170.85491943359375,130.0,available,2026W03,2026-08-25T00:00:00Z,zhang-xgb/2026-01-11-zhang-xgb.csv
+zhang-xgb,15,2026-01-11,2026-01-25,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,172.71994018554688,133.0,available,2026W04,2026-08-25T00:00:00Z,zhang-xgb/2026-01-11-zhang-xgb.csv
+zhang-xgb,15,2026-01-11,2026-02-01,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,215.50135803222656,189.0,available,2026W05,2026-08-25T00:00:00Z,zhang-xgb/2026-01-11-zhang-xgb.csv
+zhang-xgb,15,2026-01-11,2026-01-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,263.665771484375,260.0,available,2026W02,2026-08-25T00:00:00Z,zhang-xgb/2026-01-11-zhang-xgb.csv
+zhang-xgb,15,2026-01-11,2026-01-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,236.066650390625,151.0,available,2026W03,2026-08-25T00:00:00Z,zhang-xgb/2026-01-11-zhang-xgb.csv
+zhang-xgb,15,2026-01-11,2026-01-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,252.6243896484375,135.0,available,2026W04,2026-08-25T00:00:00Z,zhang-xgb/2026-01-11-zhang-xgb.csv
+zhang-xgb,15,2026-01-11,2026-02-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,293.64935302734375,203.0,available,2026W05,2026-08-25T00:00:00Z,zhang-xgb/2026-01-11-zhang-xgb.csv
 brannstrom-seirlovvader,16,2026-01-18,2026-01-18,weekly incident influenza cases,0,SE,Sverige,mean,,1488.151474,1082.0,available,2026W03,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-01-18-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,16,2026-01-18,2026-01-25,weekly incident influenza cases,1,SE,Sverige,mean,,1880.712863,968.0,available,2026W04,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-01-18-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,16,2026-01-18,2026-02-01,weekly incident influenza cases,2,SE,Sverige,mean,,2220.814822,1107.0,available,2026W05,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-01-18-brannstrom-seirlovvader.csv
@@ -575,6 +755,18 @@ gerlee-history,16,2026-01-18,2026-01-18,weekly incident influenza cases,0,SE-O,V
 gerlee-history,16,2026-01-18,2026-01-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,263.91417371820637,135.0,available,2026W04,2026-08-25T00:00:00Z,gerlee-history/2026-01-18-gerlee-history.csv
 gerlee-history,16,2026-01-18,2026-02-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,336.0731157311942,203.0,available,2026W05,2026-08-25T00:00:00Z,gerlee-history/2026-01-18-gerlee-history.csv
 gerlee-history,16,2026-01-18,2026-02-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,358.3042037501376,230.0,available,2026W06,2026-08-25T00:00:00Z,gerlee-history/2026-01-18-gerlee-history.csv
+zhang-xgb,16,2026-01-18,2026-01-18,weekly incident influenza cases,0,SE,Sverige,mean,,1068.766357421875,1082.0,available,2026W03,2026-08-25T00:00:00Z,zhang-xgb/2026-01-18-zhang-xgb.csv
+zhang-xgb,16,2026-01-18,2026-01-25,weekly incident influenza cases,1,SE,Sverige,mean,,1119.3624267578125,968.0,available,2026W04,2026-08-25T00:00:00Z,zhang-xgb/2026-01-18-zhang-xgb.csv
+zhang-xgb,16,2026-01-18,2026-02-01,weekly incident influenza cases,2,SE,Sverige,mean,,908.0156860351562,1107.0,available,2026W05,2026-08-25T00:00:00Z,zhang-xgb/2026-01-18-zhang-xgb.csv
+zhang-xgb,16,2026-01-18,2026-02-08,weekly incident influenza cases,3,SE,Sverige,mean,,869.2568969726562,1404.0,available,2026W06,2026-08-25T00:00:00Z,zhang-xgb/2026-01-18-zhang-xgb.csv
+zhang-xgb,16,2026-01-18,2026-01-18,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,90.58939361572266,130.0,available,2026W03,2026-08-25T00:00:00Z,zhang-xgb/2026-01-18-zhang-xgb.csv
+zhang-xgb,16,2026-01-18,2026-01-25,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,99.79441833496094,133.0,available,2026W04,2026-08-25T00:00:00Z,zhang-xgb/2026-01-18-zhang-xgb.csv
+zhang-xgb,16,2026-01-18,2026-02-01,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,133.45559692382812,189.0,available,2026W05,2026-08-25T00:00:00Z,zhang-xgb/2026-01-18-zhang-xgb.csv
+zhang-xgb,16,2026-01-18,2026-02-08,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,152.803955078125,215.0,available,2026W06,2026-08-25T00:00:00Z,zhang-xgb/2026-01-18-zhang-xgb.csv
+zhang-xgb,16,2026-01-18,2026-01-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,242.1735382080078,151.0,available,2026W03,2026-08-25T00:00:00Z,zhang-xgb/2026-01-18-zhang-xgb.csv
+zhang-xgb,16,2026-01-18,2026-01-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,249.92933654785156,135.0,available,2026W04,2026-08-25T00:00:00Z,zhang-xgb/2026-01-18-zhang-xgb.csv
+zhang-xgb,16,2026-01-18,2026-02-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,276.40936279296875,203.0,available,2026W05,2026-08-25T00:00:00Z,zhang-xgb/2026-01-18-zhang-xgb.csv
+zhang-xgb,16,2026-01-18,2026-02-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,287.69927978515625,230.0,available,2026W06,2026-08-25T00:00:00Z,zhang-xgb/2026-01-18-zhang-xgb.csv
 brannstrom-seirlovvader,17,2026-01-25,2026-01-25,weekly incident influenza cases,0,SE,Sverige,mean,,990.617524,968.0,available,2026W04,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-01-25-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,17,2026-01-25,2026-02-01,weekly incident influenza cases,1,SE,Sverige,mean,,816.647988,1107.0,available,2026W05,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-01-25-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,17,2026-01-25,2026-02-08,weekly incident influenza cases,2,SE,Sverige,mean,,655.436304,1404.0,available,2026W06,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-01-25-brannstrom-seirlovvader.csv
@@ -611,6 +803,18 @@ gerlee-history,17,2026-01-25,2026-01-25,weekly incident influenza cases,0,SE-O,V
 gerlee-history,17,2026-01-25,2026-02-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,273.72763669208865,203.0,available,2026W05,2026-08-25T00:00:00Z,gerlee-history/2026-01-25-gerlee-history.csv
 gerlee-history,17,2026-01-25,2026-02-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,287.39969151707567,230.0,available,2026W06,2026-08-25T00:00:00Z,gerlee-history/2026-01-25-gerlee-history.csv
 gerlee-history,17,2026-01-25,2026-02-15,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,347.21825121398876,281.0,available,2026W07,2026-08-25T00:00:00Z,gerlee-history/2026-01-25-gerlee-history.csv
+zhang-xgb,17,2026-01-25,2026-01-25,weekly incident influenza cases,0,SE,Sverige,mean,,977.1630859375,968.0,available,2026W04,2026-08-25T00:00:00Z,zhang-xgb/2026-01-25-zhang-xgb.csv
+zhang-xgb,17,2026-01-25,2026-02-01,weekly incident influenza cases,1,SE,Sverige,mean,,1031.302734375,1107.0,available,2026W05,2026-08-25T00:00:00Z,zhang-xgb/2026-01-25-zhang-xgb.csv
+zhang-xgb,17,2026-01-25,2026-02-08,weekly incident influenza cases,2,SE,Sverige,mean,,847.5138549804688,1404.0,available,2026W06,2026-08-25T00:00:00Z,zhang-xgb/2026-01-25-zhang-xgb.csv
+zhang-xgb,17,2026-01-25,2026-02-15,weekly incident influenza cases,3,SE,Sverige,mean,,824.947021484375,1616.0,available,2026W07,2026-08-25T00:00:00Z,zhang-xgb/2026-01-25-zhang-xgb.csv
+zhang-xgb,17,2026-01-25,2026-01-25,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,142.93690490722656,133.0,available,2026W04,2026-08-25T00:00:00Z,zhang-xgb/2026-01-25-zhang-xgb.csv
+zhang-xgb,17,2026-01-25,2026-02-01,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,178.16441345214844,189.0,available,2026W05,2026-08-25T00:00:00Z,zhang-xgb/2026-01-25-zhang-xgb.csv
+zhang-xgb,17,2026-01-25,2026-02-08,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,187.69619750976562,215.0,available,2026W06,2026-08-25T00:00:00Z,zhang-xgb/2026-01-25-zhang-xgb.csv
+zhang-xgb,17,2026-01-25,2026-02-15,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,182.4999542236328,224.0,available,2026W07,2026-08-25T00:00:00Z,zhang-xgb/2026-01-25-zhang-xgb.csv
+zhang-xgb,17,2026-01-25,2026-01-25,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,143.0589599609375,135.0,available,2026W04,2026-08-25T00:00:00Z,zhang-xgb/2026-01-25-zhang-xgb.csv
+zhang-xgb,17,2026-01-25,2026-02-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,178.20358276367188,203.0,available,2026W05,2026-08-25T00:00:00Z,zhang-xgb/2026-01-25-zhang-xgb.csv
+zhang-xgb,17,2026-01-25,2026-02-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,207.95034790039062,230.0,available,2026W06,2026-08-25T00:00:00Z,zhang-xgb/2026-01-25-zhang-xgb.csv
+zhang-xgb,17,2026-01-25,2026-02-15,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,241.39024353027344,281.0,available,2026W07,2026-08-25T00:00:00Z,zhang-xgb/2026-01-25-zhang-xgb.csv
 brannstrom-seirlovvader,18,2026-02-01,2026-02-01,weekly incident influenza cases,0,SE,Sverige,mean,,795.667835,1107.0,available,2026W05,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-02-01-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,18,2026-02-01,2026-02-08,weekly incident influenza cases,1,SE,Sverige,mean,,645.536159,1404.0,available,2026W06,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-02-01-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,18,2026-02-01,2026-02-15,weekly incident influenza cases,2,SE,Sverige,mean,,501.07861,1616.0,available,2026W07,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-02-01-brannstrom-seirlovvader.csv
@@ -647,6 +851,18 @@ gerlee-history,18,2026-02-01,2026-02-01,weekly incident influenza cases,0,SE-O,V
 gerlee-history,18,2026-02-01,2026-02-08,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,233.7029541119091,230.0,available,2026W06,2026-08-25T00:00:00Z,gerlee-history/2026-02-01-gerlee-history.csv
 gerlee-history,18,2026-02-01,2026-02-15,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,280.9515468590381,281.0,available,2026W07,2026-08-25T00:00:00Z,gerlee-history/2026-02-01-gerlee-history.csv
 gerlee-history,18,2026-02-01,2026-02-22,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,267.66588444314334,257.0,available,2026W08,2026-08-25T00:00:00Z,gerlee-history/2026-02-01-gerlee-history.csv
+zhang-xgb,18,2026-02-01,2026-02-01,weekly incident influenza cases,0,SE,Sverige,mean,,950.1146240234375,1107.0,available,2026W05,2026-08-25T00:00:00Z,zhang-xgb/2026-02-01-zhang-xgb.csv
+zhang-xgb,18,2026-02-01,2026-02-08,weekly incident influenza cases,1,SE,Sverige,mean,,942.3971557617188,1404.0,available,2026W06,2026-08-25T00:00:00Z,zhang-xgb/2026-02-01-zhang-xgb.csv
+zhang-xgb,18,2026-02-01,2026-02-15,weekly incident influenza cases,2,SE,Sverige,mean,,1006.6400756835938,1616.0,available,2026W07,2026-08-25T00:00:00Z,zhang-xgb/2026-02-01-zhang-xgb.csv
+zhang-xgb,18,2026-02-01,2026-02-22,weekly incident influenza cases,3,SE,Sverige,mean,,1067.423828125,1529.0,available,2026W08,2026-08-25T00:00:00Z,zhang-xgb/2026-02-01-zhang-xgb.csv
+zhang-xgb,18,2026-02-01,2026-02-01,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,148.72877502441406,189.0,available,2026W05,2026-08-25T00:00:00Z,zhang-xgb/2026-02-01-zhang-xgb.csv
+zhang-xgb,18,2026-02-01,2026-02-08,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,169.9335479736328,215.0,available,2026W06,2026-08-25T00:00:00Z,zhang-xgb/2026-02-01-zhang-xgb.csv
+zhang-xgb,18,2026-02-01,2026-02-15,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,194.46853637695312,224.0,available,2026W07,2026-08-25T00:00:00Z,zhang-xgb/2026-02-01-zhang-xgb.csv
+zhang-xgb,18,2026-02-01,2026-02-22,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,215.40992736816406,188.0,available,2026W08,2026-08-25T00:00:00Z,zhang-xgb/2026-02-01-zhang-xgb.csv
+zhang-xgb,18,2026-02-01,2026-02-01,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,137.28480529785156,203.0,available,2026W05,2026-08-25T00:00:00Z,zhang-xgb/2026-02-01-zhang-xgb.csv
+zhang-xgb,18,2026-02-01,2026-02-08,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,161.54527282714844,230.0,available,2026W06,2026-08-25T00:00:00Z,zhang-xgb/2026-02-01-zhang-xgb.csv
+zhang-xgb,18,2026-02-01,2026-02-15,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,183.5423126220703,281.0,available,2026W07,2026-08-25T00:00:00Z,zhang-xgb/2026-02-01-zhang-xgb.csv
+zhang-xgb,18,2026-02-01,2026-02-22,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,182.3384246826172,257.0,available,2026W08,2026-08-25T00:00:00Z,zhang-xgb/2026-02-01-zhang-xgb.csv
 brannstrom-seirlovvader,19,2026-02-08,2026-02-08,weekly incident influenza cases,0,SE,Sverige,mean,,1243.404624,1404.0,available,2026W06,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-02-08-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,19,2026-02-08,2026-02-15,weekly incident influenza cases,1,SE,Sverige,mean,,1408.419651,1616.0,available,2026W07,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-02-08-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,19,2026-02-08,2026-02-22,weekly incident influenza cases,2,SE,Sverige,mean,,1361.369646,1529.0,available,2026W08,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-02-08-brannstrom-seirlovvader.csv
@@ -683,6 +899,18 @@ gerlee-history,19,2026-02-08,2026-02-08,weekly incident influenza cases,0,SE-O,V
 gerlee-history,19,2026-02-08,2026-02-15,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,255.97741921893834,281.0,available,2026W07,2026-08-25T00:00:00Z,gerlee-history/2026-02-08-gerlee-history.csv
 gerlee-history,19,2026-02-08,2026-02-22,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,241.28753792229566,257.0,available,2026W08,2026-08-25T00:00:00Z,gerlee-history/2026-02-08-gerlee-history.csv
 gerlee-history,19,2026-02-08,2026-03-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,177.25486073424355,185.0,available,2026W09,2026-08-25T00:00:00Z,gerlee-history/2026-02-08-gerlee-history.csv
+zhang-xgb,19,2026-02-08,2026-02-08,weekly incident influenza cases,0,SE,Sverige,mean,,1241.2215576171875,1404.0,available,2026W06,2026-08-25T00:00:00Z,zhang-xgb/2026-02-08-zhang-xgb.csv
+zhang-xgb,19,2026-02-08,2026-02-15,weekly incident influenza cases,1,SE,Sverige,mean,,1359.1300048828125,1616.0,available,2026W07,2026-08-25T00:00:00Z,zhang-xgb/2026-02-08-zhang-xgb.csv
+zhang-xgb,19,2026-02-08,2026-02-22,weekly incident influenza cases,2,SE,Sverige,mean,,1385.0604248046875,1529.0,available,2026W08,2026-08-25T00:00:00Z,zhang-xgb/2026-02-08-zhang-xgb.csv
+zhang-xgb,19,2026-02-08,2026-03-01,weekly incident influenza cases,3,SE,Sverige,mean,,1296.2596435546875,1252.0,available,2026W09,2026-08-25T00:00:00Z,zhang-xgb/2026-02-08-zhang-xgb.csv
+zhang-xgb,19,2026-02-08,2026-02-08,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,226.23733520507812,215.0,available,2026W06,2026-08-25T00:00:00Z,zhang-xgb/2026-02-08-zhang-xgb.csv
+zhang-xgb,19,2026-02-08,2026-02-15,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,261.2437744140625,224.0,available,2026W07,2026-08-25T00:00:00Z,zhang-xgb/2026-02-08-zhang-xgb.csv
+zhang-xgb,19,2026-02-08,2026-02-22,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,272.65277099609375,188.0,available,2026W08,2026-08-25T00:00:00Z,zhang-xgb/2026-02-08-zhang-xgb.csv
+zhang-xgb,19,2026-02-08,2026-03-01,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,235.2188720703125,156.0,available,2026W09,2026-08-25T00:00:00Z,zhang-xgb/2026-02-08-zhang-xgb.csv
+zhang-xgb,19,2026-02-08,2026-02-08,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,243.8228302001953,230.0,available,2026W06,2026-08-25T00:00:00Z,zhang-xgb/2026-02-08-zhang-xgb.csv
+zhang-xgb,19,2026-02-08,2026-02-15,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,281.3802795410156,281.0,available,2026W07,2026-08-25T00:00:00Z,zhang-xgb/2026-02-08-zhang-xgb.csv
+zhang-xgb,19,2026-02-08,2026-02-22,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,282.9871520996094,257.0,available,2026W08,2026-08-25T00:00:00Z,zhang-xgb/2026-02-08-zhang-xgb.csv
+zhang-xgb,19,2026-02-08,2026-03-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,255.3142852783203,185.0,available,2026W09,2026-08-25T00:00:00Z,zhang-xgb/2026-02-08-zhang-xgb.csv
 brannstrom-seirlovvader,20,2026-02-15,2026-02-15,weekly incident influenza cases,0,SE,Sverige,mean,,1866.123866,1616.0,available,2026W07,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-02-15-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,20,2026-02-15,2026-02-22,weekly incident influenza cases,1,SE,Sverige,mean,,2141.100769,1529.0,available,2026W08,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-02-15-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,20,2026-02-15,2026-03-01,weekly incident influenza cases,2,SE,Sverige,mean,,1945.827162,1252.0,available,2026W09,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-02-15-brannstrom-seirlovvader.csv
@@ -719,6 +947,18 @@ gerlee-history,20,2026-02-15,2026-02-15,weekly incident influenza cases,0,SE-O,V
 gerlee-history,20,2026-02-15,2026-02-22,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,255.87788867788467,257.0,available,2026W08,2026-08-25T00:00:00Z,gerlee-history/2026-02-15-gerlee-history.csv
 gerlee-history,20,2026-02-15,2026-03-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,189.74503077853547,185.0,available,2026W09,2026-08-25T00:00:00Z,gerlee-history/2026-02-15-gerlee-history.csv
 gerlee-history,20,2026-02-15,2026-03-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,176.95943656441057,143.0,available,2026W10,2026-08-25T00:00:00Z,gerlee-history/2026-02-15-gerlee-history.csv
+zhang-xgb,20,2026-02-15,2026-02-15,weekly incident influenza cases,0,SE,Sverige,mean,,1629.0928955078125,1616.0,available,2026W07,2026-08-25T00:00:00Z,zhang-xgb/2026-02-15-zhang-xgb.csv
+zhang-xgb,20,2026-02-15,2026-02-22,weekly incident influenza cases,1,SE,Sverige,mean,,1776.9786376953125,1529.0,available,2026W08,2026-08-25T00:00:00Z,zhang-xgb/2026-02-15-zhang-xgb.csv
+zhang-xgb,20,2026-02-15,2026-03-01,weekly incident influenza cases,2,SE,Sverige,mean,,1706.177734375,1252.0,available,2026W09,2026-08-25T00:00:00Z,zhang-xgb/2026-02-15-zhang-xgb.csv
+zhang-xgb,20,2026-02-15,2026-03-08,weekly incident influenza cases,3,SE,Sverige,mean,,1389.3468017578125,775.0,available,2026W10,2026-08-25T00:00:00Z,zhang-xgb/2026-02-15-zhang-xgb.csv
+zhang-xgb,20,2026-02-15,2026-02-15,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,249.01539611816406,224.0,available,2026W07,2026-08-25T00:00:00Z,zhang-xgb/2026-02-15-zhang-xgb.csv
+zhang-xgb,20,2026-02-15,2026-02-22,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,267.9093322753906,188.0,available,2026W08,2026-08-25T00:00:00Z,zhang-xgb/2026-02-15-zhang-xgb.csv
+zhang-xgb,20,2026-02-15,2026-03-01,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,256.2233581542969,156.0,available,2026W09,2026-08-25T00:00:00Z,zhang-xgb/2026-02-15-zhang-xgb.csv
+zhang-xgb,20,2026-02-15,2026-03-08,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,207.70745849609375,70.0,available,2026W10,2026-08-25T00:00:00Z,zhang-xgb/2026-02-15-zhang-xgb.csv
+zhang-xgb,20,2026-02-15,2026-02-15,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,264.60321044921875,281.0,available,2026W07,2026-08-25T00:00:00Z,zhang-xgb/2026-02-15-zhang-xgb.csv
+zhang-xgb,20,2026-02-15,2026-02-22,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,269.610595703125,257.0,available,2026W08,2026-08-25T00:00:00Z,zhang-xgb/2026-02-15-zhang-xgb.csv
+zhang-xgb,20,2026-02-15,2026-03-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,273.0093688964844,185.0,available,2026W09,2026-08-25T00:00:00Z,zhang-xgb/2026-02-15-zhang-xgb.csv
+zhang-xgb,20,2026-02-15,2026-03-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,223.6757049560547,143.0,available,2026W10,2026-08-25T00:00:00Z,zhang-xgb/2026-02-15-zhang-xgb.csv
 brannstrom-seirlovvader,21,2026-02-22,2026-02-22,weekly incident influenza cases,0,SE,Sverige,mean,,1745.546358,1529.0,available,2026W08,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-02-22-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,21,2026-02-22,2026-03-01,weekly incident influenza cases,1,SE,Sverige,mean,,1572.857871,1252.0,available,2026W09,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-02-22-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,21,2026-02-22,2026-03-08,weekly incident influenza cases,2,SE,Sverige,mean,,1144.4586,775.0,available,2026W10,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-02-22-brannstrom-seirlovvader.csv
@@ -755,6 +995,18 @@ gerlee-history,21,2026-02-22,2026-02-22,weekly incident influenza cases,0,SE-O,V
 gerlee-history,21,2026-02-22,2026-03-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,201.0585805807218,185.0,available,2026W09,2026-08-25T00:00:00Z,gerlee-history/2026-02-22-gerlee-history.csv
 gerlee-history,21,2026-02-22,2026-03-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,189.5430227855178,143.0,available,2026W10,2026-08-25T00:00:00Z,gerlee-history/2026-02-22-gerlee-history.csv
 gerlee-history,21,2026-02-22,2026-03-15,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,157.32318671066054,80.0,available,2026W11,2026-08-25T00:00:00Z,gerlee-history/2026-02-22-gerlee-history.csv
+zhang-xgb,21,2026-02-22,2026-02-22,weekly incident influenza cases,0,SE,Sverige,mean,,1760.1553955078125,1529.0,available,2026W08,2026-08-25T00:00:00Z,zhang-xgb/2026-02-22-zhang-xgb.csv
+zhang-xgb,21,2026-02-22,2026-03-01,weekly incident influenza cases,1,SE,Sverige,mean,,1844.670166015625,1252.0,available,2026W09,2026-08-25T00:00:00Z,zhang-xgb/2026-02-22-zhang-xgb.csv
+zhang-xgb,21,2026-02-22,2026-03-08,weekly incident influenza cases,2,SE,Sverige,mean,,1489.357177734375,775.0,available,2026W10,2026-08-25T00:00:00Z,zhang-xgb/2026-02-22-zhang-xgb.csv
+zhang-xgb,21,2026-02-22,2026-03-15,weekly incident influenza cases,3,SE,Sverige,mean,,1155.7640380859375,475.0,available,2026W11,2026-08-25T00:00:00Z,zhang-xgb/2026-02-22-zhang-xgb.csv
+zhang-xgb,21,2026-02-22,2026-02-22,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,230.76536560058594,188.0,available,2026W08,2026-08-25T00:00:00Z,zhang-xgb/2026-02-22-zhang-xgb.csv
+zhang-xgb,21,2026-02-22,2026-03-01,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,219.529296875,156.0,available,2026W09,2026-08-25T00:00:00Z,zhang-xgb/2026-02-22-zhang-xgb.csv
+zhang-xgb,21,2026-02-22,2026-03-08,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,189.39376831054688,70.0,available,2026W10,2026-08-25T00:00:00Z,zhang-xgb/2026-02-22-zhang-xgb.csv
+zhang-xgb,21,2026-02-22,2026-03-15,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,145.96383666992188,30.0,available,2026W11,2026-08-25T00:00:00Z,zhang-xgb/2026-02-22-zhang-xgb.csv
+zhang-xgb,21,2026-02-22,2026-02-22,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,289.8206787109375,257.0,available,2026W08,2026-08-25T00:00:00Z,zhang-xgb/2026-02-22-zhang-xgb.csv
+zhang-xgb,21,2026-02-22,2026-03-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,294.2851867675781,185.0,available,2026W09,2026-08-25T00:00:00Z,zhang-xgb/2026-02-22-zhang-xgb.csv
+zhang-xgb,21,2026-02-22,2026-03-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,249.5724334716797,143.0,available,2026W10,2026-08-25T00:00:00Z,zhang-xgb/2026-02-22-zhang-xgb.csv
+zhang-xgb,21,2026-02-22,2026-03-15,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,200.29788208007812,80.0,available,2026W11,2026-08-25T00:00:00Z,zhang-xgb/2026-02-22-zhang-xgb.csv
 brannstrom-seirlovvader,22,2026-03-01,2026-03-01,weekly incident influenza cases,0,SE,Sverige,mean,,1264.698116,1252.0,available,2026W09,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-01-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,22,2026-03-01,2026-03-08,weekly incident influenza cases,1,SE,Sverige,mean,,849.694664,775.0,available,2026W10,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-01-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,22,2026-03-01,2026-03-15,weekly incident influenza cases,2,SE,Sverige,mean,,505.088105,475.0,available,2026W11,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-01-brannstrom-seirlovvader.csv
@@ -791,6 +1043,18 @@ gerlee-history,22,2026-03-01,2026-03-01,weekly incident influenza cases,0,SE-O,V
 gerlee-history,22,2026-03-01,2026-03-08,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,182.6435664870677,143.0,available,2026W10,2026-08-25T00:00:00Z,gerlee-history/2026-03-01-gerlee-history.csv
 gerlee-history,22,2026-03-01,2026-03-15,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,151.78886801249993,80.0,available,2026W11,2026-08-25T00:00:00Z,gerlee-history/2026-03-01-gerlee-history.csv
 gerlee-history,22,2026-03-01,2026-03-22,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,113.86952692123731,50.0,available,2026W12,2026-08-25T00:00:00Z,gerlee-history/2026-03-01-gerlee-history.csv
+zhang-xgb,22,2026-03-01,2026-03-01,weekly incident influenza cases,0,SE,Sverige,mean,,1463.22509765625,1252.0,available,2026W09,2026-08-25T00:00:00Z,zhang-xgb/2026-03-01-zhang-xgb.csv
+zhang-xgb,22,2026-03-01,2026-03-08,weekly incident influenza cases,1,SE,Sverige,mean,,1271.4090576171875,775.0,available,2026W10,2026-08-25T00:00:00Z,zhang-xgb/2026-03-01-zhang-xgb.csv
+zhang-xgb,22,2026-03-01,2026-03-15,weekly incident influenza cases,2,SE,Sverige,mean,,1065.9061279296875,475.0,available,2026W11,2026-08-25T00:00:00Z,zhang-xgb/2026-03-01-zhang-xgb.csv
+zhang-xgb,22,2026-03-01,2026-03-22,weekly incident influenza cases,3,SE,Sverige,mean,,910.5985717773438,321.0,available,2026W12,2026-08-25T00:00:00Z,zhang-xgb/2026-03-01-zhang-xgb.csv
+zhang-xgb,22,2026-03-01,2026-03-01,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,171.03237915039062,156.0,available,2026W09,2026-08-25T00:00:00Z,zhang-xgb/2026-03-01-zhang-xgb.csv
+zhang-xgb,22,2026-03-01,2026-03-08,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,140.82733154296875,70.0,available,2026W10,2026-08-25T00:00:00Z,zhang-xgb/2026-03-01-zhang-xgb.csv
+zhang-xgb,22,2026-03-01,2026-03-15,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,112.71500396728516,30.0,available,2026W11,2026-08-25T00:00:00Z,zhang-xgb/2026-03-01-zhang-xgb.csv
+zhang-xgb,22,2026-03-01,2026-03-22,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,94.66871643066406,25.0,available,2026W12,2026-08-25T00:00:00Z,zhang-xgb/2026-03-01-zhang-xgb.csv
+zhang-xgb,22,2026-03-01,2026-03-01,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,238.90309143066406,185.0,available,2026W09,2026-08-25T00:00:00Z,zhang-xgb/2026-03-01-zhang-xgb.csv
+zhang-xgb,22,2026-03-01,2026-03-08,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,199.71792602539062,143.0,available,2026W10,2026-08-25T00:00:00Z,zhang-xgb/2026-03-01-zhang-xgb.csv
+zhang-xgb,22,2026-03-01,2026-03-15,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,166.67645263671875,80.0,available,2026W11,2026-08-25T00:00:00Z,zhang-xgb/2026-03-01-zhang-xgb.csv
+zhang-xgb,22,2026-03-01,2026-03-22,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,135.6088104248047,50.0,available,2026W12,2026-08-25T00:00:00Z,zhang-xgb/2026-03-01-zhang-xgb.csv
 brannstrom-seirlovvader,23,2026-03-08,2026-03-08,weekly incident influenza cases,0,SE,Sverige,mean,,808.062183,775.0,available,2026W10,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-08-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,23,2026-03-08,2026-03-15,weekly incident influenza cases,1,SE,Sverige,mean,,443.980794,475.0,available,2026W11,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-08-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,23,2026-03-08,2026-03-22,weekly incident influenza cases,2,SE,Sverige,mean,,242.958066,321.0,available,2026W12,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-08-brannstrom-seirlovvader.csv
@@ -827,6 +1091,18 @@ gerlee-history,23,2026-03-08,2026-03-08,weekly incident influenza cases,0,SE-O,V
 gerlee-history,23,2026-03-08,2026-03-15,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,148.0664386515423,80.0,available,2026W11,2026-08-25T00:00:00Z,gerlee-history/2026-03-08-gerlee-history.csv
 gerlee-history,23,2026-03-08,2026-03-22,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,109.91421933325732,50.0,available,2026W12,2026-08-25T00:00:00Z,gerlee-history/2026-03-08-gerlee-history.csv
 gerlee-history,23,2026-03-08,2026-03-29,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,74.78915674725386,39.0,available,2026W13,2026-08-25T00:00:00Z,gerlee-history/2026-03-08-gerlee-history.csv
+zhang-xgb,23,2026-03-08,2026-03-08,weekly incident influenza cases,0,SE,Sverige,mean,,1037.6180419921875,775.0,available,2026W10,2026-08-25T00:00:00Z,zhang-xgb/2026-03-08-zhang-xgb.csv
+zhang-xgb,23,2026-03-08,2026-03-15,weekly incident influenza cases,1,SE,Sverige,mean,,882.0615844726562,475.0,available,2026W11,2026-08-25T00:00:00Z,zhang-xgb/2026-03-08-zhang-xgb.csv
+zhang-xgb,23,2026-03-08,2026-03-22,weekly incident influenza cases,2,SE,Sverige,mean,,751.9628295898438,321.0,available,2026W12,2026-08-25T00:00:00Z,zhang-xgb/2026-03-08-zhang-xgb.csv
+zhang-xgb,23,2026-03-08,2026-03-29,weekly incident influenza cases,3,SE,Sverige,mean,,633.6861572265625,223.0,available,2026W13,2026-08-25T00:00:00Z,zhang-xgb/2026-03-08-zhang-xgb.csv
+zhang-xgb,23,2026-03-08,2026-03-08,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,124.27411651611328,70.0,available,2026W10,2026-08-25T00:00:00Z,zhang-xgb/2026-03-08-zhang-xgb.csv
+zhang-xgb,23,2026-03-08,2026-03-15,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,105.8324966430664,30.0,available,2026W11,2026-08-25T00:00:00Z,zhang-xgb/2026-03-08-zhang-xgb.csv
+zhang-xgb,23,2026-03-08,2026-03-22,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,84.1471939086914,25.0,available,2026W12,2026-08-25T00:00:00Z,zhang-xgb/2026-03-08-zhang-xgb.csv
+zhang-xgb,23,2026-03-08,2026-03-29,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,68.73483276367188,17.0,available,2026W13,2026-08-25T00:00:00Z,zhang-xgb/2026-03-08-zhang-xgb.csv
+zhang-xgb,23,2026-03-08,2026-03-08,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,145.94615173339844,143.0,available,2026W10,2026-08-25T00:00:00Z,zhang-xgb/2026-03-08-zhang-xgb.csv
+zhang-xgb,23,2026-03-08,2026-03-15,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,123.09217071533203,80.0,available,2026W11,2026-08-25T00:00:00Z,zhang-xgb/2026-03-08-zhang-xgb.csv
+zhang-xgb,23,2026-03-08,2026-03-22,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,103.40696716308594,50.0,available,2026W12,2026-08-25T00:00:00Z,zhang-xgb/2026-03-08-zhang-xgb.csv
+zhang-xgb,23,2026-03-08,2026-03-29,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,84.9648666381836,39.0,available,2026W13,2026-08-25T00:00:00Z,zhang-xgb/2026-03-08-zhang-xgb.csv
 brannstrom-seirlovvader,24,2026-03-15,2026-03-15,weekly incident influenza cases,0,SE,Sverige,mean,,405.771658,475.0,available,2026W11,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-15-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,24,2026-03-15,2026-03-22,weekly incident influenza cases,1,SE,Sverige,mean,,202.041698,321.0,available,2026W12,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-15-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,24,2026-03-15,2026-03-29,weekly incident influenza cases,2,SE,Sverige,mean,,104.035254,223.0,available,2026W13,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-15-brannstrom-seirlovvader.csv
@@ -863,6 +1139,18 @@ gerlee-history,24,2026-03-15,2026-03-15,weekly incident influenza cases,0,SE-O,V
 gerlee-history,24,2026-03-15,2026-03-22,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,95.02545240699374,50.0,available,2026W12,2026-08-25T00:00:00Z,gerlee-history/2026-03-15-gerlee-history.csv
 gerlee-history,24,2026-03-15,2026-03-29,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,67.52869486827055,39.0,available,2026W13,2026-08-25T00:00:00Z,gerlee-history/2026-03-15-gerlee-history.csv
 gerlee-history,24,2026-03-15,2026-04-05,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,55.101261422970644,24.0,available,2026W14,2026-08-25T00:00:00Z,gerlee-history/2026-03-15-gerlee-history.csv
+zhang-xgb,24,2026-03-15,2026-03-15,weekly incident influenza cases,0,SE,Sverige,mean,,604.1387329101562,475.0,available,2026W11,2026-08-25T00:00:00Z,zhang-xgb/2026-03-15-zhang-xgb.csv
+zhang-xgb,24,2026-03-15,2026-03-22,weekly incident influenza cases,1,SE,Sverige,mean,,525.111083984375,321.0,available,2026W12,2026-08-25T00:00:00Z,zhang-xgb/2026-03-15-zhang-xgb.csv
+zhang-xgb,24,2026-03-15,2026-03-29,weekly incident influenza cases,2,SE,Sverige,mean,,441.4757995605469,223.0,available,2026W13,2026-08-25T00:00:00Z,zhang-xgb/2026-03-15-zhang-xgb.csv
+zhang-xgb,24,2026-03-15,2026-04-05,weekly incident influenza cases,3,SE,Sverige,mean,,389.2559814453125,187.0,available,2026W14,2026-08-25T00:00:00Z,zhang-xgb/2026-03-15-zhang-xgb.csv
+zhang-xgb,24,2026-03-15,2026-03-15,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,49.03243637084961,30.0,available,2026W11,2026-08-25T00:00:00Z,zhang-xgb/2026-03-15-zhang-xgb.csv
+zhang-xgb,24,2026-03-15,2026-03-22,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,39.17698287963867,25.0,available,2026W12,2026-08-25T00:00:00Z,zhang-xgb/2026-03-15-zhang-xgb.csv
+zhang-xgb,24,2026-03-15,2026-03-29,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,36.462127685546875,17.0,available,2026W13,2026-08-25T00:00:00Z,zhang-xgb/2026-03-15-zhang-xgb.csv
+zhang-xgb,24,2026-03-15,2026-04-05,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,30.164501190185547,11.0,available,2026W14,2026-08-25T00:00:00Z,zhang-xgb/2026-03-15-zhang-xgb.csv
+zhang-xgb,24,2026-03-15,2026-03-15,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,117.50259399414062,80.0,available,2026W11,2026-08-25T00:00:00Z,zhang-xgb/2026-03-15-zhang-xgb.csv
+zhang-xgb,24,2026-03-15,2026-03-22,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,96.76000213623047,50.0,available,2026W12,2026-08-25T00:00:00Z,zhang-xgb/2026-03-15-zhang-xgb.csv
+zhang-xgb,24,2026-03-15,2026-03-29,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,77.23054504394531,39.0,available,2026W13,2026-08-25T00:00:00Z,zhang-xgb/2026-03-15-zhang-xgb.csv
+zhang-xgb,24,2026-03-15,2026-04-05,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,64.45384216308594,24.0,available,2026W14,2026-08-25T00:00:00Z,zhang-xgb/2026-03-15-zhang-xgb.csv
 brannstrom-seirlovvader,25,2026-03-22,2026-03-22,weekly incident influenza cases,0,SE,Sverige,mean,,251.374848,321.0,available,2026W12,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-22-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,25,2026-03-22,2026-03-29,weekly incident influenza cases,1,SE,Sverige,mean,,139.500204,223.0,available,2026W13,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-22-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,25,2026-03-22,2026-04-05,weekly incident influenza cases,2,SE,Sverige,mean,,76.022291,187.0,available,2026W14,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-22-brannstrom-seirlovvader.csv
@@ -899,6 +1187,18 @@ gerlee-history,25,2026-03-22,2026-03-22,weekly incident influenza cases,0,SE-O,V
 gerlee-history,25,2026-03-22,2026-03-29,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,67.75900425231092,39.0,available,2026W13,2026-08-25T00:00:00Z,gerlee-history/2026-03-22-gerlee-history.csv
 gerlee-history,25,2026-03-22,2026-04-05,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,56.78558762550084,24.0,available,2026W14,2026-08-25T00:00:00Z,gerlee-history/2026-03-22-gerlee-history.csv
 gerlee-history,25,2026-03-22,2026-04-12,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,43.688422802766006,27.0,available,2026W15,2026-08-25T00:00:00Z,gerlee-history/2026-03-22-gerlee-history.csv
+zhang-xgb,25,2026-03-22,2026-03-22,weekly incident influenza cases,0,SE,Sverige,mean,,347.4582824707031,321.0,available,2026W12,2026-08-25T00:00:00Z,zhang-xgb/2026-03-22-zhang-xgb.csv
+zhang-xgb,25,2026-03-22,2026-03-29,weekly incident influenza cases,1,SE,Sverige,mean,,317.0536193847656,223.0,available,2026W13,2026-08-25T00:00:00Z,zhang-xgb/2026-03-22-zhang-xgb.csv
+zhang-xgb,25,2026-03-22,2026-04-05,weekly incident influenza cases,2,SE,Sverige,mean,,267.3857116699219,187.0,available,2026W14,2026-08-25T00:00:00Z,zhang-xgb/2026-03-22-zhang-xgb.csv
+zhang-xgb,25,2026-03-22,2026-04-12,weekly incident influenza cases,3,SE,Sverige,mean,,240.02061462402344,175.0,available,2026W15,2026-08-25T00:00:00Z,zhang-xgb/2026-03-22-zhang-xgb.csv
+zhang-xgb,25,2026-03-22,2026-03-22,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,20.76721954345703,25.0,available,2026W12,2026-08-25T00:00:00Z,zhang-xgb/2026-03-22-zhang-xgb.csv
+zhang-xgb,25,2026-03-22,2026-03-29,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,18.555011749267578,17.0,available,2026W13,2026-08-25T00:00:00Z,zhang-xgb/2026-03-22-zhang-xgb.csv
+zhang-xgb,25,2026-03-22,2026-04-05,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,16.386995315551758,11.0,available,2026W14,2026-08-25T00:00:00Z,zhang-xgb/2026-03-22-zhang-xgb.csv
+zhang-xgb,25,2026-03-22,2026-04-12,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,13.466793060302734,9.0,available,2026W15,2026-08-25T00:00:00Z,zhang-xgb/2026-03-22-zhang-xgb.csv
+zhang-xgb,25,2026-03-22,2026-03-22,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,60.94541931152344,50.0,available,2026W12,2026-08-25T00:00:00Z,zhang-xgb/2026-03-22-zhang-xgb.csv
+zhang-xgb,25,2026-03-22,2026-03-29,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,53.128028869628906,39.0,available,2026W13,2026-08-25T00:00:00Z,zhang-xgb/2026-03-22-zhang-xgb.csv
+zhang-xgb,25,2026-03-22,2026-04-05,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,42.512901306152344,24.0,available,2026W14,2026-08-25T00:00:00Z,zhang-xgb/2026-03-22-zhang-xgb.csv
+zhang-xgb,25,2026-03-22,2026-04-12,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,36.028438568115234,27.0,available,2026W15,2026-08-25T00:00:00Z,zhang-xgb/2026-03-22-zhang-xgb.csv
 brannstrom-seirlovvader,26,2026-03-29,2026-03-29,weekly incident influenza cases,0,SE,Sverige,mean,,197.445591,223.0,available,2026W13,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-29-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,26,2026-03-29,2026-04-05,weekly incident influenza cases,1,SE,Sverige,mean,,122.330939,187.0,available,2026W14,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-29-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,26,2026-03-29,2026-04-12,weekly incident influenza cases,2,SE,Sverige,mean,,89.049662,175.0,available,2026W15,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-03-29-brannstrom-seirlovvader.csv
@@ -935,6 +1235,18 @@ gerlee-history,26,2026-03-29,2026-03-29,weekly incident influenza cases,0,SE-O,V
 gerlee-history,26,2026-03-29,2026-04-05,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,57.24651682129598,24.0,available,2026W14,2026-08-25T00:00:00Z,gerlee-history/2026-03-29-gerlee-history.csv
 gerlee-history,26,2026-03-29,2026-04-12,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,44.516777416110315,27.0,available,2026W15,2026-08-25T00:00:00Z,gerlee-history/2026-03-29-gerlee-history.csv
 gerlee-history,26,2026-03-29,2026-04-19,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,56.202041787481974,13.0,available,2026W16,2026-08-25T00:00:00Z,gerlee-history/2026-03-29-gerlee-history.csv
+zhang-xgb,26,2026-03-29,2026-03-29,weekly incident influenza cases,0,SE,Sverige,mean,,247.51065063476562,223.0,available,2026W13,2026-08-25T00:00:00Z,zhang-xgb/2026-03-29-zhang-xgb.csv
+zhang-xgb,26,2026-03-29,2026-04-05,weekly incident influenza cases,1,SE,Sverige,mean,,198.9964141845703,187.0,available,2026W14,2026-08-25T00:00:00Z,zhang-xgb/2026-03-29-zhang-xgb.csv
+zhang-xgb,26,2026-03-29,2026-04-12,weekly incident influenza cases,2,SE,Sverige,mean,,176.49105834960938,175.0,available,2026W15,2026-08-25T00:00:00Z,zhang-xgb/2026-03-29-zhang-xgb.csv
+zhang-xgb,26,2026-03-29,2026-04-19,weekly incident influenza cases,3,SE,Sverige,mean,,150.5662078857422,106.0,available,2026W16,2026-08-25T00:00:00Z,zhang-xgb/2026-03-29-zhang-xgb.csv
+zhang-xgb,26,2026-03-29,2026-03-29,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,20.368953704833984,17.0,available,2026W13,2026-08-25T00:00:00Z,zhang-xgb/2026-03-29-zhang-xgb.csv
+zhang-xgb,26,2026-03-29,2026-04-05,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,16.65797996520996,11.0,available,2026W14,2026-08-25T00:00:00Z,zhang-xgb/2026-03-29-zhang-xgb.csv
+zhang-xgb,26,2026-03-29,2026-04-12,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,16.120285034179688,9.0,available,2026W15,2026-08-25T00:00:00Z,zhang-xgb/2026-03-29-zhang-xgb.csv
+zhang-xgb,26,2026-03-29,2026-04-19,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,15.530694961547852,8.0,available,2026W16,2026-08-25T00:00:00Z,zhang-xgb/2026-03-29-zhang-xgb.csv
+zhang-xgb,26,2026-03-29,2026-03-29,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,36.9798698425293,39.0,available,2026W13,2026-08-25T00:00:00Z,zhang-xgb/2026-03-29-zhang-xgb.csv
+zhang-xgb,26,2026-03-29,2026-04-05,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,31.663705825805664,24.0,available,2026W14,2026-08-25T00:00:00Z,zhang-xgb/2026-03-29-zhang-xgb.csv
+zhang-xgb,26,2026-03-29,2026-04-12,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,27.536191940307617,27.0,available,2026W15,2026-08-25T00:00:00Z,zhang-xgb/2026-03-29-zhang-xgb.csv
+zhang-xgb,26,2026-03-29,2026-04-19,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,22.067031860351562,13.0,available,2026W16,2026-08-25T00:00:00Z,zhang-xgb/2026-03-29-zhang-xgb.csv
 brannstrom-seirlovvader,27,2026-04-05,2026-04-05,weekly incident influenza cases,0,SE,Sverige,mean,,143.340742,187.0,available,2026W14,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-04-05-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,27,2026-04-05,2026-04-12,weekly incident influenza cases,1,SE,Sverige,mean,,109.971919,175.0,available,2026W15,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-04-05-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,27,2026-04-05,2026-04-19,weekly incident influenza cases,2,SE,Sverige,mean,,65.863382,106.0,available,2026W16,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-04-05-brannstrom-seirlovvader.csv
@@ -971,6 +1283,18 @@ gerlee-history,27,2026-04-05,2026-04-05,weekly incident influenza cases,0,SE-O,V
 gerlee-history,27,2026-04-05,2026-04-12,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,43.10779796629552,27.0,available,2026W15,2026-08-25T00:00:00Z,gerlee-history/2026-04-05-gerlee-history.csv
 gerlee-history,27,2026-04-05,2026-04-19,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,55.34354753366857,13.0,available,2026W16,2026-08-25T00:00:00Z,gerlee-history/2026-04-05-gerlee-history.csv
 gerlee-history,27,2026-04-05,2026-04-26,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,53.84189613769122,7.0,available,2026W17,2026-08-25T00:00:00Z,gerlee-history/2026-04-05-gerlee-history.csv
+zhang-xgb,27,2026-04-05,2026-04-05,weekly incident influenza cases,0,SE,Sverige,mean,,173.35435485839844,187.0,available,2026W14,2026-08-25T00:00:00Z,zhang-xgb/2026-04-05-zhang-xgb.csv
+zhang-xgb,27,2026-04-05,2026-04-12,weekly incident influenza cases,1,SE,Sverige,mean,,142.6314697265625,175.0,available,2026W15,2026-08-25T00:00:00Z,zhang-xgb/2026-04-05-zhang-xgb.csv
+zhang-xgb,27,2026-04-05,2026-04-19,weekly incident influenza cases,2,SE,Sverige,mean,,125.1427230834961,106.0,available,2026W16,2026-08-25T00:00:00Z,zhang-xgb/2026-04-05-zhang-xgb.csv
+zhang-xgb,27,2026-04-05,2026-04-26,weekly incident influenza cases,3,SE,Sverige,mean,,97.25304412841797,89.0,available,2026W17,2026-08-25T00:00:00Z,zhang-xgb/2026-04-05-zhang-xgb.csv
+zhang-xgb,27,2026-04-05,2026-04-05,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,14.428472518920898,11.0,available,2026W14,2026-08-25T00:00:00Z,zhang-xgb/2026-04-05-zhang-xgb.csv
+zhang-xgb,27,2026-04-05,2026-04-12,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,12.36529541015625,9.0,available,2026W15,2026-08-25T00:00:00Z,zhang-xgb/2026-04-05-zhang-xgb.csv
+zhang-xgb,27,2026-04-05,2026-04-19,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,12.6227445602417,8.0,available,2026W16,2026-08-25T00:00:00Z,zhang-xgb/2026-04-05-zhang-xgb.csv
+zhang-xgb,27,2026-04-05,2026-04-26,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,11.477202415466309,6.0,available,2026W17,2026-08-25T00:00:00Z,zhang-xgb/2026-04-05-zhang-xgb.csv
+zhang-xgb,27,2026-04-05,2026-04-05,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,31.921756744384766,24.0,available,2026W14,2026-08-25T00:00:00Z,zhang-xgb/2026-04-05-zhang-xgb.csv
+zhang-xgb,27,2026-04-05,2026-04-12,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,26.07697868347168,27.0,available,2026W15,2026-08-25T00:00:00Z,zhang-xgb/2026-04-05-zhang-xgb.csv
+zhang-xgb,27,2026-04-05,2026-04-19,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,22.206493377685547,13.0,available,2026W16,2026-08-25T00:00:00Z,zhang-xgb/2026-04-05-zhang-xgb.csv
+zhang-xgb,27,2026-04-05,2026-04-26,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,19.373233795166016,7.0,available,2026W17,2026-08-25T00:00:00Z,zhang-xgb/2026-04-05-zhang-xgb.csv
 brannstrom-seirlovvader,28,2026-04-12,2026-04-12,weekly incident influenza cases,0,SE,Sverige,mean,,155.783002,175.0,available,2026W15,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-04-12-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,28,2026-04-12,2026-04-19,weekly incident influenza cases,1,SE,Sverige,mean,,108.822736,106.0,available,2026W16,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-04-12-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,28,2026-04-12,2026-04-26,weekly incident influenza cases,2,SE,Sverige,mean,,78.944055,89.0,available,2026W17,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-04-12-brannstrom-seirlovvader.csv
@@ -1007,6 +1331,18 @@ gerlee-history,28,2026-04-12,2026-04-12,weekly incident influenza cases,0,SE-O,V
 gerlee-history,28,2026-04-12,2026-04-19,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,54.05469205026311,13.0,available,2026W16,2026-08-25T00:00:00Z,gerlee-history/2026-04-12-gerlee-history.csv
 gerlee-history,28,2026-04-12,2026-04-26,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,51.41827298802875,7.0,available,2026W17,2026-08-25T00:00:00Z,gerlee-history/2026-04-12-gerlee-history.csv
 gerlee-history,28,2026-04-12,2026-05-03,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,32.98624942822733,7.0,available,2026W18,2026-08-25T00:00:00Z,gerlee-history/2026-04-12-gerlee-history.csv
+zhang-xgb,28,2026-04-12,2026-04-12,weekly incident influenza cases,0,SE,Sverige,mean,,151.77822875976562,175.0,available,2026W15,2026-08-25T00:00:00Z,zhang-xgb/2026-04-12-zhang-xgb.csv
+zhang-xgb,28,2026-04-12,2026-04-19,weekly incident influenza cases,1,SE,Sverige,mean,,128.41558837890625,106.0,available,2026W16,2026-08-25T00:00:00Z,zhang-xgb/2026-04-12-zhang-xgb.csv
+zhang-xgb,28,2026-04-12,2026-04-26,weekly incident influenza cases,2,SE,Sverige,mean,,97.22396850585938,89.0,available,2026W17,2026-08-25T00:00:00Z,zhang-xgb/2026-04-12-zhang-xgb.csv
+zhang-xgb,28,2026-04-12,2026-05-03,weekly incident influenza cases,3,SE,Sverige,mean,,70.6417465209961,74.0,available,2026W18,2026-08-25T00:00:00Z,zhang-xgb/2026-04-12-zhang-xgb.csv
+zhang-xgb,28,2026-04-12,2026-04-12,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,10.016878128051758,9.0,available,2026W15,2026-08-25T00:00:00Z,zhang-xgb/2026-04-12-zhang-xgb.csv
+zhang-xgb,28,2026-04-12,2026-04-19,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,9.850714683532715,8.0,available,2026W16,2026-08-25T00:00:00Z,zhang-xgb/2026-04-12-zhang-xgb.csv
+zhang-xgb,28,2026-04-12,2026-04-26,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,7.4542317390441895,6.0,available,2026W17,2026-08-25T00:00:00Z,zhang-xgb/2026-04-12-zhang-xgb.csv
+zhang-xgb,28,2026-04-12,2026-05-03,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,6.101037502288818,2.0,available,2026W18,2026-08-25T00:00:00Z,zhang-xgb/2026-04-12-zhang-xgb.csv
+zhang-xgb,28,2026-04-12,2026-04-12,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,19.51494598388672,27.0,available,2026W15,2026-08-25T00:00:00Z,zhang-xgb/2026-04-12-zhang-xgb.csv
+zhang-xgb,28,2026-04-12,2026-04-19,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,15.431657791137695,13.0,available,2026W16,2026-08-25T00:00:00Z,zhang-xgb/2026-04-12-zhang-xgb.csv
+zhang-xgb,28,2026-04-12,2026-04-26,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,15.03017520904541,7.0,available,2026W17,2026-08-25T00:00:00Z,zhang-xgb/2026-04-12-zhang-xgb.csv
+zhang-xgb,28,2026-04-12,2026-05-03,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,11.133882522583008,7.0,available,2026W18,2026-08-25T00:00:00Z,zhang-xgb/2026-04-12-zhang-xgb.csv
 brannstrom-seirlovvader,29,2026-04-19,2026-04-19,weekly incident influenza cases,0,SE,Sverige,mean,,128.150196,106.0,available,2026W16,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-04-19-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,29,2026-04-19,2026-04-26,weekly incident influenza cases,1,SE,Sverige,mean,,100.969389,89.0,available,2026W17,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-04-19-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,29,2026-04-19,2026-05-03,weekly incident influenza cases,2,SE,Sverige,mean,,77.902636,74.0,available,2026W18,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-04-19-brannstrom-seirlovvader.csv
@@ -1043,6 +1379,18 @@ gerlee-history,29,2026-04-19,2026-04-19,weekly incident influenza cases,0,SE-O,V
 gerlee-history,29,2026-04-19,2026-04-26,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,50.50301438189669,7.0,available,2026W17,2026-08-25T00:00:00Z,gerlee-history/2026-04-19-gerlee-history.csv
 gerlee-history,29,2026-04-19,2026-05-03,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,32.44777430580571,7.0,available,2026W18,2026-08-25T00:00:00Z,gerlee-history/2026-04-19-gerlee-history.csv
 gerlee-history,29,2026-04-19,2026-05-10,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,22.725172701338522,7.0,available,2026W19,2026-08-25T00:00:00Z,gerlee-history/2026-04-19-gerlee-history.csv
+zhang-xgb,29,2026-04-19,2026-04-19,weekly incident influenza cases,0,SE,Sverige,mean,,146.67213439941406,106.0,available,2026W16,2026-08-25T00:00:00Z,zhang-xgb/2026-04-19-zhang-xgb.csv
+zhang-xgb,29,2026-04-19,2026-04-26,weekly incident influenza cases,1,SE,Sverige,mean,,110.1128921508789,89.0,available,2026W17,2026-08-25T00:00:00Z,zhang-xgb/2026-04-19-zhang-xgb.csv
+zhang-xgb,29,2026-04-19,2026-05-03,weekly incident influenza cases,2,SE,Sverige,mean,,82.01856994628906,74.0,available,2026W18,2026-08-25T00:00:00Z,zhang-xgb/2026-04-19-zhang-xgb.csv
+zhang-xgb,29,2026-04-19,2026-05-10,weekly incident influenza cases,3,SE,Sverige,mean,,69.78366088867188,65.0,available,2026W19,2026-08-25T00:00:00Z,zhang-xgb/2026-04-19-zhang-xgb.csv
+zhang-xgb,29,2026-04-19,2026-04-19,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,8.03002643585205,8.0,available,2026W16,2026-08-25T00:00:00Z,zhang-xgb/2026-04-19-zhang-xgb.csv
+zhang-xgb,29,2026-04-19,2026-04-26,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,6.435618877410889,6.0,available,2026W17,2026-08-25T00:00:00Z,zhang-xgb/2026-04-19-zhang-xgb.csv
+zhang-xgb,29,2026-04-19,2026-05-03,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,5.1588945388793945,2.0,available,2026W18,2026-08-25T00:00:00Z,zhang-xgb/2026-04-19-zhang-xgb.csv
+zhang-xgb,29,2026-04-19,2026-05-10,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,5.304534912109375,7.0,available,2026W19,2026-08-25T00:00:00Z,zhang-xgb/2026-04-19-zhang-xgb.csv
+zhang-xgb,29,2026-04-19,2026-04-19,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,25.052663803100586,13.0,available,2026W16,2026-08-25T00:00:00Z,zhang-xgb/2026-04-19-zhang-xgb.csv
+zhang-xgb,29,2026-04-19,2026-04-26,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,18.65135955810547,7.0,available,2026W17,2026-08-25T00:00:00Z,zhang-xgb/2026-04-19-zhang-xgb.csv
+zhang-xgb,29,2026-04-19,2026-05-03,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,14.595516204833984,7.0,available,2026W18,2026-08-25T00:00:00Z,zhang-xgb/2026-04-19-zhang-xgb.csv
+zhang-xgb,29,2026-04-19,2026-05-10,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,12.55018138885498,7.0,available,2026W19,2026-08-25T00:00:00Z,zhang-xgb/2026-04-19-zhang-xgb.csv
 brannstrom-seirlovvader,30,2026-04-26,2026-04-26,weekly incident influenza cases,0,SE,Sverige,mean,,78.469152,89.0,available,2026W17,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-04-26-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,30,2026-04-26,2026-05-03,weekly incident influenza cases,1,SE,Sverige,mean,,53.205679,74.0,available,2026W18,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-04-26-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,30,2026-04-26,2026-05-10,weekly incident influenza cases,2,SE,Sverige,mean,,42.73589,65.0,available,2026W19,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-04-26-brannstrom-seirlovvader.csv
@@ -1079,6 +1427,18 @@ gerlee-history,30,2026-04-26,2026-04-26,weekly incident influenza cases,0,SE-O,V
 gerlee-history,30,2026-04-26,2026-05-03,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,31.121684014757516,7.0,available,2026W18,2026-08-25T00:00:00Z,gerlee-history/2026-04-26-gerlee-history.csv
 gerlee-history,30,2026-04-26,2026-05-10,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,21.788621892774568,7.0,available,2026W19,2026-08-25T00:00:00Z,gerlee-history/2026-04-26-gerlee-history.csv
 gerlee-history,30,2026-04-26,2026-05-17,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,26.45811535768654,2.0,available,2026W20,2026-08-25T00:00:00Z,gerlee-history/2026-04-26-gerlee-history.csv
+zhang-xgb,30,2026-04-26,2026-04-26,weekly incident influenza cases,0,SE,Sverige,mean,,75.86982727050781,89.0,available,2026W17,2026-08-25T00:00:00Z,zhang-xgb/2026-04-26-zhang-xgb.csv
+zhang-xgb,30,2026-04-26,2026-05-03,weekly incident influenza cases,1,SE,Sverige,mean,,56.5274658203125,74.0,available,2026W18,2026-08-25T00:00:00Z,zhang-xgb/2026-04-26-zhang-xgb.csv
+zhang-xgb,30,2026-04-26,2026-05-10,weekly incident influenza cases,2,SE,Sverige,mean,,48.171142578125,65.0,available,2026W19,2026-08-25T00:00:00Z,zhang-xgb/2026-04-26-zhang-xgb.csv
+zhang-xgb,30,2026-04-26,2026-05-17,weekly incident influenza cases,3,SE,Sverige,mean,,41.046974182128906,53.0,available,2026W20,2026-08-25T00:00:00Z,zhang-xgb/2026-04-26-zhang-xgb.csv
+zhang-xgb,30,2026-04-26,2026-04-26,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,6.691615581512451,6.0,available,2026W17,2026-08-25T00:00:00Z,zhang-xgb/2026-04-26-zhang-xgb.csv
+zhang-xgb,30,2026-04-26,2026-05-03,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,5.589355945587158,2.0,available,2026W18,2026-08-25T00:00:00Z,zhang-xgb/2026-04-26-zhang-xgb.csv
+zhang-xgb,30,2026-04-26,2026-05-10,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,5.614371299743652,7.0,available,2026W19,2026-08-25T00:00:00Z,zhang-xgb/2026-04-26-zhang-xgb.csv
+zhang-xgb,30,2026-04-26,2026-05-17,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,7.714844703674316,0.0,available,2026W20,2026-08-25T00:00:00Z,zhang-xgb/2026-04-26-zhang-xgb.csv
+zhang-xgb,30,2026-04-26,2026-04-26,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,10.135376930236816,7.0,available,2026W17,2026-08-25T00:00:00Z,zhang-xgb/2026-04-26-zhang-xgb.csv
+zhang-xgb,30,2026-04-26,2026-05-03,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,7.907159328460693,7.0,available,2026W18,2026-08-25T00:00:00Z,zhang-xgb/2026-04-26-zhang-xgb.csv
+zhang-xgb,30,2026-04-26,2026-05-10,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,7.06953763961792,7.0,available,2026W19,2026-08-25T00:00:00Z,zhang-xgb/2026-04-26-zhang-xgb.csv
+zhang-xgb,30,2026-04-26,2026-05-17,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,6.517889022827148,2.0,available,2026W20,2026-08-25T00:00:00Z,zhang-xgb/2026-04-26-zhang-xgb.csv
 brannstrom-seirlovvader,31,2026-05-03,2026-05-03,weekly incident influenza cases,0,SE,Sverige,mean,,60.99208,74.0,available,2026W18,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-05-03-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,31,2026-05-03,2026-05-10,weekly incident influenza cases,1,SE,Sverige,mean,,51.330868,65.0,available,2026W19,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-05-03-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,31,2026-05-03,2026-05-17,weekly incident influenza cases,2,SE,Sverige,mean,,35.735993,53.0,available,2026W20,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-05-03-brannstrom-seirlovvader.csv
@@ -1115,6 +1475,18 @@ gerlee-history,31,2026-05-03,2026-05-03,weekly incident influenza cases,0,SE-O,V
 gerlee-history,31,2026-05-03,2026-05-10,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,20.503772990827507,7.0,available,2026W19,2026-08-25T00:00:00Z,gerlee-history/2026-05-03-gerlee-history.csv
 gerlee-history,31,2026-05-03,2026-05-17,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,25.296099357237917,2.0,available,2026W20,2026-08-25T00:00:00Z,gerlee-history/2026-05-03-gerlee-history.csv
 gerlee-history,31,2026-05-03,2026-05-24,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,17.532616829641565,6.0,available,2026W21,2026-08-25T00:00:00Z,gerlee-history/2026-05-03-gerlee-history.csv
+zhang-xgb,31,2026-05-03,2026-05-03,weekly incident influenza cases,0,SE,Sverige,mean,,67.1551742553711,74.0,available,2026W18,2026-08-25T00:00:00Z,zhang-xgb/2026-05-03-zhang-xgb.csv
+zhang-xgb,31,2026-05-03,2026-05-10,weekly incident influenza cases,1,SE,Sverige,mean,,52.166603088378906,65.0,available,2026W19,2026-08-25T00:00:00Z,zhang-xgb/2026-05-03-zhang-xgb.csv
+zhang-xgb,31,2026-05-03,2026-05-17,weekly incident influenza cases,2,SE,Sverige,mean,,41.97013473510742,53.0,available,2026W20,2026-08-25T00:00:00Z,zhang-xgb/2026-05-03-zhang-xgb.csv
+zhang-xgb,31,2026-05-03,2026-05-24,weekly incident influenza cases,3,SE,Sverige,mean,,32.73868942260742,53.0,available,2026W21,2026-08-25T00:00:00Z,zhang-xgb/2026-05-03-zhang-xgb.csv
+zhang-xgb,31,2026-05-03,2026-05-03,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,4.6707000732421875,2.0,available,2026W18,2026-08-25T00:00:00Z,zhang-xgb/2026-05-03-zhang-xgb.csv
+zhang-xgb,31,2026-05-03,2026-05-10,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,4.364415645599365,7.0,available,2026W19,2026-08-25T00:00:00Z,zhang-xgb/2026-05-03-zhang-xgb.csv
+zhang-xgb,31,2026-05-03,2026-05-17,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,4.0411176681518555,0.0,available,2026W20,2026-08-25T00:00:00Z,zhang-xgb/2026-05-03-zhang-xgb.csv
+zhang-xgb,31,2026-05-03,2026-05-24,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,5.753655910491943,5.0,available,2026W21,2026-08-25T00:00:00Z,zhang-xgb/2026-05-03-zhang-xgb.csv
+zhang-xgb,31,2026-05-03,2026-05-03,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,5.442958354949951,7.0,available,2026W18,2026-08-25T00:00:00Z,zhang-xgb/2026-05-03-zhang-xgb.csv
+zhang-xgb,31,2026-05-03,2026-05-10,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,4.61149263381958,7.0,available,2026W19,2026-08-25T00:00:00Z,zhang-xgb/2026-05-03-zhang-xgb.csv
+zhang-xgb,31,2026-05-03,2026-05-17,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,4.025299549102783,2.0,available,2026W20,2026-08-25T00:00:00Z,zhang-xgb/2026-05-03-zhang-xgb.csv
+zhang-xgb,31,2026-05-03,2026-05-24,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,4.155405521392822,6.0,available,2026W21,2026-08-25T00:00:00Z,zhang-xgb/2026-05-03-zhang-xgb.csv
 brannstrom-seirlovvader,32,2026-05-10,2026-05-10,weekly incident influenza cases,0,SE,Sverige,mean,,63.397921,65.0,available,2026W19,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-05-10-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,32,2026-05-10,2026-05-17,weekly incident influenza cases,1,SE,Sverige,mean,,46.111108,53.0,available,2026W20,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-05-10-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,32,2026-05-10,2026-05-24,weekly incident influenza cases,2,SE,Sverige,mean,,35.351065,53.0,available,2026W21,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-05-10-brannstrom-seirlovvader.csv
@@ -1151,6 +1523,18 @@ gerlee-history,32,2026-05-10,2026-05-10,weekly incident influenza cases,0,SE-O,V
 gerlee-history,32,2026-05-10,2026-05-17,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,24.902477329752873,2.0,available,2026W20,2026-08-25T00:00:00Z,gerlee-history/2026-05-10-gerlee-history.csv
 gerlee-history,32,2026-05-10,2026-05-24,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,17.010274874216638,6.0,available,2026W21,2026-08-25T00:00:00Z,gerlee-history/2026-05-10-gerlee-history.csv
 gerlee-history,32,2026-05-10,2026-05-31,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,8.38304001181802,2.0,available,2026W22,2026-08-25T00:00:00Z,gerlee-history/2026-05-10-gerlee-history.csv
+zhang-xgb,32,2026-05-10,2026-05-10,weekly incident influenza cases,0,SE,Sverige,mean,,58.212066650390625,65.0,available,2026W19,2026-08-25T00:00:00Z,zhang-xgb/2026-05-10-zhang-xgb.csv
+zhang-xgb,32,2026-05-10,2026-05-17,weekly incident influenza cases,1,SE,Sverige,mean,,43.67566680908203,53.0,available,2026W20,2026-08-25T00:00:00Z,zhang-xgb/2026-05-10-zhang-xgb.csv
+zhang-xgb,32,2026-05-10,2026-05-24,weekly incident influenza cases,2,SE,Sverige,mean,,34.89297103881836,53.0,available,2026W21,2026-08-25T00:00:00Z,zhang-xgb/2026-05-10-zhang-xgb.csv
+zhang-xgb,32,2026-05-10,2026-05-31,weekly incident influenza cases,3,SE,Sverige,mean,,27.224224090576172,30.0,available,2026W22,2026-08-25T00:00:00Z,zhang-xgb/2026-05-10-zhang-xgb.csv
+zhang-xgb,32,2026-05-10,2026-05-10,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,1.5672303438186646,7.0,available,2026W19,2026-08-25T00:00:00Z,zhang-xgb/2026-05-10-zhang-xgb.csv
+zhang-xgb,32,2026-05-10,2026-05-17,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,1.4032264947891235,0.0,available,2026W20,2026-08-25T00:00:00Z,zhang-xgb/2026-05-10-zhang-xgb.csv
+zhang-xgb,32,2026-05-10,2026-05-24,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,1.4860984086990356,5.0,available,2026W21,2026-08-25T00:00:00Z,zhang-xgb/2026-05-10-zhang-xgb.csv
+zhang-xgb,32,2026-05-10,2026-05-31,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,1.9162428379058838,1.0,available,2026W22,2026-08-25T00:00:00Z,zhang-xgb/2026-05-10-zhang-xgb.csv
+zhang-xgb,32,2026-05-10,2026-05-10,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,5.770284175872803,7.0,available,2026W19,2026-08-25T00:00:00Z,zhang-xgb/2026-05-10-zhang-xgb.csv
+zhang-xgb,32,2026-05-10,2026-05-17,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,4.6898512840271,2.0,available,2026W20,2026-08-25T00:00:00Z,zhang-xgb/2026-05-10-zhang-xgb.csv
+zhang-xgb,32,2026-05-10,2026-05-24,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,3.869694232940674,6.0,available,2026W21,2026-08-25T00:00:00Z,zhang-xgb/2026-05-10-zhang-xgb.csv
+zhang-xgb,32,2026-05-10,2026-05-31,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,3.5879626274108887,2.0,available,2026W22,2026-08-25T00:00:00Z,zhang-xgb/2026-05-10-zhang-xgb.csv
 brannstrom-seirlovvader,33,2026-05-17,2026-05-17,weekly incident influenza cases,0,SE,Sverige,mean,,48.475479,53.0,available,2026W20,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-05-17-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,33,2026-05-17,2026-05-24,weekly incident influenza cases,1,SE,Sverige,mean,,38.774025,53.0,available,2026W21,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-05-17-brannstrom-seirlovvader.csv
 brannstrom-seirlovvader,33,2026-05-17,2026-05-31,weekly incident influenza cases,2,SE,Sverige,mean,,30.016875,30.0,available,2026W22,2026-08-25T00:00:00Z,brannstrom-seirlovvader/2026-05-17-brannstrom-seirlovvader.csv
@@ -1187,3 +1571,15 @@ gerlee-history,33,2026-05-17,2026-05-17,weekly incident influenza cases,0,SE-O,V
 gerlee-history,33,2026-05-17,2026-05-24,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,16.734586427767546,6.0,available,2026W21,2026-08-25T00:00:00Z,gerlee-history/2026-05-17-gerlee-history.csv
 gerlee-history,33,2026-05-17,2026-05-31,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,8.165320602293091,2.0,available,2026W22,2026-08-25T00:00:00Z,gerlee-history/2026-05-17-gerlee-history.csv
 gerlee-history,33,2026-05-17,2026-06-07,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,6.081220195833803,2.0,available,2026W23,2026-08-25T00:00:00Z,gerlee-history/2026-05-17-gerlee-history.csv
+zhang-xgb,33,2026-05-17,2026-05-17,weekly incident influenza cases,0,SE,Sverige,mean,,52.06465148925781,53.0,available,2026W20,2026-08-25T00:00:00Z,zhang-xgb/2026-05-17-zhang-xgb.csv
+zhang-xgb,33,2026-05-17,2026-05-24,weekly incident influenza cases,1,SE,Sverige,mean,,39.38131332397461,53.0,available,2026W21,2026-08-25T00:00:00Z,zhang-xgb/2026-05-17-zhang-xgb.csv
+zhang-xgb,33,2026-05-17,2026-05-31,weekly incident influenza cases,2,SE,Sverige,mean,,30.12364387512207,30.0,available,2026W22,2026-08-25T00:00:00Z,zhang-xgb/2026-05-17-zhang-xgb.csv
+zhang-xgb,33,2026-05-17,2026-06-07,weekly incident influenza cases,3,SE,Sverige,mean,,23.78068733215332,19.0,available,2026W23,2026-08-25T00:00:00Z,zhang-xgb/2026-05-17-zhang-xgb.csv
+zhang-xgb,33,2026-05-17,2026-05-17,weekly incident influenza cases,0,SE-M,Region Skåne,mean,,5.586307048797607,0.0,available,2026W20,2026-08-25T00:00:00Z,zhang-xgb/2026-05-17-zhang-xgb.csv
+zhang-xgb,33,2026-05-17,2026-05-24,weekly incident influenza cases,1,SE-M,Region Skåne,mean,,5.444363117218018,5.0,available,2026W21,2026-08-25T00:00:00Z,zhang-xgb/2026-05-17-zhang-xgb.csv
+zhang-xgb,33,2026-05-17,2026-05-31,weekly incident influenza cases,2,SE-M,Region Skåne,mean,,6.004046440124512,1.0,available,2026W22,2026-08-25T00:00:00Z,zhang-xgb/2026-05-17-zhang-xgb.csv
+zhang-xgb,33,2026-05-17,2026-06-07,weekly incident influenza cases,3,SE-M,Region Skåne,mean,,6.52313756942749,1.0,available,2026W23,2026-08-25T00:00:00Z,zhang-xgb/2026-05-17-zhang-xgb.csv
+zhang-xgb,33,2026-05-17,2026-05-17,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,mean,,6.0452775955200195,2.0,available,2026W20,2026-08-25T00:00:00Z,zhang-xgb/2026-05-17-zhang-xgb.csv
+zhang-xgb,33,2026-05-17,2026-05-24,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,mean,,5.047104358673096,6.0,available,2026W21,2026-08-25T00:00:00Z,zhang-xgb/2026-05-17-zhang-xgb.csv
+zhang-xgb,33,2026-05-17,2026-05-31,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,mean,,5.100818157196045,2.0,available,2026W22,2026-08-25T00:00:00Z,zhang-xgb/2026-05-17-zhang-xgb.csv
+zhang-xgb,33,2026-05-17,2026-06-07,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,mean,,5.727818489074707,2.0,available,2026W23,2026-08-25T00:00:00Z,zhang-xgb/2026-05-17-zhang-xgb.csv

@@ -23,6 +23,14 @@
       "method_category": "statistical",
       "has_retrospective": true,
       "has_current": true
+    },
+    {
+      "model_id": "zhang-xgb",
+      "model_name": "Poisson XGBoost",
+      "team_name": "Dongni Zhang",
+      "method_category": "statistical",
+      "has_retrospective": true,
+      "has_current": false
     }
   ]
 }
