@@ -107,39 +107,51 @@ gerlee-history,2026-11-01,2026-11-15,weekly incident influenza cases,2,SE-O,Väs
 brannstrom-seirlovvader,2026-11-01,2026-11-22,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,23.541065,brannstrom-seirlovvader/2026-11-01-brannstrom-seirlovvader.csv
 dvirnas-edm,2026-11-01,2026-11-22,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,10.99375324509455,dvirnas-edm/2026-11-01-dvirnas-edm.csv
 gerlee-history,2026-11-01,2026-11-22,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,10.13442745804201,gerlee-history/2026-11-01-gerlee-history.csv
+brannstrom-seirlovvader,2026-11-08,2026-11-08,weekly incident influenza cases,0,SE,Sverige,134.261228,brannstrom-seirlovvader/2026-11-08-brannstrom-seirlovvader.csv
 dvirnas-edm,2026-11-08,2026-11-08,weekly incident influenza cases,0,SE,Sverige,143.59301624441738,dvirnas-edm/2026-11-08-dvirnas-edm.csv
 gerlee-history,2026-11-08,2026-11-08,weekly incident influenza cases,0,SE,Sverige,53.634075609426596,gerlee-history/2026-11-08-gerlee-history.csv
 zhang-xgb,2026-11-08,2026-11-08,weekly incident influenza cases,0,SE,Sverige,140.26358032226562,zhang-xgb/2026-11-08-zhang-xgb.csv
+brannstrom-seirlovvader,2026-11-08,2026-11-15,weekly incident influenza cases,1,SE,Sverige,158.208423,brannstrom-seirlovvader/2026-11-08-brannstrom-seirlovvader.csv
 dvirnas-edm,2026-11-08,2026-11-15,weekly incident influenza cases,1,SE,Sverige,179.94350442096652,dvirnas-edm/2026-11-08-dvirnas-edm.csv
 gerlee-history,2026-11-08,2026-11-15,weekly incident influenza cases,1,SE,Sverige,66.07342938299806,gerlee-history/2026-11-08-gerlee-history.csv
 zhang-xgb,2026-11-08,2026-11-15,weekly incident influenza cases,1,SE,Sverige,210.3736114501953,zhang-xgb/2026-11-08-zhang-xgb.csv
+brannstrom-seirlovvader,2026-11-08,2026-11-22,weekly incident influenza cases,2,SE,Sverige,210.298294,brannstrom-seirlovvader/2026-11-08-brannstrom-seirlovvader.csv
 dvirnas-edm,2026-11-08,2026-11-22,weekly incident influenza cases,2,SE,Sverige,261.205841537754,dvirnas-edm/2026-11-08-dvirnas-edm.csv
 gerlee-history,2026-11-08,2026-11-22,weekly incident influenza cases,2,SE,Sverige,125.02189153356889,gerlee-history/2026-11-08-gerlee-history.csv
 zhang-xgb,2026-11-08,2026-11-22,weekly incident influenza cases,2,SE,Sverige,344.0758972167969,zhang-xgb/2026-11-08-zhang-xgb.csv
+brannstrom-seirlovvader,2026-11-08,2026-11-29,weekly incident influenza cases,3,SE,Sverige,295.344471,brannstrom-seirlovvader/2026-11-08-brannstrom-seirlovvader.csv
 dvirnas-edm,2026-11-08,2026-11-29,weekly incident influenza cases,3,SE,Sverige,778.8780179595075,dvirnas-edm/2026-11-08-dvirnas-edm.csv
 gerlee-history,2026-11-08,2026-11-29,weekly incident influenza cases,3,SE,Sverige,247.79359256933142,gerlee-history/2026-11-08-gerlee-history.csv
 zhang-xgb,2026-11-08,2026-11-29,weekly incident influenza cases,3,SE,Sverige,594.683349609375,zhang-xgb/2026-11-08-zhang-xgb.csv
+brannstrom-seirlovvader,2026-11-08,2026-11-08,weekly incident influenza cases,0,SE-M,Region Skåne,16.094167,brannstrom-seirlovvader/2026-11-08-brannstrom-seirlovvader.csv
 dvirnas-edm,2026-11-08,2026-11-08,weekly incident influenza cases,0,SE-M,Region Skåne,17.4892333819551,dvirnas-edm/2026-11-08-dvirnas-edm.csv
 gerlee-history,2026-11-08,2026-11-08,weekly incident influenza cases,0,SE-M,Region Skåne,3.899021890089798,gerlee-history/2026-11-08-gerlee-history.csv
 zhang-xgb,2026-11-08,2026-11-08,weekly incident influenza cases,0,SE-M,Region Skåne,14.974431037902832,zhang-xgb/2026-11-08-zhang-xgb.csv
+brannstrom-seirlovvader,2026-11-08,2026-11-15,weekly incident influenza cases,1,SE-M,Region Skåne,21.824167,brannstrom-seirlovvader/2026-11-08-brannstrom-seirlovvader.csv
 dvirnas-edm,2026-11-08,2026-11-15,weekly incident influenza cases,1,SE-M,Region Skåne,19.405649796941436,dvirnas-edm/2026-11-08-dvirnas-edm.csv
 gerlee-history,2026-11-08,2026-11-15,weekly incident influenza cases,1,SE-M,Region Skåne,5.425021258640331,gerlee-history/2026-11-08-gerlee-history.csv
 zhang-xgb,2026-11-08,2026-11-15,weekly incident influenza cases,1,SE-M,Region Skåne,23.354339599609375,zhang-xgb/2026-11-08-zhang-xgb.csv
+brannstrom-seirlovvader,2026-11-08,2026-11-22,weekly incident influenza cases,2,SE-M,Region Skåne,33.197756,brannstrom-seirlovvader/2026-11-08-brannstrom-seirlovvader.csv
 dvirnas-edm,2026-11-08,2026-11-22,weekly incident influenza cases,2,SE-M,Region Skåne,31.286009598233747,dvirnas-edm/2026-11-08-dvirnas-edm.csv
 gerlee-history,2026-11-08,2026-11-22,weekly incident influenza cases,2,SE-M,Region Skåne,8.749043839841383,gerlee-history/2026-11-08-gerlee-history.csv
 zhang-xgb,2026-11-08,2026-11-22,weekly incident influenza cases,2,SE-M,Region Skåne,34.69598388671875,zhang-xgb/2026-11-08-zhang-xgb.csv
+brannstrom-seirlovvader,2026-11-08,2026-11-29,weekly incident influenza cases,3,SE-M,Region Skåne,52.810991,brannstrom-seirlovvader/2026-11-08-brannstrom-seirlovvader.csv
 dvirnas-edm,2026-11-08,2026-11-29,weekly incident influenza cases,3,SE-M,Region Skåne,43.101148226253045,dvirnas-edm/2026-11-08-dvirnas-edm.csv
 gerlee-history,2026-11-08,2026-11-29,weekly incident influenza cases,3,SE-M,Region Skåne,13.23154734297577,gerlee-history/2026-11-08-gerlee-history.csv
 zhang-xgb,2026-11-08,2026-11-29,weekly incident influenza cases,3,SE-M,Region Skåne,61.0515251159668,zhang-xgb/2026-11-08-zhang-xgb.csv
+brannstrom-seirlovvader,2026-11-08,2026-11-08,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,14.628228,brannstrom-seirlovvader/2026-11-08-brannstrom-seirlovvader.csv
 dvirnas-edm,2026-11-08,2026-11-08,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,15.998139472236605,dvirnas-edm/2026-11-08-dvirnas-edm.csv
 gerlee-history,2026-11-08,2026-11-08,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,4.738314858579512,gerlee-history/2026-11-08-gerlee-history.csv
 zhang-xgb,2026-11-08,2026-11-08,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,17.456945419311523,zhang-xgb/2026-11-08-zhang-xgb.csv
+brannstrom-seirlovvader,2026-11-08,2026-11-15,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,18.407904,brannstrom-seirlovvader/2026-11-08-brannstrom-seirlovvader.csv
 dvirnas-edm,2026-11-08,2026-11-15,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,12.24083384369714,dvirnas-edm/2026-11-08-dvirnas-edm.csv
 gerlee-history,2026-11-08,2026-11-15,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,4.697233800110071,gerlee-history/2026-11-08-gerlee-history.csv
 zhang-xgb,2026-11-08,2026-11-15,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,26.455385208129883,zhang-xgb/2026-11-08-zhang-xgb.csv
+brannstrom-seirlovvader,2026-11-08,2026-11-22,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,26.211159,brannstrom-seirlovvader/2026-11-08-brannstrom-seirlovvader.csv
 dvirnas-edm,2026-11-08,2026-11-22,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,17.09805746904327,dvirnas-edm/2026-11-08-dvirnas-edm.csv
 gerlee-history,2026-11-08,2026-11-22,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,10.44630089865441,gerlee-history/2026-11-08-gerlee-history.csv
 zhang-xgb,2026-11-08,2026-11-22,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,46.72341537475586,zhang-xgb/2026-11-08-zhang-xgb.csv
+brannstrom-seirlovvader,2026-11-08,2026-11-29,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,39.382263,brannstrom-seirlovvader/2026-11-08-brannstrom-seirlovvader.csv
 dvirnas-edm,2026-11-08,2026-11-29,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,23.037408617829023,dvirnas-edm/2026-11-08-dvirnas-edm.csv
 gerlee-history,2026-11-08,2026-11-29,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,19.741493619879094,gerlee-history/2026-11-08-gerlee-history.csv
 zhang-xgb,2026-11-08,2026-11-29,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,77.52076721191406,zhang-xgb/2026-11-08-zhang-xgb.csv
