@@ -1,6 +1,14 @@
 {
   "models": [
     {
+      "model_id": "bergstrom-bayesNB",
+      "model_name": "Bayesian seasonal negative-binomial autoregression",
+      "team_name": "Fanny Bergström",
+      "method_category": "statistical",
+      "has_retrospective": true,
+      "has_current": true
+    },
+    {
       "model_id": "brannstrom-seirlovvader",
       "model_name": "SEIR model with school holidays and temperature",
       "team_name": "Åke Brännström",
