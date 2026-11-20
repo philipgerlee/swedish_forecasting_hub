@@ -33,6 +33,14 @@
       "has_current": true
     },
     {
+      "model_id": "isi-respiro",
+      "model_name": "Respiro",
+      "team_name": "ISI Foundation",
+      "method_category": "statistical",
+      "has_retrospective": true,
+      "has_current": true
+    },
+    {
       "model_id": "zhang-xgb",
       "model_name": "Poisson XGBoost",
       "team_name": "Dongni Zhang",
