@@ -288,14 +288,38 @@ gerlee-history,2026-11-22,2026-12-13,weekly incident influenza cases,3,SE-O,Väs
 isi-respiro,2026-11-22,2026-12-13,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,203.54,isi-respiro/2026-11-22-isi-respiro.csv
 zhang-xgb,2026-11-22,2026-12-13,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,359.99334716796875,zhang-xgb/2026-11-22-zhang-xgb.csv
 bergstrom-bayesNB,2026-11-29,2026-11-29,weekly incident influenza cases,0,SE,Sverige,564.662732,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+brannstrom-seirlovvader,2026-11-29,2026-11-29,weekly incident influenza cases,0,SE,Sverige,693.611534,brannstrom-seirlovvader/2026-11-29-brannstrom-seirlovvader.csv
+isi-respiro,2026-11-29,2026-11-29,weekly incident influenza cases,0,SE,Sverige,639.352,isi-respiro/2026-11-29-isi-respiro.csv
 bergstrom-bayesNB,2026-11-29,2026-12-06,weekly incident influenza cases,1,SE,Sverige,806.499302,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+brannstrom-seirlovvader,2026-11-29,2026-12-06,weekly incident influenza cases,1,SE,Sverige,1339.007425,brannstrom-seirlovvader/2026-11-29-brannstrom-seirlovvader.csv
+isi-respiro,2026-11-29,2026-12-06,weekly incident influenza cases,1,SE,Sverige,994.903,isi-respiro/2026-11-29-isi-respiro.csv
 bergstrom-bayesNB,2026-11-29,2026-12-13,weekly incident influenza cases,2,SE,Sverige,1006.026874,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+brannstrom-seirlovvader,2026-11-29,2026-12-13,weekly incident influenza cases,2,SE,Sverige,2391.612181,brannstrom-seirlovvader/2026-11-29-brannstrom-seirlovvader.csv
+isi-respiro,2026-11-29,2026-12-13,weekly incident influenza cases,2,SE,Sverige,1359.384,isi-respiro/2026-11-29-isi-respiro.csv
 bergstrom-bayesNB,2026-11-29,2026-12-20,weekly incident influenza cases,3,SE,Sverige,1112.687316,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+brannstrom-seirlovvader,2026-11-29,2026-12-20,weekly incident influenza cases,3,SE,Sverige,3863.450209,brannstrom-seirlovvader/2026-11-29-brannstrom-seirlovvader.csv
+isi-respiro,2026-11-29,2026-12-20,weekly incident influenza cases,3,SE,Sverige,1620.024,isi-respiro/2026-11-29-isi-respiro.csv
 bergstrom-bayesNB,2026-11-29,2026-11-29,weekly incident influenza cases,0,SE-M,Region Skåne,54.329378,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+brannstrom-seirlovvader,2026-11-29,2026-11-29,weekly incident influenza cases,0,SE-M,Region Skåne,62.869239,brannstrom-seirlovvader/2026-11-29-brannstrom-seirlovvader.csv
+isi-respiro,2026-11-29,2026-11-29,weekly incident influenza cases,0,SE-M,Region Skåne,67.09,isi-respiro/2026-11-29-isi-respiro.csv
 bergstrom-bayesNB,2026-11-29,2026-12-06,weekly incident influenza cases,1,SE-M,Region Skåne,78.842305,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+brannstrom-seirlovvader,2026-11-29,2026-12-06,weekly incident influenza cases,1,SE-M,Region Skåne,107.523535,brannstrom-seirlovvader/2026-11-29-brannstrom-seirlovvader.csv
+isi-respiro,2026-11-29,2026-12-06,weekly incident influenza cases,1,SE-M,Region Skåne,111.55,isi-respiro/2026-11-29-isi-respiro.csv
 bergstrom-bayesNB,2026-11-29,2026-12-13,weekly incident influenza cases,2,SE-M,Region Skåne,105.378336,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+brannstrom-seirlovvader,2026-11-29,2026-12-13,weekly incident influenza cases,2,SE-M,Region Skåne,172.589344,brannstrom-seirlovvader/2026-11-29-brannstrom-seirlovvader.csv
+isi-respiro,2026-11-29,2026-12-13,weekly incident influenza cases,2,SE-M,Region Skåne,144.87,isi-respiro/2026-11-29-isi-respiro.csv
 bergstrom-bayesNB,2026-11-29,2026-12-20,weekly incident influenza cases,3,SE-M,Region Skåne,112.5352,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+brannstrom-seirlovvader,2026-11-29,2026-12-20,weekly incident influenza cases,3,SE-M,Region Skåne,256.44317,brannstrom-seirlovvader/2026-11-29-brannstrom-seirlovvader.csv
+isi-respiro,2026-11-29,2026-12-20,weekly incident influenza cases,3,SE-M,Region Skåne,163.131,isi-respiro/2026-11-29-isi-respiro.csv
 bergstrom-bayesNB,2026-11-29,2026-11-29,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,54.06601,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+brannstrom-seirlovvader,2026-11-29,2026-11-29,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,56.06255,brannstrom-seirlovvader/2026-11-29-brannstrom-seirlovvader.csv
+isi-respiro,2026-11-29,2026-11-29,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,55.751,isi-respiro/2026-11-29-isi-respiro.csv
 bergstrom-bayesNB,2026-11-29,2026-12-06,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,68.253853,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+brannstrom-seirlovvader,2026-11-29,2026-12-06,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,84.013801,brannstrom-seirlovvader/2026-11-29-brannstrom-seirlovvader.csv
+isi-respiro,2026-11-29,2026-12-06,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,94.446,isi-respiro/2026-11-29-isi-respiro.csv
 bergstrom-bayesNB,2026-11-29,2026-12-13,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,89.652672,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+brannstrom-seirlovvader,2026-11-29,2026-12-13,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,118.641844,brannstrom-seirlovvader/2026-11-29-brannstrom-seirlovvader.csv
+isi-respiro,2026-11-29,2026-12-13,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,139.982,isi-respiro/2026-11-29-isi-respiro.csv
 bergstrom-bayesNB,2026-11-29,2026-12-20,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,121.312293,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+brannstrom-seirlovvader,2026-11-29,2026-12-20,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,161.00781,brannstrom-seirlovvader/2026-11-29-brannstrom-seirlovvader.csv
+isi-respiro,2026-11-29,2026-12-20,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,190.218,isi-respiro/2026-11-29-isi-respiro.csv
