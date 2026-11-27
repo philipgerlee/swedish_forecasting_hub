@@ -1,0 +1,198 @@
+name: Generate zhang-xgb forecast
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "target-data/time-series.csv"
+  workflow_dispatch:
+    inputs:
+      reference_date:
+        description: "Optional Sunday reference date (YYYY-MM-DD)"
+        required: false
+        type: string
+
+concurrency:
+  group: zhang-xgb-forecast
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  forecast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out forecast hub
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Check out frozen zhang-xgb model
+        uses: actions/checkout@v6
+        with:
+          repository: dongnizhang/swedish-influenza-xgb-model
+          # Use a protected main branch; the exact commit is saved with each round.
+          ref: main
+          path: external-model/zhang-xgb
+          persist-credentials: false
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: |
+            external-model/zhang-xgb/requirements.txt
+            submission-validator/pyproject.toml
+
+      - name: Install model and validator
+        run: python -m pip install -r external-model/zhang-xgb/requirements.txt ./submission-validator
+
+      - name: Determine forecast round
+        id: round
+        env:
+          REQUESTED_REFERENCE_DATE: ${{ inputs.reference_date }}
+        run: |
+          args=()
+          if [ -n "$REQUESTED_REFERENCE_DATE" ]; then
+            args+=("$REQUESTED_REFERENCE_DATE")
+          fi
+          reference="$(python external-model/zhang-xgb/run_forecast.py \
+            "${args[@]}" --hub-root "$GITHUB_WORKSPACE" --print-reference-date)"
+          {
+            echo "reference_date=$reference"
+            echo "output=model-output/zhang-xgb/${reference}-zhang-xgb.csv"
+            echo "branch=automation/zhang-xgb-${reference}"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Check for an existing submission and resume interrupted runs
+        id: state
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OUTPUT: ${{ steps.round.outputs.output }}
+          BRANCH: ${{ steps.round.outputs.branch }}
+        run: |
+          echo "HUB_DATA_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+          if [ -f "$OUTPUT" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "$OUTPUT is already on main; nothing to do."
+            exit 0
+          fi
+          state="$(gh pr list --repo "$GITHUB_REPOSITORY" --base main --head "$BRANCH" --state all --json state --jq '.[0].state // ""')"
+          if [ "$state" = "OPEN" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "An open forecast PR already exists; nothing to do."
+            exit 0
+          fi
+          if [ -n "$state" ]; then
+            echo "A forecast PR was closed or merged; inspect it before retrying."
+            exit 1
+          fi
+          echo "exists=false" >> "$GITHUB_OUTPUT"
+          heads="$(git ls-remote --heads origin "refs/heads/$BRANCH")"
+          if [ -n "$heads" ]; then
+            git fetch origin "refs/heads/$BRANCH:refs/remotes/origin/$BRANCH"
+            git switch -c "$BRANCH" --track "origin/$BRANCH"
+            # Reuse the original CSV if the push succeeded but PR creation failed.
+            test -f "$OUTPUT"
+          else
+            git switch -c "$BRANCH"
+          fi
+
+      - name: Generate and validate forecast
+        if: steps.state.outputs.exists != 'true'
+        env:
+          REFERENCE_DATE: ${{ steps.round.outputs.reference_date }}
+          OUTPUT: ${{ steps.round.outputs.output }}
+        run: |
+          if [ ! -f "$OUTPUT" ]; then
+            python external-model/zhang-xgb/run_forecast.py "$REFERENCE_DATE" \
+              --hub-root "$GITHUB_WORKSPACE" \
+              --output "$OUTPUT"
+          fi
+          validate-model-metadata model-metadata/zhang-xgb.yml
+          validate-forecast-submission "$OUTPUT" \
+            --metadata-root model-metadata \
+            --submitted-at "$(date -Iseconds)" \
+            --require-all-locations
+
+      - name: Record model and input commits
+        if: steps.state.outputs.exists != 'true'
+        id: provenance
+        env:
+          OUTPUT: ${{ steps.round.outputs.output }}
+        run: |
+          python - <<'PY'
+          import os
+          import re
+          import subprocess
+          from pathlib import Path
+
+          def git(*args):
+              return subprocess.check_output(["git", *args], text=True).strip()
+
+          output = os.environ["OUTPUT"]
+          tracked = subprocess.run(
+              ["git", "ls-files", "--error-unmatch", "--", output], capture_output=True
+          ).returncode == 0
+          if tracked:
+              # A recovered branch retains the commits used for the original forecast.
+              model_commit = git("log", "-1", "--format=%(trailers:key=Model-commit,valueonly)", "--", output)
+              hub_commit = git("log", "-1", "--format=%(trailers:key=Hub-data-commit,valueonly)", "--", output)
+          else:
+              model_commit = subprocess.check_output(
+                  ["git", "-C", "external-model/zhang-xgb", "rev-parse", "HEAD"], text=True
+              ).strip()
+              hub_commit = os.environ["HUB_DATA_COMMIT"]
+          if not all(re.fullmatch(r"[0-9a-f]{40}", value) for value in (model_commit, hub_commit)):
+              raise SystemExit("Missing or invalid original model/input commit; inspect the forecast branch")
+          with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
+              handle.write(f"model_commit={model_commit}\n")
+              handle.write(f"hub_commit={hub_commit}\n")
+          PY
+
+      - name: Commit forecast CSV and open pull request
+        if: steps.state.outputs.exists != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REFERENCE_DATE: ${{ steps.round.outputs.reference_date }}
+          OUTPUT: ${{ steps.round.outputs.output }}
+          BRANCH: ${{ steps.round.outputs.branch }}
+          MODEL_COMMIT: ${{ steps.provenance.outputs.model_commit }}
+          HUB_DATA_COMMIT: ${{ steps.provenance.outputs.hub_commit }}
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+
+          commit = os.environ["MODEL_COMMIT"]
+          hub_commit = os.environ["HUB_DATA_COMMIT"]
+          reference = os.environ["REFERENCE_DATE"]
+          temporary = Path(os.environ["RUNNER_TEMP"])
+          (temporary / "zhang-xgb-commit.txt").write_text(
+              f"Add zhang-xgb forecast for {reference}\n\n"
+              f"Model-commit: {commit}\nHub-data-commit: {hub_commit}\n", encoding="utf-8"
+          )
+          body = (
+              f"Weekly influenza forecast for {reference}.\n\n"
+              "Model: https://github.com/dongnizhang/swedish-influenza-xgb-model/commit/"
+              f"{commit}\n\n"
+              f"Hub input: {os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}/commit/"
+              f"{hub_commit}\n\n"
+              "All three locations and horizons 0–3 passed the hub validator.\n"
+          )
+          (temporary / "zhang-xgb-pr.md").write_text(body, encoding="utf-8")
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$OUTPUT"
+          if ! git diff --cached --quiet; then
+            git commit --file "$RUNNER_TEMP/zhang-xgb-commit.txt"
+          fi
+          git push origin "$BRANCH"
+          gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$BRANCH" \
+            --title "zhang-xgb forecast for ${REFERENCE_DATE}" \
+            --body-file "$RUNNER_TEMP/zhang-xgb-pr.md"
