@@ -287,3 +287,15 @@ dvirnas-edm,2026-11-22,2026-12-13,weekly incident influenza cases,3,SE-O,Västra
 gerlee-history,2026-11-22,2026-12-13,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,93.11029312837786,gerlee-history/2026-11-22-gerlee-history.csv
 isi-respiro,2026-11-22,2026-12-13,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,203.54,isi-respiro/2026-11-22-isi-respiro.csv
 zhang-xgb,2026-11-22,2026-12-13,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,359.99334716796875,zhang-xgb/2026-11-22-zhang-xgb.csv
+bergstrom-bayesNB,2026-11-29,2026-11-29,weekly incident influenza cases,0,SE,Sverige,564.662732,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+bergstrom-bayesNB,2026-11-29,2026-12-06,weekly incident influenza cases,1,SE,Sverige,806.499302,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+bergstrom-bayesNB,2026-11-29,2026-12-13,weekly incident influenza cases,2,SE,Sverige,1006.026874,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+bergstrom-bayesNB,2026-11-29,2026-12-20,weekly incident influenza cases,3,SE,Sverige,1112.687316,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+bergstrom-bayesNB,2026-11-29,2026-11-29,weekly incident influenza cases,0,SE-M,Region Skåne,54.329378,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+bergstrom-bayesNB,2026-11-29,2026-12-06,weekly incident influenza cases,1,SE-M,Region Skåne,78.842305,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+bergstrom-bayesNB,2026-11-29,2026-12-13,weekly incident influenza cases,2,SE-M,Region Skåne,105.378336,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+bergstrom-bayesNB,2026-11-29,2026-12-20,weekly incident influenza cases,3,SE-M,Region Skåne,112.5352,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+bergstrom-bayesNB,2026-11-29,2026-11-29,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,54.06601,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+bergstrom-bayesNB,2026-11-29,2026-12-06,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,68.253853,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+bergstrom-bayesNB,2026-11-29,2026-12-13,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,89.652672,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
+bergstrom-bayesNB,2026-11-29,2026-12-20,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,121.312293,bergstrom-bayesNB/2026-11-29-bergstrom-bayesNB.csv
